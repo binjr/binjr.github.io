@@ -18,7 +18,7 @@
     });
 
     function GetLatestReleaseInfo() {
-      $.getJSON("{{ site.github.api_url }}/repos/{{ site.github.repository_nwo }}/releases/latest").done(function (release) {
+      $.getJSON("{{ site.github.api_url }}/repos/binjr/binjr/releases/latest").done(function (release) {
         for (var i = 0; i < release.assets.length; i++) {
           if (release.assets[i].name.endsWith("windows-amd64.zip")) {
             $(".binjr-download-windows").attr("href", release.assets[i].browser_download_url);
@@ -110,9 +110,8 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
         <p class="copyright">© 2016-2019
-          <a href="{{ site.github.owner_url }}">Frederic Thevenet</a>
+          <a href="https://www.fthevenet.eu">Frederic Thevenet</a>
         </p>
         {% endif %}
       </footer>
