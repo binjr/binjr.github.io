@@ -1,0 +1,5 @@
+title: binjr
+description: Flexible Time Series Visualization
+markdown: kramdown
+kramdown:
+   auto_ids: true
