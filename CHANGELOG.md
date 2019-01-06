@@ -97,7 +97,7 @@ Released on Thu, 2 Aug 2018
 
 * _[New]_ binjr's functionalities can now be extended through the use of plugins. 
 For the time being, plugins can be used to implement new data source adapters, in order to make binjr capable to communicate with other source systems without the need to change anything to the core module itself.
-* _[New]_ The artifact for the core binjr module, which is the sole dependency for building external plugins, is now available via [Maven Central](https://search.maven.org/#artifactdetails|eu.fthevenet|binjr|1.4.0|jar).
+* _[New]_ The artifact for the core binjr module, which is the sole dependency for building external plugins, is now available via [Maven Central](https://search.maven.org/%23artifactdetails%7Ceu.fthevenet%7Cbinjr%7C1.4.0%7Cjar).
 
 
 ### [binjr v1.3.4](https://github.com/binjr/binjr/releases/tag/v1.3.4)
