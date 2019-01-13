@@ -1,5 +1,12 @@
 # Change Log
 
+### [binjr v2.2.1](https://github.com/binjr/binjr/releases/tag/v2.2.1)
+Released on Fri, 11 Jan 2019
+
+* _[New]_ Enhancements to debug mode console
+* _[New]_ Added changelog to distribution
+* _[Fixed]_ Disabled the forced sync mechanism for Rrd4J NIO backend.
+
 ### [binjr v2.2.0](https://github.com/binjr/binjr/releases/tag/v2.2.0)
 Released on Sat, 5 Jan 2019
 
@@ -11,7 +18,7 @@ Released on Sat, 5 Jan 2019
 ### [binjr v2.1.1](https://github.com/binjr/binjr/releases/tag/v2.1.1)
 Released on Fri, 28 Dec 2018
 
-* _[New]_ It is now possible to open binary files and XML dumps created with [RrdTool](https://oss.oetiker.ch/rrdtool/) using the Rrd4j data adapter. 
+* _[New]_ It is now possible to open binary files and XML dumps created with [RrdTool](https://oss.oetiker.ch/rrdtool/) using the Rrd4j data adapter.  
   __NB:__ This uses Rrd4j 's built-in conversion facilities in order to import the original file's data into a temporary Rrd4j backend, so be aware that opening a very large rrd file (or a very large number of smaller ones) may be slower than expected, due to the necessary conversion process.
 * _[Fixed]_ The tree hierarchy for series bindings created with the Rrd4j adapter is incorrect or incomplete
 
@@ -250,5 +257,5 @@ Released on Tue, 25 Apr 2017
 ### [binjr v1.0.0](https://github.com/binjr/binjr/releases/tag/v1.0.0)
 Released on Fri, 14 Apr 2017
 
-Initial release
+- Initial release
 
