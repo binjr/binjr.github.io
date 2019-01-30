@@ -29,17 +29,17 @@ with someone else.
   </figure>
   <figure class="photo-gallery--image">
     <a href="/assets/images/screenshot02.png" class="photo">
-      <img  src="/assets/images/screenshot05.png" alt="binjr screenshot  02">
+      <img  src="/assets/images/screenshot02.png" alt="binjr screenshot  02">
     </a>
   </figure> 
   <figure class="photo-gallery--image">
     <a href="/assets/images/screenshot09.png" class="photo" >
-      <img  src="/assets/images/screenshot03.png" alt="binjr screenshot  03">
+      <img  src="/assets/images/screenshot09.png" alt="binjr screenshot  03">
     </a>
   </figure> 
   <figure class="photo-gallery--image">
     <a href="/assets/images/screenshot10.png" class="photo" >
-      <img  src="/assets/images/screenshot04.png" alt="binjr screenshot  04">
+      <img  src="/assets/images/screenshot10.png" alt="binjr screenshot  04">
     </a>
   </figure> 
 </div>
