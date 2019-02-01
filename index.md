@@ -32,14 +32,14 @@ with someone else.
       <img  src="/assets/images/screenshot02.png" alt="binjr screenshot  02">
     </a>
   </figure> 
-  <figure class="photo-gallery--image">
-    <a href="/assets/images/screenshot09.png" class="photo" >
-      <img  src="/assets/images/screenshot09.png" alt="binjr screenshot  03">
+   <figure class="photo-gallery--image">
+    <a href="/assets/images/screenshot10.png" class="photo" >
+      <img  src="/assets/images/screenshot10.png" alt="binjr screenshot  04">
     </a>
   </figure> 
   <figure class="photo-gallery--image">
-    <a href="/assets/images/screenshot10.png" class="photo" >
-      <img  src="/assets/images/screenshot10.png" alt="binjr screenshot  04">
+    <a href="/assets/images/screenshot09.png" class="photo" >
+      <img  src="/assets/images/screenshot09.png" alt="binjr screenshot  03">
     </a>
   </figure> 
 </div>
