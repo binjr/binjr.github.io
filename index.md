@@ -66,7 +66,7 @@ with someone else.
   * Create many charts views in detachable tabs, which you can synchronize to the same time line.
   
 ####  Fast, responsive & aesthetically pleasing visuals
-  * Built on top of [JavaFX](https://openjfx.io/) for a modern look and great performances thanks to cross-platform, hardware accelerated graphics.
+  * Built on top of [JavaFX](https://openjfx.io/) for a modern look and cross-platform, hardware accelerated graphics.
   * Offers three different UI themes, to better integrate with host OS and fit user preferences.
     
 ####  Java based application 
