@@ -1,3 +1,6 @@
+***binjr*** is a time series data browser; it renders time series data produced by other applications as dynamically 
+editable charts and provides many features to navigate through the data in a natural and fluent fashion (drag & drop,
+zoom, history, detacheable tabs, advanced time-range picker).
 
 <link rel="stylesheet" href="/assets/css/slides.css">  
 <div class="slideshow-container" >
@@ -24,10 +27,6 @@
   <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 <script src="/js/slides.js"></script>
-
-***binjr*** is a time series data browser; it renders time series data produced by other applications as dynamically 
-editable charts and provides many features to navigate through the data in a natural and fluent fashion (drag & drop,
-zoom, history, detacheable tabs, advanced time-range picker).
  
 It is a standalone client application, that runs independently from the applications that produce the data; there are
 no application server or server side components dedicated to ***binjr*** that needs to be installed on the source.   
