@@ -1,6 +1,33 @@
-***binjr*** is a time series data browser; its purpose is to render time series data produced and stored by 
-other applications, and to navigate these rendition as fluently as possible, using the mouse to zoom in and out on
-dynamically composed charts, created by the end user on the fly.
+
+<link rel="stylesheet" href="/assets/css/slides.css">  
+<div class="slideshow-container" >
+    <div class="mySlides fade">
+      <img src="/assets/images/screenshot01.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="/assets/images/screenshot02.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="/assets/images/screenshot09.png" style="width:100%">
+      </div>
+    <div class="mySlides fade">
+      <img src="/assets/images/screenshot10.png" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<script src="/js/slides.js"></script>
+
+***binjr*** is a time series data browser; it renders time series data produced by other applications as dynamically 
+editable charts and provides many features to navigate through the data in a natural and fluent fashion (drag & drop,
+zoom, history, detacheable tabs, advanced time-range picker).
  
 It is a standalone client application, that runs independently from the applications that produce the data; there are
 no application server or server side components dedicated to ***binjr*** that needs to be installed on the source.   
@@ -20,29 +47,6 @@ it by changing the time range, the type of chart visualization and smaller aspec
 transparency for each individual series.  
 The user can then save the current state of the session at any time to a file, in order to reopen it later or to share it 
 with someone else.
-
-<div id="PhotoGallery" class="photo-gallery">
-  <figure class="photo-gallery--image">
-    <a href="/assets/images/screenshot01.png" class="photo">
-      <img src="/assets/images/screenshot01.png" alt="binjr screenshot 01">
-    </a>
-  </figure>
-  <figure class="photo-gallery--image">
-    <a href="/assets/images/screenshot02.png" class="photo">
-      <img  src="/assets/images/screenshot02.png" alt="binjr screenshot  02">
-    </a>
-  </figure> 
-   <figure class="photo-gallery--image">
-    <a href="/assets/images/screenshot10.png" class="photo" >
-      <img  src="/assets/images/screenshot10.png" alt="binjr screenshot  04">
-    </a>
-  </figure> 
-  <figure class="photo-gallery--image">
-    <a href="/assets/images/screenshot09.png" class="photo" >
-      <img  src="/assets/images/screenshot09.png" alt="binjr screenshot  03">
-    </a>
-  </figure> 
-</div>
 
 ## Features
 
