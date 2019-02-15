@@ -1,5 +1,5 @@
 title: binjr
-description: Flexible Time Series Visualization
+description: A Time Series Data Browser
 markdown: kramdown
 kramdown:
    auto_ids: true
