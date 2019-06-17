@@ -4,7 +4,6 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-
 steps:
   - checkout: self
     persistCredentials: true
