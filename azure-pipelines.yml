@@ -1,0 +1,17 @@
+trigger:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+
+steps:
+  - checkout: self
+    persistCredentials: true
+    clean: true
+
+  - bash: |
+      wget https://api.github.com/repos/binjr/binjr/releases/latest -O repos/binjr/binjr/releases/latest
+      git commit -am "Update Github release info [skip ci]"
+      git push
+    displayName: 'Update Github release info'
