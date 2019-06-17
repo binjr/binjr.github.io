@@ -130,7 +130,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 51982233,
-      "download_count": 45,
+      "download_count": 46,
       "created_at": "2019-04-08T09:21:11Z",
       "updated_at": "2019-04-08T09:21:21Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.4.1/binjr-2.4.1_windows-amd64.zip"
@@ -140,5 +140,3 @@
   "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.4.1",
   "body": "* _[Fixed]_ The application becomes unresponsive and crashes with an out-of-memory error if it gets overflown with user requests (e.g. continuous clicks on refresh or back/forward buttons).\r\n* _[Fixed]_ NPE when drag-and-dropping a folded tree.\r\n* _[Fixed]_ Tooltips are not styled according to the selected UI theme.\r\n* _[Fixed]_ Chart properties slide pane should not obscure charting area.\r\n* _[Fixed]_ Stroke width slider is grayed out for line and scatter point charts.\r\n* _[Fixed]_ Suggest popup on data adapter dialog doesn't adapt to longer URLs/paths."
 }
-test
-test
