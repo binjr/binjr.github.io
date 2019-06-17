@@ -14,6 +14,7 @@ steps:
       wget https://api.github.com/repos/binjr/binjr/releases/latest -O repos/binjr/binjr/releases/latest
       git config --global user.email "binjr.bot@free.fr"
       git config --global user.name "binjr-bot"
+      git checkout master
       git commit -am "Update Github release info [skip ci]"
-      git push origin HEAD:master
+      git push
     displayName: 'Update Github release info'
