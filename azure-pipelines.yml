@@ -11,10 +11,10 @@ steps:
     clean: true
 
   - bash: |
-      wget https://api.github.com/repos/binjr/binjr/releases/latest -O repos/binjr/binjr/releases/latest
+      git checkout master
       git config --global user.email "binjr.bot@free.fr"
       git config --global user.name "binjr-bot"
-      git checkout master
+      wget https://api.github.com/repos/binjr/binjr/releases/latest -O repos/binjr/binjr/releases/latest
       git commit -am "Update Github release info [skip ci]"
       git push
     displayName: 'Update Github release info'
