@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/binjr/binjr/releases/18385145",
-  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/18385145/assets",
-  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/18385145/assets{?name,label}",
-  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.5.0",
-  "id": 18385145,
-  "node_id": "MDc6UmVsZWFzZTE4Mzg1MTQ1",
-  "tag_name": "v2.5.0",
-  "target_commitish": "8cfaea5269323b6062b9205e67e6e305ebc85ec5",
-  "name": "binjr v2.5.0",
+  "url": "https://api.github.com/repos/binjr/binjr/releases/19080354",
+  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/19080354/assets",
+  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/19080354/assets{?name,label}",
+  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.6.0",
+  "id": 19080354,
+  "node_id": "MDc6UmVsZWFzZTE5MDgwMzU0",
+  "tag_name": "v2.6.0",
+  "target_commitish": "1c99c8a1da792ecba1e367f88b160404d81762b7",
+  "name": "binjr v2.6.0",
   "draft": false,
   "author": {
     "login": "fthevenet",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2019-07-03T11:49:29Z",
-  "published_at": "2019-07-03T11:51:55Z",
+  "created_at": "2019-08-05T13:19:13Z",
+  "published_at": "2019-08-05T13:50:39Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/13530531",
-      "id": 13530531,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNTMwNTMx",
-      "name": "binjr-2.5.0_linux-amd64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182678",
+      "id": 14182678,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjc4",
+      "name": "binjr-2.6.0_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 61307856,
+      "size": 61331690,
       "download_count": 0,
-      "created_at": "2019-07-03T11:53:47Z",
-      "updated_at": "2019-07-03T11:53:49Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.5.0/binjr-2.5.0_linux-amd64.tar.gz"
+      "created_at": "2019-08-05T13:52:33Z",
+      "updated_at": "2019-08-05T13:52:36Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/13530527",
-      "id": 13530527,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNTMwNTI3",
-      "name": "binjr-2.5.0_linux-amd64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182673",
+      "id": 14182673,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjcz",
+      "name": "binjr-2.6.0_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -97,15 +97,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-07-03T11:53:45Z",
-      "updated_at": "2019-07-03T11:53:45Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.5.0/binjr-2.5.0_linux-amd64.tar.gz.asc"
+      "created_at": "2019-08-05T13:52:32Z",
+      "updated_at": "2019-08-05T13:52:32Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/13530525",
-      "id": 13530525,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNTMwNTI1",
-      "name": "binjr-2.5.0_mac-x86_64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182696",
+      "id": 14182696,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjk2",
+      "name": "binjr-2.6.0_mac-x86_64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 56080378,
+      "size": 56098330,
       "download_count": 0,
-      "created_at": "2019-07-03T11:53:38Z",
-      "updated_at": "2019-07-03T11:53:42Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.5.0/binjr-2.5.0_mac-x86_64.tar.gz"
+      "created_at": "2019-08-05T13:52:49Z",
+      "updated_at": "2019-08-05T13:52:54Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_mac-x86_64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/13530523",
-      "id": 13530523,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNTMwNTIz",
-      "name": "binjr-2.5.0_mac-x86_64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182692",
+      "id": 14182692,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjky",
+      "name": "binjr-2.6.0_mac-x86_64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -165,15 +165,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-07-03T11:53:37Z",
-      "updated_at": "2019-07-03T11:53:37Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.5.0/binjr-2.5.0_mac-x86_64.tar.gz.asc"
+      "created_at": "2019-08-05T13:52:47Z",
+      "updated_at": "2019-08-05T13:52:47Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_mac-x86_64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/13530627",
-      "id": 13530627,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNTMwNjI3",
-      "name": "binjr-2.5.0_windows-amd64.msi",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182788",
+      "id": 14182788,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNzg4",
+      "name": "binjr-2.6.0_windows-amd64.msi",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -197,17 +197,17 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 57489406,
+      "size": 57509894,
       "download_count": 0,
-      "created_at": "2019-07-03T11:56:57Z",
-      "updated_at": "2019-07-03T11:59:13Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.5.0/binjr-2.5.0_windows-amd64.msi"
+      "created_at": "2019-08-05T13:55:19Z",
+      "updated_at": "2019-08-05T13:55:42Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/13530666",
-      "id": 13530666,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNTMwNjY2",
-      "name": "binjr-2.5.0_windows-amd64.msi.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182795",
+      "id": 14182795,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNzk1",
+      "name": "binjr-2.6.0_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -233,14 +233,14 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2019-07-03T11:59:13Z",
-      "updated_at": "2019-07-03T11:59:14Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.5.0/binjr-2.5.0_windows-amd64.msi.asc"
+      "created_at": "2019-08-05T13:55:42Z",
+      "updated_at": "2019-08-05T13:55:43Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/13530667",
-      "id": 13530667,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNTMwNjY3",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182796",
+      "id": 14182796,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNzk2",
       "name": "Public_key-412EC8A85400AC3F.asc",
       "label": "",
       "uploader": {
@@ -267,12 +267,12 @@
       "state": "uploaded",
       "size": 3983,
       "download_count": 0,
-      "created_at": "2019-07-03T11:59:15Z",
-      "updated_at": "2019-07-03T11:59:15Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.5.0/Public_key-412EC8A85400AC3F.asc"
+      "created_at": "2019-08-05T13:55:44Z",
+      "updated_at": "2019-08-05T13:55:44Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/Public_key-412EC8A85400AC3F.asc"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.5.0",
-  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.5.0",
-  "body": "* _[New]_ Updates can now be downloaded and applied from within the application.\r\n* _[New]_ binjr now remembers its main window's screen position in-between sessions.\r\n* _[New]_ Added a new \"Presentation Mode\" that maximize the amount of space dedicated to the visualization of charts by hiding the source pane, chart settings pane and displays the chart legends in a condensed view.\r\n* _[New]_ The snapshot functionality has been enhanced to automatically take a snapshot of the whole charts display area of a worksheet, even if this area requires scrolling when displayed in the application. \r\n* _[New]_ Embedded OpenJDK in application bundle has been updated to version 12.\r\n* _[New]_ Defaults to the new Shenandoah garbage collector with the \"compact\" heuristics, which allows for a larger maximum heap size while keeping actual memory usage reasonable when a large heap is no longer required.   \r\n* _[New]_ Warn end-users when trying to add a large number of series to a single chart at once.\r\n* _[New]_ History of previously opened sources is now accessible via a combo box on the selection dialog (as well as through the existing auto-completion feature).\r\n* _[New]_ Charts vertical axis label are now hilited on mouse-over, to better indicate that they are clickable (clicking on an axis selects the chart as the one currently editable when more than one chart are present on a worksheet).\r\n* _[Fixed]_ Unsightly UI theme application on start-up or when detaching tabs.\r\n* _[Fixed]_ If \"Span crosshair over all charts\" is true and \"auto scale Y axis\" is off, then selecting a new time range using the mouse results in incorrectly changing the Y axis scale.\r\n* _[Fixed]_ Selecting a timezone in time picker sometime doesn't register.\r\n* _[Fixed]_ Synchronizing timelines across worksheets is broken.\r\n* _[Fixed]_ UI becomes unresponsive when output console displays  a large number of lines (>20000).\r\n* _[Fixed]_ Check for a new versions fails due to Github API rate limit being reached."
+  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.6.0",
+  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.6.0",
+  "body": "* _[New]_ Ability to drag branches with many sub levels from the tree and have them rendered as separate charts on a worksheet.\r\n* _[New]_ Better visual feedback when hovering above a worksheet during a drag and drop operation.\r\n* _[New]_ Ability to select multiple nodes from the source tree to drag onto a worksheet.\r\n* _[New]_ Added a filter functionality to the source tree.\r\n* _[New]_ It is now possible to remove a chart or invoke its property page directly from buttons located on top of the chart's Y axis. \r\n* _[New]_ The position and size of the various resizable panes in the UI are now saved alongside the rest of a workspace, so that its appearance can be fully restored on reload.\r\n* _[New]_ Charts legends pane in edit mode can now be scrolled up and down when many charts are added to a single worksheet. \r\n* _[Fixed]_ Vertical scrollbar on chart view in stacked layout hides part of the graph and causes an horizontal scrollbar to appear.\r\n* _[Fixed]_ The \"path\" column in the chart legend table doesn't fill up the pane. "
 }
