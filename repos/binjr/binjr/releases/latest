@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/binjr/binjr/releases/19080354",
-  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/19080354/assets",
-  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/19080354/assets{?name,label}",
-  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.6.0",
-  "id": 19080354,
-  "node_id": "MDc6UmVsZWFzZTE5MDgwMzU0",
-  "tag_name": "v2.6.0",
-  "target_commitish": "1c99c8a1da792ecba1e367f88b160404d81762b7",
-  "name": "binjr v2.6.0",
+  "url": "https://api.github.com/repos/binjr/binjr/releases/19111904",
+  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/19111904/assets",
+  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/19111904/assets{?name,label}",
+  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.6.1",
+  "id": 19111904,
+  "node_id": "MDc6UmVsZWFzZTE5MTExOTA0",
+  "tag_name": "v2.6.1",
+  "target_commitish": "4a6b1187a3fc25f14ad6aaf88078e2ee0fb0c2af",
+  "name": "binjr v2.6.1",
   "draft": false,
   "author": {
     "login": "fthevenet",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2019-08-05T13:19:13Z",
-  "published_at": "2019-08-05T13:50:39Z",
+  "created_at": "2019-08-06T15:32:46Z",
+  "published_at": "2019-08-06T15:53:39Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182678",
-      "id": 14182678,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjc4",
-      "name": "binjr-2.6.0_linux-amd64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14222839",
+      "id": 14222839,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MjIyODM5",
+      "name": "binjr-2.6.1_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 61331690,
+      "size": 60935385,
       "download_count": 0,
-      "created_at": "2019-08-05T13:52:33Z",
-      "updated_at": "2019-08-05T13:52:36Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_linux-amd64.tar.gz"
+      "created_at": "2019-08-06T15:55:45Z",
+      "updated_at": "2019-08-06T15:55:48Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.1/binjr-2.6.1_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182673",
-      "id": 14182673,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjcz",
-      "name": "binjr-2.6.0_linux-amd64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14222837",
+      "id": 14222837,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MjIyODM3",
+      "name": "binjr-2.6.1_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -97,15 +97,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-08-05T13:52:32Z",
-      "updated_at": "2019-08-05T13:52:32Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_linux-amd64.tar.gz.asc"
+      "created_at": "2019-08-06T15:55:44Z",
+      "updated_at": "2019-08-06T15:55:44Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.1/binjr-2.6.1_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182696",
-      "id": 14182696,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjk2",
-      "name": "binjr-2.6.0_mac-x86_64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14222842",
+      "id": 14222842,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MjIyODQy",
+      "name": "binjr-2.6.1_mac-x86_64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 56098330,
+      "size": 56059742,
       "download_count": 0,
-      "created_at": "2019-08-05T13:52:49Z",
-      "updated_at": "2019-08-05T13:52:54Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_mac-x86_64.tar.gz"
+      "created_at": "2019-08-06T15:55:50Z",
+      "updated_at": "2019-08-06T15:55:54Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.1/binjr-2.6.1_mac-x86_64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182692",
-      "id": 14182692,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNjky",
-      "name": "binjr-2.6.0_mac-x86_64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14222840",
+      "id": 14222840,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MjIyODQw",
+      "name": "binjr-2.6.1_mac-x86_64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -165,15 +165,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-08-05T13:52:47Z",
-      "updated_at": "2019-08-05T13:52:47Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_mac-x86_64.tar.gz.asc"
+      "created_at": "2019-08-06T15:55:47Z",
+      "updated_at": "2019-08-06T15:55:48Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.1/binjr-2.6.1_mac-x86_64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182788",
-      "id": 14182788,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNzg4",
-      "name": "binjr-2.6.0_windows-amd64.msi",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14222929",
+      "id": 14222929,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MjIyOTI5",
+      "name": "binjr-2.6.1_windows-amd64.msi",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -197,17 +197,17 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 57509894,
+      "size": 57124697,
       "download_count": 0,
-      "created_at": "2019-08-05T13:55:19Z",
-      "updated_at": "2019-08-05T13:55:42Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_windows-amd64.msi"
+      "created_at": "2019-08-06T15:59:05Z",
+      "updated_at": "2019-08-06T15:59:26Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.1/binjr-2.6.1_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182795",
-      "id": 14182795,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNzk1",
-      "name": "binjr-2.6.0_windows-amd64.msi.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14222938",
+      "id": 14222938,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MjIyOTM4",
+      "name": "binjr-2.6.1_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -233,14 +233,14 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2019-08-05T13:55:42Z",
-      "updated_at": "2019-08-05T13:55:43Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/binjr-2.6.0_windows-amd64.msi.asc"
+      "created_at": "2019-08-06T15:59:26Z",
+      "updated_at": "2019-08-06T15:59:27Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.1/binjr-2.6.1_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14182796",
-      "id": 14182796,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MTgyNzk2",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/14222941",
+      "id": 14222941,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0MjIyOTQx",
       "name": "Public_key-412EC8A85400AC3F.asc",
       "label": "",
       "uploader": {
@@ -267,12 +267,12 @@
       "state": "uploaded",
       "size": 3983,
       "download_count": 0,
-      "created_at": "2019-08-05T13:55:44Z",
-      "updated_at": "2019-08-05T13:55:44Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.0/Public_key-412EC8A85400AC3F.asc"
+      "created_at": "2019-08-06T15:59:28Z",
+      "updated_at": "2019-08-06T15:59:28Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.6.1/Public_key-412EC8A85400AC3F.asc"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.6.0",
-  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.6.0",
-  "body": "* _[New]_ Ability to drag branches with many sub levels from the tree and have them rendered as separate charts on a worksheet.\r\n* _[New]_ Better visual feedback when hovering above a worksheet during a drag and drop operation.\r\n* _[New]_ Ability to select multiple nodes from the source tree to drag onto a worksheet.\r\n* _[New]_ Added a filter functionality to the source tree.\r\n* _[New]_ It is now possible to remove a chart or invoke its property page directly from buttons located on top of the chart's Y axis. \r\n* _[New]_ The position and size of the various resizable panes in the UI are now saved alongside the rest of a workspace, so that its appearance can be fully restored on reload.\r\n* _[New]_ Charts legends pane in edit mode can now be scrolled up and down when many charts are added to a single worksheet. \r\n* _[Fixed]_ Vertical scrollbar on chart view in stacked layout hides part of the graph and causes an horizontal scrollbar to appear.\r\n* _[Fixed]_ The \"path\" column in the chart legend table doesn't fill up the pane. "
+  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.6.1",
+  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.6.1",
+  "body": "* _[Fixed]_ Prevent update check from proposing to download and install an update on macOS, as in-application installation does not work on this platform at the moment.\r\n* _[Fixed]_ Stop deploying all platform specific resources across all platform application bundles. "
 }
