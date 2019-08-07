@@ -1,7 +1,12 @@
 # Change Log
 
+## [binjr v2.6.2](https://github.com/binjr/binjr/releases/tag/v2.6.2)
+Released on Wed, 7 Aug 2019
+
+* _[Fixed]_ Regression from 2.6.1 preventing the application to propose to download a new version and update on Linux.
+
 ## [binjr v2.6.1](https://github.com/binjr/binjr/releases/tag/v2.6.1)
-Released on Tue, 6 Aug 2019
+Released on Tue, 06 Aug 2019
 
 * _[Fixed]_ Prevent update check from proposing to download and install an update on macOS, as in-application installation does not work on this platform at the moment.
 * _[Fixed]_ Stop deploying all platform specific resources across all platform application bundles. 
