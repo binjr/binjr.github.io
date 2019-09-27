@@ -1,13 +1,28 @@
 # Change Log
 
+## [binjr v2.9.0](https://github.com/binjr/binjr/releases/tag/v2.9.0)
+Released on Fri, 27 Sep 2019
+
+* _[New]_ Added options to import and export user preferences, as well as clear opened files history.
+* _[New]_ Update bundled OpenJavaFX to version 13.
+* _[Fixed]_ NPE in JrdsDataAdapter when the adapter is loaded from saved workspace.
+* _[Fixed]_ CsvDataAdapter ignores some configuration keys when loaded from saved workspace.
+* _[Fixed]_ Fetching data via an adapter may fail silently.
+* _[Fixed]_ Charts do no honor the exact time range specified by the user.
+* _[Fixed]_ An offset on the time axis between two or more charts may occurs if the sources for them have different resolutions.
+* _[Fixed]_ UI themes defined in external plugins aren't loaded if set as the current theme when binjr is started.
+* _[Fixed]_ Unexpected cache miss in http data adapters.
+* _[Fixed]_ Disabling a DataAdapter in the settings section doesn't prevent it from being present in "Sources > New Sources..." menu.
+* _[Fixed]_ Enabled DataAdapter settings are not persisted in between sessions 
+
 ## [binjr v2.8.1](https://github.com/binjr/binjr/releases/tag/v2.8.1)
-Released on Wed, 4 Sep 2019
+Released on Wed, 04 Sep 2019
 
 * _[Fixed]_ Memory leak: a closed worksheet controller remains reachable if an error notification popup is displayed and user preference _"Discard notification after:"_ is set to _"Never"_.
 
 
 ## [binjr v2.8.0](https://github.com/binjr/binjr/releases/tag/v2.8.0)
-Released on tue, 03 Sep 2019
+Released on Tue, 03 Sep 2019
 
 * _[New]_ Now supports the addition of custom UI themes via external plugins.
 * _[New]_ Accepts '.xml' as a valid extension for saved workspaces, in addition to '.bjr'
