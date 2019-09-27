@@ -1,4 +1,4 @@
-> *[ Wed, 4 Sep 2019: Version 2.8.1 released](https://github.com/binjr/binjr/releases/tag/v2.8.1)*
+> *[ Fri, 27 Sep 2019: Version 2.9.0 released](https://github.com/binjr/binjr/releases/tag/v2.9.0)*
  
 
 ## What is binjr?
