@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/binjr/binjr/releases/20311793",
-  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/20311793/assets",
-  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/20311793/assets{?name,label}",
-  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.9.0",
-  "id": 20311793,
-  "node_id": "MDc6UmVsZWFzZTIwMzExNzkz",
-  "tag_name": "v2.9.0",
-  "target_commitish": "7fd58007a2c972d946ba6e6cfd0eb4befa4868c1",
-  "name": "binjr v2.9.0",
+  "url": "https://api.github.com/repos/binjr/binjr/releases/20941535",
+  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/20941535/assets",
+  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/20941535/assets{?name,label}",
+  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.10.0",
+  "id": 20941535,
+  "node_id": "MDc6UmVsZWFzZTIwOTQxNTM1",
+  "tag_name": "v2.10.0",
+  "target_commitish": "0e3296e19e70d028050b9c0ac4f201f957bcdbb5",
+  "name": "binjr v2.10.0",
   "draft": false,
   "author": {
     "login": "fthevenet",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2019-09-27T15:13:33Z",
-  "published_at": "2019-09-27T15:15:48Z",
+  "created_at": "2019-10-24T09:20:10Z",
+  "published_at": "2019-10-24T09:23:31Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15168386",
-      "id": 15168386,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1MTY4Mzg2",
-      "name": "binjr-2.9.0_linux-amd64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15694841",
+      "id": 15694841,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1Njk0ODQx",
+      "name": "binjr-2.10.0_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 61071911,
+      "size": 61082890,
       "download_count": 0,
-      "created_at": "2019-09-27T15:17:35Z",
-      "updated_at": "2019-09-27T15:17:41Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.9.0/binjr-2.9.0_linux-amd64.tar.gz"
+      "created_at": "2019-10-24T09:25:22Z",
+      "updated_at": "2019-10-24T09:25:24Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.10.0/binjr-2.10.0_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15168384",
-      "id": 15168384,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1MTY4Mzg0",
-      "name": "binjr-2.9.0_linux-amd64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15694839",
+      "id": 15694839,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1Njk0ODM5",
+      "name": "binjr-2.10.0_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -97,15 +97,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-09-27T15:17:34Z",
-      "updated_at": "2019-09-27T15:17:34Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.9.0/binjr-2.9.0_linux-amd64.tar.gz.asc"
+      "created_at": "2019-10-24T09:25:21Z",
+      "updated_at": "2019-10-24T09:25:21Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.10.0/binjr-2.10.0_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15168390",
-      "id": 15168390,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1MTY4Mzkw",
-      "name": "binjr-2.9.0_mac-x86_64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15694892",
+      "id": 15694892,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1Njk0ODky",
+      "name": "binjr-2.10.0_mac-x86_64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 56187303,
+      "size": 56196357,
       "download_count": 0,
-      "created_at": "2019-09-27T15:17:50Z",
-      "updated_at": "2019-09-27T15:17:55Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.9.0/binjr-2.9.0_mac-x86_64.tar.gz"
+      "created_at": "2019-10-24T09:27:20Z",
+      "updated_at": "2019-10-24T09:27:25Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.10.0/binjr-2.10.0_mac-x86_64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15168388",
-      "id": 15168388,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1MTY4Mzg4",
-      "name": "binjr-2.9.0_mac-x86_64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15694887",
+      "id": 15694887,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1Njk0ODg3",
+      "name": "binjr-2.10.0_mac-x86_64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -165,15 +165,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-09-27T15:17:48Z",
-      "updated_at": "2019-09-27T15:17:48Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.9.0/binjr-2.9.0_mac-x86_64.tar.gz.asc"
+      "created_at": "2019-10-24T09:27:18Z",
+      "updated_at": "2019-10-24T09:27:18Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.10.0/binjr-2.10.0_mac-x86_64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15168431",
-      "id": 15168431,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1MTY4NDMx",
-      "name": "binjr-2.9.0_windows-amd64.msi",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15694906",
+      "id": 15694906,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1Njk0OTA2",
+      "name": "binjr-2.10.0_windows-amd64.msi",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -197,17 +197,17 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 57260079,
-      "download_count": 1,
-      "created_at": "2019-09-27T15:20:05Z",
-      "updated_at": "2019-09-27T15:21:13Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.9.0/binjr-2.9.0_windows-amd64.msi"
+      "size": 57288760,
+      "download_count": 0,
+      "created_at": "2019-10-24T09:27:57Z",
+      "updated_at": "2019-10-24T09:28:56Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.10.0/binjr-2.10.0_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15168437",
-      "id": 15168437,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1MTY4NDM3",
-      "name": "binjr-2.9.0_windows-amd64.msi.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15694909",
+      "id": 15694909,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1Njk0OTA5",
+      "name": "binjr-2.10.0_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -233,14 +233,14 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2019-09-27T15:21:14Z",
-      "updated_at": "2019-09-27T15:21:14Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.9.0/binjr-2.9.0_windows-amd64.msi.asc"
+      "created_at": "2019-10-24T09:28:57Z",
+      "updated_at": "2019-10-24T09:28:57Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.10.0/binjr-2.10.0_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15168438",
-      "id": 15168438,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1MTY4NDM4",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/15694910",
+      "id": 15694910,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE1Njk0OTEw",
       "name": "Public_key-412EC8A85400AC3F.asc",
       "label": "",
       "uploader": {
@@ -267,12 +267,12 @@
       "state": "uploaded",
       "size": 3983,
       "download_count": 0,
-      "created_at": "2019-09-27T15:21:15Z",
-      "updated_at": "2019-09-27T15:21:16Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.9.0/Public_key-412EC8A85400AC3F.asc"
+      "created_at": "2019-10-24T09:28:58Z",
+      "updated_at": "2019-10-24T09:28:58Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.10.0/Public_key-412EC8A85400AC3F.asc"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.9.0",
-  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.9.0",
-  "body": "* _[New]_ Added options to import and export user preferences, as well as clear opened files history.\r\n* _[New]_ Update bundled OpenJavaFX to version 13.\r\n* _[Fixed]_ NPE in JrdsDataAdapter when the adapter is loaded from saved workspace.\r\n* _[Fixed]_ CsvDataAdapter ignores some configuration keys when loaded from saved workspace.\r\n* _[Fixed]_ Fetching data via an adapter may fail silently.\r\n* _[Fixed]_ Charts do no honor the exact time range specified by the user.\r\n* _[Fixed]_ An offset on the time axis between two or more charts may occurs if the sources for them have different resolutions.\r\n* _[Fixed]_ UI themes defined in external plugins aren't loaded if set as the current theme when binjr is started.\r\n* _[Fixed]_ Unexpected cache miss in http data adapters.\r\n* _[Fixed]_ Disabling a DataAdapter in the settings section doesn't prevent it from being present in \"Sources > New Sources...\" menu.\r\n* _[Fixed]_ Enabled DataAdapter settings are not persisted in between sessions "
+  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.10.0",
+  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.10.0",
+  "body": "* _[New]_ New Adapter API method to center worksheets' time interval to be most relevant with regard to sources\r\n* _[New]_ Application logs are now written to disk by default (in temp directory, 1 file per session, only keeps the last 10 files)\r\n* _[Fixed]_ Concurrent modifications to output console's log queue.\r\n* _[Fixed]_ File or folder chooser dialog does not appear when last opened path is invalid."
 }
