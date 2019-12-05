@@ -1,7 +1,12 @@
 # Change Log
 
+## [binjr v2.12.0-SNAPSHOT](https://github.com/binjr/binjr/releases/tag/v2.12.0-SNAPSHOT)
+Released on Thu, 5 Dec 2019
+
+* _[Fixed]_ The JRDS data adapter does not check the content type before attempting tp parse an http response payload as JSON. 
+
 ## [binjr v2.11.0](https://github.com/binjr/binjr/releases/tag/v2.11.0)
-Released on Mon, 25 Nov 2019
+Released on Thu, 25 Nov 2019
 
 * _[New]_ Updated the embedded Java runtime to OpenJDK 13.0.1
 * _[New]_ It is now possible to choose the output scale (i.e. the physical pixel density) for snapshots taken from binjr worksheets.
