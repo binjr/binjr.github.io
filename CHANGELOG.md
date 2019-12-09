@@ -1,9 +1,10 @@
 # Change Log
 
 ## [binjr v2.12.0-SNAPSHOT](https://github.com/binjr/binjr/releases/tag/v2.12.0-SNAPSHOT)
-Released on Thu, 5 Dec 2019
+Released on Mon, 9 Dec 2019
 
-* _[Fixed]_ The JRDS data adapter does not check the content type before attempting tp parse an http response payload as JSON. 
+* _[Fixed]_ The JRDS data adapter does not check the content type before attempting tp parse an http response payload as JSON.
+* _[Fixed]_ The CSV Data Adapter cannot deal with columns having the same name in a single file.
 
 ## [binjr v2.11.0](https://github.com/binjr/binjr/releases/tag/v2.11.0)
 Released on Thu, 25 Nov 2019
