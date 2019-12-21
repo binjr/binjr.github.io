@@ -1,7 +1,7 @@
 # Change Log
 
 ## [binjr v2.12.0](https://github.com/binjr/binjr/releases/tag/v2.12.0)
-Released on Fri, 20 Dec 2019
+Released on Sat, 21 Dec 2019
 
 * _[New]_ Automatically adjusts the time range up when dropping series on an existing worksheets, provided no series where already present.
 * _[New]_ The macOS application bundle is now available as a DMG image. This allows for better integration with the menu bar and to register workspace file extention. 

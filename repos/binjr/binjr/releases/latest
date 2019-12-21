@@ -34,9 +34,9 @@
   "published_at": "2019-12-20T17:29:08Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16930911",
-      "id": 16930911,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTMwOTEx",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16942271",
+      "id": 16942271,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTQyMjcx",
       "name": "binjr-2.12.0_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
@@ -61,16 +61,16 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 61952363,
+      "size": 61951507,
       "download_count": 0,
-      "created_at": "2019-12-20T17:30:49Z",
-      "updated_at": "2019-12-20T17:30:51Z",
+      "created_at": "2019-12-21T10:03:26Z",
+      "updated_at": "2019-12-21T10:03:29Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.12.0/binjr-2.12.0_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16930909",
-      "id": 16930909,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTMwOTA5",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16942269",
+      "id": 16942269,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTQyMjY5",
       "name": "binjr-2.12.0_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
@@ -97,14 +97,14 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-12-20T17:30:47Z",
-      "updated_at": "2019-12-20T17:30:48Z",
+      "created_at": "2019-12-21T10:03:23Z",
+      "updated_at": "2019-12-21T10:03:23Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.12.0/binjr-2.12.0_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16930983",
-      "id": 16930983,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTMwOTgz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16942284",
+      "id": 16942284,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTQyMjg0",
       "name": "binjr-2.12.0_mac-x86_64.dmg",
       "label": "",
       "uploader": {
@@ -129,16 +129,16 @@
       },
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
-      "size": 58699843,
+      "size": 58699918,
       "download_count": 0,
-      "created_at": "2019-12-20T17:35:41Z",
-      "updated_at": "2019-12-20T17:35:45Z",
+      "created_at": "2019-12-21T10:06:44Z",
+      "updated_at": "2019-12-21T10:06:48Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.12.0/binjr-2.12.0_mac-x86_64.dmg"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16930985",
-      "id": 16930985,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTMwOTg1",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16942285",
+      "id": 16942285,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTQyMjg1",
       "name": "binjr-2.12.0_mac-x86_64.dmg.asc",
       "label": "",
       "uploader": {
@@ -165,14 +165,14 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2019-12-20T17:35:46Z",
-      "updated_at": "2019-12-20T17:35:46Z",
+      "created_at": "2019-12-21T10:06:50Z",
+      "updated_at": "2019-12-21T10:06:50Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.12.0/binjr-2.12.0_mac-x86_64.dmg.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16930919",
-      "id": 16930919,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTMwOTE5",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16942273",
+      "id": 16942273,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTQyMjcz",
       "name": "binjr-2.12.0_windows-amd64.msi",
       "label": "",
       "uploader": {
@@ -199,14 +199,14 @@
       "state": "uploaded",
       "size": 57899083,
       "download_count": 0,
-      "created_at": "2019-12-20T17:31:46Z",
-      "updated_at": "2019-12-20T17:32:06Z",
+      "created_at": "2019-12-21T10:04:08Z",
+      "updated_at": "2019-12-21T10:05:28Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.12.0/binjr-2.12.0_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16930930",
-      "id": 16930930,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTMwOTMw",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16942278",
+      "id": 16942278,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTQyMjc4",
       "name": "binjr-2.12.0_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
@@ -233,14 +233,14 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2019-12-20T17:32:06Z",
-      "updated_at": "2019-12-20T17:32:06Z",
+      "created_at": "2019-12-21T10:05:29Z",
+      "updated_at": "2019-12-21T10:05:30Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.12.0/binjr-2.12.0_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16930986",
-      "id": 16930986,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTMwOTg2",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/16942286",
+      "id": 16942286,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2OTQyMjg2",
       "name": "Public_key-412EC8A85400AC3F.asc",
       "label": "",
       "uploader": {
@@ -267,8 +267,8 @@
       "state": "uploaded",
       "size": 3919,
       "download_count": 0,
-      "created_at": "2019-12-20T17:35:48Z",
-      "updated_at": "2019-12-20T17:35:48Z",
+      "created_at": "2019-12-21T10:06:52Z",
+      "updated_at": "2019-12-21T10:06:52Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.12.0/Public_key-412EC8A85400AC3F.asc"
     }
   ],
