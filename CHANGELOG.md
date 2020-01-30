@@ -1,7 +1,7 @@
 # Change Log
 
 ## [binjr v2.13.0](https://github.com/binjr/binjr/releases/tag/v2.13.0)
-Released on Wed, 29 Jan 2020
+Released on Thu, 30 Jan 2020
 
 * _[New]_ Enhanced downsampling algorithm; this allows a more faithful visual representation of series while still dramatically reducing the number of plotted samples.
 * _[New]_ Updated the embedded Java and JavaFX runtimes to 13.0.2
