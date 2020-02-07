@@ -1,5 +1,5 @@
 
-> *[Thu, 25 Nov 2019: Version 2.11.0 released](https://github.com/binjr/binjr/releases/tag/v2.11.0)*
+> *[Thu, 30 Jan 2020: Version 2.13.0 released](https://github.com/binjr/binjr/releases/tag/v2.13.0)*
 
 <link rel="stylesheet" href="/assets/css/slides.css">  
 <div class="slideshow-container" >
