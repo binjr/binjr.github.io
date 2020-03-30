@@ -156,7 +156,7 @@ Simply clone the [repo from Github](https://github.com/binjr/binjr/) and run:
 ## Trying it out
 
 If you'd like to experience binjr's visualization capabilities but do not have a compatible data source handy, you can use
-the [demonstration data adpater](https://github.com/binjr/binjr-adapter-demo). 
+the [demonstration data adapter](https://github.com/binjr/binjr-adapter-demo). 
 
 It is a plugin which embeds a small, stand-alone data source that you can readily browse using ***binjr***.
 
