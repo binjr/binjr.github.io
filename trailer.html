@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="binjr, a time series browser">
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        footer {
+            margin: 0;
+        }
+
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             min-height: calc(100vh - 50px);
+        }
+
+        .banner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+            align-items: center;
+            margin: 10;
+            width: 100%;
+            height: 50px;
+            background-color: #202020;
+            color: white;
+        }
+
+        a {
+            padding: 10;
+            color: white;
+        }
+
+        .container{
+            margin: 0;
+             min-height: calc(100vh - 50px);
+        }
+
+        video {
+            max-width: 1000px;
+            width: 100%;
+            height: auto;
+            box-shadow: 0 0 .2rem rgba(0, 0, 0, .5), 0 .2rem .4rem rgba(0, 0, 0, .8);
+        }
+        .button {
+          background-color: transparent;
+          border: none;
+          color: white;
+          padding: 0 20px;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 600;
+          text-decoration: none;
+        }
+
+        .button:hover {
+          color: #808080;
+        }
+
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="banner">
+        <a class="button" href="https://github.com/binjr/binjr">
+            Back to GitHub
+        </a>
+        <a class="button" href="https://binjr.eu">
+            <img width="auto" height="32" src="/assets/images/binjr_128.png">
+        </a>
+    </div>
+</header>
+<div class="container">
+    <div class="centered">
+        <video autoplay
+               controls
+               muted
+               poster="/assets/images/binjr_landing_poster.png"
+               src="/assets/videos/binjr_demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</div>
+
+</body>
+
+
+</html>
