@@ -1,2 +1,2 @@
 # binjr.github.io
-binjr website
+Sources for the binjr.eu website

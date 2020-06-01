@@ -1,0 +1,72 @@
+site_name: binjr
+site_description: binjr, a time series browser
+site_url: https://binjr.eu/
+copyright: Copyright © 2020 Frederic Thevenet
+repo_url: https://github.com/binjr/binjr/
+edit_uri: ""
+
+nav:
+  - Home: index.html
+  - About:
+    - about/what_is_binjr.md
+    - about/features.md
+    - about/supported_data_sources.md
+    - about/notice.md
+  - Documentation:
+    - documentation/getting-started.md
+    - "User Guide":
+        - documentation/user_guide/main.md
+        - documentation/user_guide/sources.md
+        - documentation/user_guide/worksheets.md
+        - documentation/user_guide/workspaces.md
+        - documentation/user_guide/settings.md
+    - documentation/troubleshooting.md
+    - documentation/verify-signature.md
+  - Download:
+    - download/latest_release.md
+    - download/plugins.md
+    - download/CHANGELOG.md
+
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/binjr_128.png
+  icon:
+    repo: fontawesome/brands/github
+
+  highlightjs: true
+  hljs_languages:
+    - java
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - meta
+  - smarty
+  - extra
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - codehilite:
+      guess_lang: False
+      use_pygments: True
+      noclasses: True
+      pygments_style: monokai
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/binjr
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/binjr_app
