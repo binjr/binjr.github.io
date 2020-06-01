@@ -8,40 +8,7 @@ The simplest way to start using ***binjr*** is to download an application bundle
 
 These bundles contain all the dependencies required to run the app, including a copy of the Java runtime specially
 crafted to only include the required components and save disk space.
-They are less than 60 MB in size and there is one for each of the supported platform:
-[Linux](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_linux-amd64.tar.gz),
-[macOS](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.dmg) and
-[Windows](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.msi).
-
-=== "Linux (glibc v2.5 or higher)"
-    ***binjr*** for Linux is packaged as a [tar.gz archive](https://github.com/binjr/binjr/releases/download/v2.15.0-SNAPSHOT/binjr-2.15.0-SNAPSHOT_linux-amd64.tar.gz):
-     unpack it and run `binjr` to start.
-
-=== "macOS (10.10 or later)"
-    ***binjr*** for macOS is packaged as a [dmg image](https://github.com/binjr/binjr/releases/download/v2.15.0-SNAPSHOT/binjr-2.15.0-SNAPSHOT_mac-x86_64.dmg):
-    mount the image and click on `binjr`.
-
-    !!! Warning "Note"
-         binjr might not be recognized by Apple, so you may get a warning when trying to run the first time.
-         To override it, locate binjr in the Finder on your Mac, control-click the app icon, then choose `Open` from the
-         shortcut menu and click `Open` ([see more](https://support.apple.com/guide/mac-help/mh40616/mac)).
-
-         If you want to ensure that your download has not been tempered with,
-         [you can verify its openGPG signature](../verify-signature).
-
-
-=== "Windows (7 or later)"
-    ***binjr*** for Windows is packaged as an [msi installer](https://github.com/binjr/binjr/releases/download/v2.15.0-SNAPSHOT/binjr-2.15.0-SNAPSHOT_windows-amd64.msi):
-    run the installer and launch `binjr` from the start menu.
-
-    !!! Warning "Note"
-        binjr's installer might not be recognized by Microsoft Defender SmartScreen, so you might need to suppress a warning
-        to install it on your system. To do so, click "more info" then "run anyway"
-        ([see more](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)).
-
-        If you want to ensure that your download has not been tempered with,
-        [you can verify its openGPG signature](../verify-signature).
-
+They are less than 60 MB in size and there is one for each of the supported platform.
 
 ## Build from source
 
