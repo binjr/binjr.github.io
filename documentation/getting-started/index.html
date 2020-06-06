@@ -626,39 +626,7 @@
 <p>The simplest way to start using <strong><em>binjr</em></strong> is to download an application bundle from the <a href="../../download/latest_release/">download page</a>.</p>
 <p>These bundles contain all the dependencies required to run the app, including a copy of the Java runtime specially
 crafted to only include the required components and save disk space.
-They are less than 60 MB in size and there is one for each of the supported platform:
-<a href="https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_linux-amd64.tar.gz">Linux</a>,
-<a href="https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.dmg">macOS</a> and
-<a href="https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.msi">Windows</a>.</p>
-<div class="tabbed-set" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Linux (glibc v2.5 or higher)</label><div class="tabbed-content">
-<p><strong><em>binjr</em></strong> for Linux is packaged as a <a href="https://github.com/binjr/binjr/releases/download/v2.15.0-SNAPSHOT/binjr-2.15.0-SNAPSHOT_linux-amd64.tar.gz">tar.gz archive</a>:
- unpack it and run <code>binjr</code> to start.</p>
-</div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">macOS (10.10 or later)</label><div class="tabbed-content">
-<p><strong><em>binjr</em></strong> for macOS is packaged as a <a href="https://github.com/binjr/binjr/releases/download/v2.15.0-SNAPSHOT/binjr-2.15.0-SNAPSHOT_mac-x86_64.dmg">dmg image</a>:
-mount the image and click on <code>binjr</code>.</p>
-<div class="admonition warning">
-<p class="admonition-title">Note</p>
-<p>binjr might not be recognized by Apple, so you may get a warning when trying to run the first time.
- To override it, locate binjr in the Finder on your Mac, control-click the app icon, then choose <code>Open</code> from the
- shortcut menu and click <code>Open</code> (<a href="https://support.apple.com/guide/mac-help/mh40616/mac">see more</a>).</p>
-<p>If you want to ensure that your download has not been tempered with,
- <a href="../verify-signature">you can verify its openGPG signature</a>.</p>
-</div>
-</div>
-<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Windows (7 or later)</label><div class="tabbed-content">
-<p><strong><em>binjr</em></strong> for Windows is packaged as an <a href="https://github.com/binjr/binjr/releases/download/v2.15.0-SNAPSHOT/binjr-2.15.0-SNAPSHOT_windows-amd64.msi">msi installer</a>:
-run the installer and launch <code>binjr</code> from the start menu.</p>
-<div class="admonition warning">
-<p class="admonition-title">Note</p>
-<p>binjr&rsquo;s installer might not be recognized by Microsoft Defender SmartScreen, so you might need to suppress a warning
-to install it on your system. To do so, click &ldquo;more info&rdquo; then &ldquo;run anyway&rdquo;
-(<a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview">see more</a>).</p>
-<p>If you want to ensure that your download has not been tempered with,
-<a href="../verify-signature">you can verify its openGPG signature</a>.</p>
-</div>
-</div>
-</div>
+They are less than 60 MB in size and there is one for each of the supported platform.</p>
 <h2 id="build-from-source">Build from source<a class="headerlink" href="#build-from-source" title="Permanent link">&para;</a></h2>
 <p>You can also build or run the application from the source code.</p>
 <p><strong>Prerequisites:</strong></p>
@@ -684,12 +652,12 @@ to install it on your system. To do so, click &ldquo;more info&rdquo; then &ldqu
 <ul>
 <li>
 <p>Build all the modules</p>
-<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew build
 </code></pre></div>
 
 </div>
-<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat build
 </code></pre></div>
 
@@ -698,12 +666,12 @@ to install it on your system. To do so, click &ldquo;more info&rdquo; then &ldqu
 </li>
 <li>
 <p>Build and start the application   </p>
-<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew run
 </code></pre></div>
 
 </div>
-<input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat run
 </code></pre></div>
 
@@ -712,12 +680,12 @@ to install it on your system. To do so, click &ldquo;more info&rdquo; then &ldqu
 </li>
 <li>
 <p>Build an application bundle for the platform on which you run the build     </p>
-<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageDistribution  
 </code></pre></div>
 
 </div>
-<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat clean packageDistribution  
 </code></pre></div>
 
@@ -741,24 +709,24 @@ on Maven Central.</p>
 <p>In order to run binjr that way, you need to have Apache Maven installed on your machine and your JAVA_HOME
 environment variable must point at a copy of a Java runtime version 11 or later.</p>
 </div>
-<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>mvn exec:java -f &lt;<span class="o">(</span>curl https://binjr.eu/run-binjr.pom<span class="o">)</span>
 </code></pre></div>
 
 </div>
-<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>curl https://binjr.eu/run-binjr.pom <span class="p">&gt;</span> <span class="nv">%temp%</span>\run-binjr.pom <span class="p">&amp;</span> mvn exec:java -f <span class="nv">%temp%</span>\run-binjr.pom
 </code></pre></div>
 
 </div>
 </div>
 <p>You can also use the <code>binjr.version</code>property to start a specific version of binr:</p>
-<div class="tabbed-set" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>mvn exec:java -f &lt;<span class="o">(</span>curl https://binjr.eu/run-binjr.pom<span class="o">)</span> -Dbinjr.version<span class="o">=</span><span class="m">2</span>.14.0
 </code></pre></div>
 
 </div>
-<input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><label for="__tabbed_6_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>curl https://binjr.eu/run-binjr.pom <span class="p">&gt;</span> <span class="nv">%temp%</span>\run-binjr.pom <span class="p">&amp;</span> mvn exec:java -f <span class="nv">%temp%</span>\run-binjr.pom  -Dbinjr.version=2.14.0
 </code></pre></div>
 
