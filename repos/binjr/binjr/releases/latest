@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/binjr/binjr/releases/26666823",
-  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/26666823/assets",
-  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/26666823/assets{?name,label}",
-  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.15.0",
-  "id": 26666823,
-  "node_id": "MDc6UmVsZWFzZTI2NjY2ODIz",
-  "tag_name": "v2.15.0",
-  "target_commitish": "52dcf277a5abf0fd34a2a275fdc21ee5b1d9feb3",
-  "name": "binjr v2.15.0",
+  "url": "https://api.github.com/repos/binjr/binjr/releases/27415411",
+  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/27415411/assets",
+  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/27415411/assets{?name,label}",
+  "html_url": "https://github.com/binjr/binjr/releases/tag/v2.16.0",
+  "id": 27415411,
+  "node_id": "MDc6UmVsZWFzZTI3NDE1NDEx",
+  "tag_name": "v2.16.0",
+  "target_commitish": "0bd5be30ef2147525067b336d30d77ae4dd3c57a",
+  "name": "binjr v2.16.0",
   "draft": false,
   "author": {
     "login": "fthevenet",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2020-05-19T12:02:02Z",
-  "published_at": "2020-05-19T12:04:11Z",
+  "created_at": "2020-06-10T13:54:17Z",
+  "published_at": "2020-06-10T14:45:57Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871296",
-      "id": 20871296,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxMjk2",
-      "name": "binjr-2.15.0_linux-amd64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619621",
+      "id": 21619621,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NjIx",
+      "name": "binjr-2.16.0_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 61602594,
+      "size": 61375766,
       "download_count": 0,
-      "created_at": "2020-05-19T12:06:39Z",
-      "updated_at": "2020-05-19T12:06:42Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_linux-amd64.tar.gz"
+      "created_at": "2020-06-10T14:48:56Z",
+      "updated_at": "2020-06-10T14:49:00Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871295",
-      "id": 20871295,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxMjk1",
-      "name": "binjr-2.15.0_linux-amd64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619623",
+      "id": 21619623,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NjIz",
+      "name": "binjr-2.16.0_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -97,15 +97,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2020-05-19T12:06:39Z",
-      "updated_at": "2020-05-19T12:06:39Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_linux-amd64.tar.gz.asc"
+      "created_at": "2020-06-10T14:49:01Z",
+      "updated_at": "2020-06-10T14:49:01Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871350",
-      "id": 20871350,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxMzUw",
-      "name": "binjr-2.15.0_mac-x86_64.dmg",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619659",
+      "id": 21619659,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NjU5",
+      "name": "binjr-2.16.0_mac-x86_64.dmg",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
-      "size": 59073635,
+      "size": 58866832,
       "download_count": 0,
-      "created_at": "2020-05-19T12:08:19Z",
-      "updated_at": "2020-05-19T12:08:25Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.dmg"
+      "created_at": "2020-06-10T14:50:37Z",
+      "updated_at": "2020-06-10T14:50:41Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.dmg"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871366",
-      "id": 20871366,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxMzY2",
-      "name": "binjr-2.15.0_mac-x86_64.dmg.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619660",
+      "id": 21619660,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NjYw",
+      "name": "binjr-2.16.0_mac-x86_64.dmg.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -165,15 +165,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2020-05-19T12:08:25Z",
-      "updated_at": "2020-05-19T12:08:25Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.dmg.asc"
+      "created_at": "2020-06-10T14:50:41Z",
+      "updated_at": "2020-06-10T14:50:41Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.dmg.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871369",
-      "id": 20871369,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxMzY5",
-      "name": "binjr-2.15.0_mac-x86_64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619661",
+      "id": 21619661,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NjYx",
+      "name": "binjr-2.16.0_mac-x86_64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -197,17 +197,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 57085370,
+      "size": 56856004,
       "download_count": 0,
-      "created_at": "2020-05-19T12:08:26Z",
-      "updated_at": "2020-05-19T12:08:29Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.tar.gz"
+      "created_at": "2020-06-10T14:50:41Z",
+      "updated_at": "2020-06-10T14:50:44Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871368",
-      "id": 20871368,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxMzY4",
-      "name": "binjr-2.15.0_mac-x86_64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619667",
+      "id": 21619667,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NjY3",
+      "name": "binjr-2.16.0_mac-x86_64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -233,15 +233,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2020-05-19T12:08:26Z",
-      "updated_at": "2020-05-19T12:08:26Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.tar.gz.asc"
+      "created_at": "2020-06-10T14:50:45Z",
+      "updated_at": "2020-06-10T14:50:45Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871408",
-      "id": 20871408,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxNDA4",
-      "name": "binjr-2.15.0_windows-amd64.msi",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619709",
+      "id": 21619709,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NzA5",
+      "name": "binjr-2.16.0_windows-amd64.msi",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -265,17 +265,17 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 57882693,
+      "size": 57653246,
       "download_count": 0,
-      "created_at": "2020-05-19T12:09:21Z",
-      "updated_at": "2020-05-19T12:09:39Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.msi"
+      "created_at": "2020-06-10T14:51:14Z",
+      "updated_at": "2020-06-10T14:51:48Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871415",
-      "id": 20871415,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxNDE1",
-      "name": "binjr-2.15.0_windows-amd64.msi.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619721",
+      "id": 21619721,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NzIx",
+      "name": "binjr-2.16.0_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -301,15 +301,15 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2020-05-19T12:09:39Z",
-      "updated_at": "2020-05-19T12:09:39Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.msi.asc"
+      "created_at": "2020-06-10T14:51:48Z",
+      "updated_at": "2020-06-10T14:51:48Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871417",
-      "id": 20871417,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxNDE3",
-      "name": "binjr-2.15.0_windows-amd64.zip",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619723",
+      "id": 21619723,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NzIz",
+      "name": "binjr-2.16.0_windows-amd64.zip",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -333,17 +333,17 @@
       },
       "content_type": "application/zip",
       "state": "uploaded",
-      "size": 57429004,
+      "size": 57201590,
       "download_count": 0,
-      "created_at": "2020-05-19T12:09:41Z",
-      "updated_at": "2020-05-19T12:10:03Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.zip"
+      "created_at": "2020-06-10T14:51:49Z",
+      "updated_at": "2020-06-10T14:51:55Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.zip"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/20871416",
-      "id": 20871416,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIwODcxNDE2",
-      "name": "binjr-2.15.0_windows-amd64.zip.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/21619725",
+      "id": 21619725,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNjE5NzI1",
+      "name": "binjr-2.16.0_windows-amd64.zip.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -369,12 +369,12 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2020-05-19T12:09:40Z",
-      "updated_at": "2020-05-19T12:09:40Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.zip.asc"
+      "created_at": "2020-06-10T14:51:55Z",
+      "updated_at": "2020-06-10T14:51:55Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.zip.asc"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.15.0",
-  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.15.0",
-  "body": "* _[New]_ A new adapter allows to use Netdata (https://netdata.cloud) servers as data sources.  \r\n* _[New]_ Users can now choose which default color palette to use for charts when the color isn't specified by the source. \r\n* _[New]_ \"Show outline\" and \"Default opacity\" preferences are now settable separately for \"area charts\" and \"stacked area\" charts.\r\n* _[New]_ Updated the embedded runtime to OpenJDK 14.0.1 and OpenJFX 14.0.1\r\n* _[Fixed]_ JRDS adapter incorrectly reports all charts as stacked area charts.\r\n* _[Fixed]_ \"Show outline on area charts \" user preference is not persisted across sessions. \r\n* _[Fixed]_ A concurrency issue causes an ArrayIndexOutOfBoundsException when applying sample reduction transform. \r\n* _[Fixed]_ The time range picker is not dismissed automatically after the user selects a preset range."
+  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v2.16.0",
+  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v2.16.0",
+  "body": "* _[New]_ binjr can now be used as a \"portable\" application on all supported platforms. \r\n  Portable apps can be unpacked to and used from a detachable drive or a file share.  \r\n  Portable bundles are available in the following formats:\r\n  * `tar.gz` for Linux \r\n  * `tar.gz` for macOS\r\n  * `zip` for Windows\r\n* _[New]_ Alternatively, it can be used as an \"installable\" application on all supported platforms. \r\n  Installable apps integrates with the host OS to provide menu shortcuts, file associations and per user settings.   \r\n  Installers are available in the following formats:\r\n  * `deb` for Debian & Ubuntu\r\n  * `rpm` for RHEL, Centos & Fedora\r\n  * `dmg` for macOS\r\n  * `msi` for Windows\r\n\r\n> **IMPORTANT NOTE**: When upgrading an existing copy of the Linux `tar.gz` distribution to version 2.16.0 or later, any previously set preferences will be reset, since it now defaults in \"portable\" mode and settings are stored directly into the application folder.  \r\nYou can override this behaviour by adding the command line option ` -Dbinjr.portable=false` when starting the application. You can also use the built-in settings import/export functions to migrate settings from one mode to another."
 }
