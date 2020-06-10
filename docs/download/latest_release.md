@@ -4,7 +4,7 @@ These bundles contain all dependencies and runtime components needed to run binj
 They also include support for the following data sources: 
 [JRDS](https://github.com/fbacchella/jrds), [Netdata](https://www.netdata.cloud), RDD Files and CSV files.
 
-The latest available version is 2.15.0, released on Tue, 19 May 2020.  
+The latest available version is 2.16.0, released on Wed, 10 Jun 2020.  
 
 Complete release information can be found in the [change log](CHANGELOG.md). 
 
@@ -29,19 +29,32 @@ Complete release information can be found in the [change log](CHANGELOG.md).
   }
 </style>
 
+## Installable Bundles
 
+Installable bundles integrates with the host OS to provide menu shortcuts, file associations and per user settings.
 
 |Version     | Operating System       |  Architecture        |  Download  | |
 |----------|----------|----------|------|----|
-| <p>binjr v2.15.0</p> | <p>**Linux** (glibc v2.5 or higher)</p>| <p>x84 64-bit</p> | <p>[<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_linux-amd64.tar.gz)</p> | <p>[Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_linux-amd64.tar.gz.asc)[^1]</p>  |
-| <p>binjr v2.15.0</p> | <p>**macOS** (10.10 or later)</p>| <p>x84 64-bit</p> |  <p>[<button ><img alt="" src="../../assets/images/download.svg"> .dmg</button>](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.dmg)</p> <p>[<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.tar.gz)</p> | <p>[Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.dmg.asc)[^1]</p> <p>[Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_mac-x86_64.tar.gz.asc)[^1]</p> |
-| <p>binjr v2.15.0</p> | <p>**Windows** (7 or later)</p>| <p>x84 64-bit</p> | <p>[<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.msi)</p> <p>[<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.zip)</p>  | <p>[Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.msi.asc)[^1]</p> <p>[Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.15.0/binjr-2.15.0_windows-amd64.zip.asc)[^1]</p> |
+| binjr v2.16.0 | **Debian** (9, 10), **Ubuntu** (18.04, 20.04)| x84 64-bit | [APT Repo](https://repos.binjr.eu/apt) |   |
+| binjr v2.16.0 | **RHEL** (7, 8), **Fedora**| x84 64-bit | [RPM Repo](https://repos.binjr.eu/rpm) |   |
+| binjr v2.16.0 | **macOS** (10.10 or later)| x84 64-bit |  [<button ><img alt="" src="../../assets/images/download.svg"> .dmg</button>](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.dmg) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.dmg.asc)[^1] |
+| binjr v2.16.0 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.msi) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.msi.asc)[^1] |
+
+## Portable bundles
+
+Portable bundles can be unpacked to and used from a detachable drive or a file share.
+
+|Version     | Operating System       |  Architecture        |  Download  | |
+|----------|----------|----------|------|----|
+| binjr v2.16.0 | **Linux** (glibc v2.5 or higher)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_linux-amd64.tar.gz)| [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_linux-amd64.tar.gz.asc)[^1]  |
+| binjr v2.16.0 | **macOS** (10.10 or later)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.tar.gz) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.tar.gz.asc)[^1] |
+| binjr v2.16.0 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.zip)  | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.zip.asc)[^1] |
 
 [^1]: [How to verify the integrity of the downloaded file?](/documentation/verify-signature/)
 
 !!! Warning "If you're having trouble launching binjr..."
     === "...on macOS"
-        **binjr** might not be recognized by Apple's notary service, so you may get a warning when trying to run it the 
+        **binjr** might not be recognized by the Apple notary service, so you may get a warning when trying to run it the 
         first time.
         To override it, locate binjr in the Finder on your Mac, control-click the app icon, then choose `Open` from the
         shortcut menu and click `Open` ([see more](https://support.apple.com/guide/mac-help/mh40616/mac)).
@@ -53,3 +66,4 @@ Complete release information can be found in the [change log](CHANGELOG.md).
         
     To ensure that your download has not been tempered with,
     [you should verify its OpenGPG signature](/documentation/verify-signature).
+           
