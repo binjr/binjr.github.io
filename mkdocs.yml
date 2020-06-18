@@ -40,6 +40,7 @@ theme:
   highlightjs: true
   hljs_languages:
     - java
+    - sh
 
 markdown_extensions:
   - toc:
