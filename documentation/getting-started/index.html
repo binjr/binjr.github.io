@@ -344,6 +344,26 @@
     Build from source
   </a>
   
+    <nav class="md-nav" aria-label="Build from source">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build" class="md-nav__link">
+    Build
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -589,6 +609,26 @@
     Build from source
   </a>
   
+    <nav class="md-nav" aria-label="Build from source">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build" class="md-nav__link">
+    Build
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -630,18 +670,40 @@ crafted to only include the required components and save disk space.
 They are less than 60 MB in size and there is one for each of the supported platform.</p>
 <h2 id="build-from-source">Build from source<a class="headerlink" href="#build-from-source" title="Permanent link">&para;</a></h2>
 <p>You can also build or run the application from the source code.</p>
-<p><strong>Prerequisites:</strong></p>
+<h3 id="prerequisites">Prerequisites:<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://git-scm.com/open">Git</a></li>
 <li><a href="http://openjdk.java.net/">OpenJDK 11 or later</a></li>
 </ul>
-<p><strong>(Optional):</strong></p>
+<div class="admonition info">
+<p class="admonition-title">Optional</p>
+<p>If you want to build native installer packages, you&rsquo;ll also need the following platform specific prerequisites: </p>
+<div class="tabbed-set" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Linux (.deb)</label><div class="tabbed-content">
 <ul>
-<li>(macOS): Xcode command line tools and a version of OpenJDK including <a href="https://openjdk.java.net/jeps/343">jpackage</a> 
-  (14 or later) are required to build the DMG image.</li>
-<li>(Windows): <a href="https://wixtoolset.org/">WiX 3.0 or later</a> is required to build the MSI installer.</li>
+<li>A version of OpenJDK that includes <a href="https://openjdk.java.net/jeps/343">jpackage</a> (14 or later)</li>
+<li>Debian package archive manipulation tool (dpkg-deb)</li>
 </ul>
-<p><strong>Build</strong></p>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Linux (.rpm)</label><div class="tabbed-content">
+<ul>
+<li>A version of OpenJDK that includes <a href="https://openjdk.java.net/jeps/343">jpackage</a> (14 or later)</li>
+<li>RPM Package Manager</li>
+</ul>
+</div>
+<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">macOS (.dmg)</label><div class="tabbed-content">
+<ul>
+<li>A version of OpenJDK that includes <a href="https://openjdk.java.net/jeps/343">jpackage</a> (14 or later)    </li>
+<li>Xcode command line tools.</li>
+</ul>
+</div>
+<input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Windows (.msi)</label><div class="tabbed-content">
+<ul>
+<li><a href="https://wixtoolset.org/">WiX 3.0 or later</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+<h3 id="build">Build<a class="headerlink" href="#build" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
 <p>Clone the <a href="https://github.com/binjr/binjr/">repo from Github</a>: 
@@ -653,12 +715,12 @@ They are less than 60 MB in size and there is one for each of the supported plat
 <ul>
 <li>
 <p>Build all the modules</p>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew build
 </code></pre></div>
 
 </div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat build
 </code></pre></div>
 
@@ -667,12 +729,12 @@ They are less than 60 MB in size and there is one for each of the supported plat
 </li>
 <li>
 <p>Build and start the application   </p>
-<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew run
 </code></pre></div>
 
 </div>
-<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat run
 </code></pre></div>
 
@@ -680,13 +742,13 @@ They are less than 60 MB in size and there is one for each of the supported plat
 </div>
 </li>
 <li>
-<p>Build an application bundle for the platform on which you run the build     </p>
-<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Linux / macOS</label><div class="tabbed-content">
+<p>Build all application bundles for the platform on which you run the build     </p>
+<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageDistribution  
 </code></pre></div>
 
 </div>
-<input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat clean packageDistribution  
 </code></pre></div>
 
@@ -694,8 +756,52 @@ They are less than 60 MB in size and there is one for each of the supported plat
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Please note that it is mandatory to run the <code>clean</code> task in between two executions of <code>packageDistribution</code> in
-the same environment.</p>
+<p>Make sure you run the <code>clean</code> task in between two executions of a <code>package&lt;...&gt;</code>
+task in the same environment.</p>
+</div>
+</li>
+<li>
+<p>Build a specific application bundle for the platform on which you run the build</p>
+<div class="tabbed-set" data-tabs="5:7"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Linux (.tar.gz)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>sh gradlew clean packageAsTar  
+</code></pre></div>
+
+</div>
+<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Linux (.deb)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>sh gradlew clean packageAsDeb  
+</code></pre></div>
+
+</div>
+<input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><label for="__tabbed_5_3">Linux (.rpm)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>sh gradlew clean packageAsRpm  
+</code></pre></div>
+
+</div>
+<input id="__tabbed_5_4" name="__tabbed_5" type="radio" /><label for="__tabbed_5_4">macOS (.tar.gz)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>sh gradlew clean packageAsTar  
+</code></pre></div>
+
+</div>
+<input id="__tabbed_5_5" name="__tabbed_5" type="radio" /><label for="__tabbed_5_5">macOS (.dmg)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>sh gradlew clean packageAsDmg  
+</code></pre></div>
+
+</div>
+<input id="__tabbed_5_6" name="__tabbed_5" type="radio" /><label for="__tabbed_5_6">Windows (.zip)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>gradlew.bat clean packageAsZip  
+</code></pre></div>
+
+</div>
+<input id="__tabbed_5_7" name="__tabbed_5" type="radio" /><label for="__tabbed_5_7">Windows (.msi)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>gradlew.bat clean packageAsMsi  
+</code></pre></div>
+
+</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please note that it is generally not possible to cross-build application bundles (e.g. build a bundle for
+macOS while running under Windows)  </p>
 </div>
 </li>
 </ul>
@@ -705,29 +811,29 @@ the same environment.</p>
 <p>You can also start <strong><em>binjr</em></strong> simply by running a single command line. Running binjr that way means that you don&rsquo;t
 need to worry about keeping your copy up to date: it will always start the latest version that was published over
 on Maven Central.</p>
-<div class="admonition note">
+<div class="admonition info">
 <p class="admonition-title">Note</p>
 <p>In order to run binjr that way, you need to have Apache Maven installed on your machine and your JAVA_HOME
 environment variable must point at a copy of a Java runtime version 11 or later.</p>
 </div>
-<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>mvn exec:java -f &lt;<span class="o">(</span>curl https://binjr.eu/run-binjr.pom<span class="o">)</span>
 </code></pre></div>
 
 </div>
-<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><label for="__tabbed_6_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>curl https://binjr.eu/run-binjr.pom <span class="p">&gt;</span> <span class="nv">%temp%</span>\run-binjr.pom <span class="p">&amp;</span> mvn exec:java -f <span class="nv">%temp%</span>\run-binjr.pom
 </code></pre></div>
 
 </div>
 </div>
 <p>You can also use the <code>binjr.version</code>property to start a specific version of binr:</p>
-<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Linux / macOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><label for="__tabbed_7_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>mvn exec:java -f &lt;<span class="o">(</span>curl https://binjr.eu/run-binjr.pom<span class="o">)</span> -Dbinjr.version<span class="o">=</span><span class="m">2</span>.14.0
 </code></pre></div>
 
 </div>
-<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Windows</label><div class="tabbed-content">
+<input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><label for="__tabbed_7_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>curl https://binjr.eu/run-binjr.pom <span class="p">&gt;</span> <span class="nv">%temp%</span>\run-binjr.pom <span class="p">&amp;</span> mvn exec:java -f <span class="nv">%temp%</span>\run-binjr.pom  -Dbinjr.version=2.14.0
 </code></pre></div>
 
