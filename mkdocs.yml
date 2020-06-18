@@ -1,7 +1,7 @@
 site_name: binjr
 site_description: binjr, a time series browser
 site_url: https://binjr.eu/
-copyright: Copyright © 2020 Frederic Thevenet
+copyright: Website by Frederic Thevenet, licensed under CC BY 4.0
 repo_url: https://github.com/binjr/binjr/
 edit_uri: ""
 
@@ -31,6 +31,7 @@ extra_css:
   - stylesheets/extra.css
 theme:
   name: material
+  custom_dir: overrides
   favicon: assets/images/favicon.png
   logo: assets/images/binjr_128.png
   icon:
