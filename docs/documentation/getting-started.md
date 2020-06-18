@@ -14,18 +14,31 @@ They are less than 60 MB in size and there is one for each of the supported plat
 
 You can also build or run the application from the source code.
 
-**Prerequisites:**
+### Prerequisites:
 
 * [Git](https://git-scm.com/open)
 * [OpenJDK 11 or later](http://openjdk.java.net/)
 
-**(Optional):**
+!!! Info "Optional"
+    If you want to build native installer packages, you'll also need the following platform specific prerequisites: 
+    
+    === "Linux (.deb)"
+        * A version of OpenJDK that includes [jpackage](https://openjdk.java.net/jeps/343) (14 or later)
+        * Debian package archive manipulation tool (dpkg-deb)
+    
+    === "Linux (.rpm)"
+        * A version of OpenJDK that includes [jpackage](https://openjdk.java.net/jeps/343) (14 or later)
+        * RPM Package Manager
+        
+    === "macOS (.dmg)"
+        * A version of OpenJDK that includes [jpackage](https://openjdk.java.net/jeps/343) (14 or later)    
+        * Xcode command line tools.
+    
+    === "Windows (.msi)"
+        * [WiX 3.0 or later](https://wixtoolset.org/).
 
-* (macOS): Xcode command line tools and a version of OpenJDK including [jpackage](https://openjdk.java.net/jeps/343) 
-  (14 or later) are required to build the DMG image.
-* (Windows): [WiX 3.0 or later](https://wixtoolset.org/) is required to build the MSI installer.
 
-**Build**
+### Build
 
 1. Clone the [repo from Github](https://github.com/binjr/binjr/): 
     ``` sh
@@ -56,24 +69,64 @@ You can also build or run the application from the source code.
         === "Windows"
             ``` bat
             gradlew.bat run
-            ```
-   
-    - Build an application bundle for the platform on which you run the build     
+            ```           
+
+    - Build all application bundles for the platform on which you run the build     
 
         === "Linux / macOS"
             ``` sh
             sh gradlew clean packageDistribution  
             ```
-          
+
         === "Windows"
             ``` bat
             gradlew.bat clean packageDistribution  
             ```
-                                  
-        !!! warning 
-            Please note that it is mandatory to run the `clean` task in between two executions of `packageDistribution` in
-            the same environment.
-
+                   
+        !!! Warning  
+            Make sure you run the `clean` task in between two executions of a `package<...>`
+            task in the same environment.
+            
+    - Build a specific application bundle for the platform on which you run the build
+    
+        === "Linux (.tar.gz)"
+            ``` sh
+            sh gradlew clean packageAsTar  
+            ```
+    
+        === "Linux (.deb)"
+            ``` sh
+            sh gradlew clean packageAsDeb  
+            ```
+    
+        === "Linux (.rpm)"
+            ``` sh
+            sh gradlew clean packageAsRpm  
+            ```
+    
+        === "macOS (.tar.gz)"
+            ``` sh
+            sh gradlew clean packageAsTar  
+            ```
+    
+        === "macOS (.dmg)"
+            ``` sh
+            sh gradlew clean packageAsDmg  
+            ```
+    
+        === "Windows (.zip)"
+            ``` bat
+            gradlew.bat clean packageAsZip  
+            ```
+    
+        === "Windows (.msi)"
+            ``` bat
+            gradlew.bat clean packageAsMsi  
+            ```
+          
+        !!! Warning
+            Please note that it is generally not possible to cross-build application bundles (e.g. build a bundle for
+            macOS while running under Windows)  
 
 ## Run from the command line
 
@@ -81,7 +134,7 @@ You can also start ***binjr*** simply by running a single command line. Running 
 need to worry about keeping your copy up to date: it will always start the latest version that was published over
 on Maven Central.
 
-!!! Note
+!!! Info "Note"
     In order to run binjr that way, you need to have Apache Maven installed on your machine and your JAVA_HOME
     environment variable must point at a copy of a Java runtime version 11 or later.
 
