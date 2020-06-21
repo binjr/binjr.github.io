@@ -40,7 +40,7 @@ Installable bundles integrates with the host OS to provide menu shortcuts, file 
 | binjr v2.16.0 | **macOS** (10.10 or later)| x84 64-bit |  [<button ><img alt="" src="../../assets/images/download.svg"> .dmg</button>](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.dmg) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_mac-x86_64.dmg.asc)[^1] |
 | binjr v2.16.0 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.msi) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.16.0/binjr-2.16.0_windows-amd64.msi.asc)[^1] |
 
-## Portable bundles
+## Portable Bundles
 
 Portable bundles can be unpacked to and used from a detachable drive or a file share.
 
