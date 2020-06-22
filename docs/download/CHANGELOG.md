@@ -1,4 +1,4 @@
-# Change Log
+# Change log
 
 ## [binjr v2.16.0](https://github.com/binjr/binjr/releases/tag/v2.16.0)
 Released on Wed, 10 Jun 2020

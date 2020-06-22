@@ -18,7 +18,7 @@ All workspace management features are access from the "Workspaces" entry in the 
 
 ![](/assets/images/workspaces_menu.png)
 
-## New workspace
+## New Workspace
 
 Select `New Workspace` from the menu (or press `Ctrl+N`) to create a new, blank workspace.
 

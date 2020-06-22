@@ -56,9 +56,9 @@ The `Preferences` tab allows you to change all of binjr's settings, including so
     Please proceed with caution when changing undocumented settings from the debug console, as it may affect the 
     stability and performance of the application.       
     
-## Common Issues   
+## Common issues   
  
-### SSL/TLS and Certificates
+### SSL/TLS and certificates
 
 If a certificate validation fails because a root CA certificate cannot be found in the certification path, you may need 
 to import it into the JVM's trusted CA store (of course, ___only do that if you trust that CA___) :

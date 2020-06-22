@@ -1,4 +1,4 @@
-# Supported Data Source
+# Supported data sources
 
 ***binjr*** can consume time series data provided by the following data sources:
 

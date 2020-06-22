@@ -51,14 +51,14 @@ The amount of time notifications popup should hover before being automatically d
 
 **Default**: `10 Seconds`
 
-### Snapshot Output Scale
+### Snapshot output scale
 
 The output scale factor to apply to snapshots.
 
 **Default**: `Auto (Same as screen)`
 
 ## Charts
-### Default Color Palette
+### Default color palette
 
 Select the default color palette to use for series whose sources do not specify it.
 
@@ -158,6 +158,6 @@ Check this option if you would like binjr to automatically check if an update av
 
 **Default**: `Checked`
 
-### Check for Updates
+### Check for updates
 
 Click on the button if you would like to check for updates now.
