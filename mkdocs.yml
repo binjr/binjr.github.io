@@ -18,7 +18,7 @@ nav:
         - documentation/user_guide/main.md
         - documentation/user_guide/sources.md
         - documentation/user_guide/worksheets.md
-        - documentation/user_guide/workspaces.mdmk
+        - documentation/user_guide/workspaces.md
         - documentation/user_guide/settings.md
     - documentation/troubleshooting.md
     - documentation/verify-signature.md
