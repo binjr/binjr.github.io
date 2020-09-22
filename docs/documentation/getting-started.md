@@ -128,7 +128,7 @@ You can also build or run the application from the source code.
             Please note that it is generally not possible to cross-build application bundles (e.g. build a bundle for
             macOS while running under Windows)  
 
-## Run from the command line
+## From the command line
 
 You can also start ***binjr*** simply by running a single command line. Running binjr that way means that you don't
 need to worry about keeping your copy up to date: it will always start the latest version that was published over
@@ -142,13 +142,13 @@ on Maven Central.
 === "Linux / macOS"
 
     ``` sh
-    mvn exec:java -f <(curl https://binjr.eu/run-binjr.pom)
+    mvn exec:java@java -f <(curl https://binjr.eu/run-binjr.pom)
     ```
 
 === "Windows"
 
     ``` bat
-    curl https://binjr.eu/run-binjr.pom > %temp%\run-binjr.pom & mvn exec:java -f %temp%\run-binjr.pom
+    curl https://binjr.eu/run-binjr.pom > %temp%\run-binjr.pom & mvn exec:java@java -f %temp%\run-binjr.pom
     ```
 
 You can also use the `binjr.version`property to start a specific version of binr:
@@ -156,13 +156,13 @@ You can also use the `binjr.version`property to start a specific version of binr
 === "Linux / macOS"
 
     ``` sh
-    mvn exec:java -f <(curl https://binjr.eu/run-binjr.pom) -Dbinjr.version=2.14.0
+    mvn exec:java@java -f <(curl https://binjr.eu/run-binjr.pom) -Dbinjr.version=2.17.1
     ```
 
 === "Windows"
 
     ``` bat
-    curl https://binjr.eu/run-binjr.pom > %temp%\run-binjr.pom & mvn exec:java -f %temp%\run-binjr.pom  -Dbinjr.version=2.14.0
+    curl https://binjr.eu/run-binjr.pom > %temp%\run-binjr.pom & mvn exec:java@java -f %temp%\run-binjr.pom  -Dbinjr.version=2.17.1
     ```
 
 !!! Tip
