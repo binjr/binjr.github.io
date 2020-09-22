@@ -51,17 +51,32 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
+                <version>1.6.0</version>
                 <executions>
+                     <execution>
+                        <id>exec</id>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                         <configuration>
+                            <executable>java</executable>
+                            <arguments>
+                                <argument>-classpath</argument>
+                                <classpath />
+                                <argument>eu.binjr.core.Bootstrap</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
                     <execution>
+                        <id>java</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
+                        <configuration>
+                            <mainClass>eu.binjr.core.Binjr</mainClass>
+                        </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <mainClass>eu.binjr.core.Bootstrap</mainClass>
-                </configuration>
             </plugin>
         </plugins>
     </build>
