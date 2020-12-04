@@ -10,7 +10,7 @@
 
 You can access the "Settings" panel from the menu bar.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/settings_menu.mp4" type="video/mp4"/></video>
  
 ## Appearance & Behavior
@@ -18,7 +18,7 @@ You can access the "Settings" panel from the menu bar.
 
 You can select binjr's user interface theme from this list. 
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/settings_ui_theme.mp4" type="video/mp4"/></video>
     
 **Default**: `Light`
@@ -29,7 +29,7 @@ Check this option if you want the vertical crosshair to span over all stacked ch
 
 Uncheck it if you prefer it to only show over the focused chart.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/settings_span_crosshair.mp4" type="video/mp4"/></video>
     
 !!! Info "Note"

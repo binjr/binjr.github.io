@@ -24,13 +24,13 @@ It is composed of the following areas:
 To add a worksheet to the current workspace, use the menu bar to
 navigate to Worksheet and select New Worksheet (or press `Ctrl+W`):
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/add_worksheet_menu.mp4" type="video/mp4"/></video>
 
 Similarly to sources, clicking on the background chart icon on an empty
 pane will also add a new worksheet.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/add_worksheet_icon.mp4" type="video/mp4"/></video>
 
 ## Adding time series
@@ -42,7 +42,7 @@ worksheet first.
 
 Drag the selected series onto the chart area in order to plot their data for the current time range of the worksheet
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/drop_series_existing_chart.mp4" type="video/mp4"/></video>
 
 ###To a new charts
@@ -50,7 +50,7 @@ Drag the selected series onto the chart area in order to plot their data for the
 If you drop series from the tree onto the *hilited area below the other charts*, a new chart will be added the
 worksheet.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/drop_series_new_chart.mp4" type="video/mp4"/></video>
     
 Charts created this way will automatically have theirs name, unit and chart type set according to the corresponding 
@@ -59,7 +59,7 @@ values in the source (if the source type provides that information).
 Furthermore, if you drop more than one "sub-tree" (nodes with leaves) onto this area, an equal amount of new charts will
  be created, each populated with its own leaves 
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/drop_series_multiple_charts.mp4" type="video/mp4"/></video>
 
 If you want to plot leaves from different hierarchical nodes onto the same chart, then you'll have to first create the 
@@ -70,24 +70,22 @@ chart and explicitly drop the selected series onto its area.
     All the actions described above can also be accomplished via a context menu instead of drag & drop; simply 
     right-clik onto the selected
     series on the tree view and choose the action from the menu.
-    
-    ??? Example "Show me"
-        <video controls  muted src="/assets/videos/menu_series_existing_chart.mp4" type="video/mp4"/></video>
+
+    <video controls  muted src="/assets/videos/menu_series_existing_chart.mp4" type="video/mp4"/></video>
 
 ### To a new worksheet
 
 If you drop series from the tree onto the *hilited area above the worksheet*, a new tab is created and series are 
 added to it.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/drop_series_new_worksheet.mp4" type="video/mp4"/></video>
     
 !!! Tip
     If you drop a set of series directly onto the center icon on an empty worksheet pane, binjr will create a new 
     one and add the new charts.
-    
-    ??? Example "Show me"
-        <video controls  muted src="/assets/videos/drop_series_empty_worksheet.mp4" type="video/mp4"/></video>
+
+    <video controls  muted src="/assets/videos/drop_series_empty_worksheet.mp4" type="video/mp4"/></video>
     
 
 ## Editing the view
@@ -98,7 +96,7 @@ tailor the view to your own needs and preferences.
 ### Renaming a worksheet
 You can change the name of a worksheet at any time by double-clicking on its tab.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/rename_worksheet.mp4" type="video/mp4"/></video>
     
 ### Changing the layout
@@ -107,7 +105,7 @@ By default, multiple charts on a single worksheet are displayed one above the ot
 aligned perfectly.  
 You can change that default "stacked" layout to an "overlay" layout using the icon to the far right of the navigation bar.  
  
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_change_layout.mp4" type="video/mp4"/></video>
     
 !!! Info "Note"
@@ -121,7 +119,7 @@ You can change the title, unit name and prefix in the table list below the chart
 is available. To bring up the panel if it isn't visible, click on the `cog` icon next to a chart's entry in the table 
 or at the top of its Y axis.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_edit_chart_metadata.mp4" type="video/mp4"/></video>
     
 !!! Info "Note"
@@ -140,7 +138,7 @@ or at the top of its Y axis.
 You can change the visual representation of the current chart from the `Chart Properties`: pick-up a chart type in the 
 drop down menu and adjust the lines weight and area's opacity where applicable.  
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_change_chart_type.mp4" type="video/mp4"/></video>
 
 !!! Warning "Note"
@@ -153,7 +151,7 @@ drop down menu and adjust the lines weight and area's opacity where applicable.
 Click on the colored square next to a series' legend in the bottom table to invoke a color picker and choose a new color
 for it.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_change_series_color.mp4" type="video/mp4"/></video>
 
 ### Changing series order
@@ -161,7 +159,7 @@ for it.
 To change the order in which a series are plotted onto the chart, drag it from the table view and drop it to the 
 desired position.
  
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_change_series_order.mp4" type="video/mp4"/></video>
     
 !!! Info "Note"
@@ -174,7 +172,7 @@ desired position.
 
 To remove series from a chart, simply select the desired series and press the `Delete` key.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_remove_series.mp4" type="video/mp4"/></video>
     
 !!! Tip
@@ -188,7 +186,7 @@ entirely) to move this worksheet into a new, independent window.
 
 Drop a detached tab *inside the worksheet area* of the main window to reattach it.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_detach_tabs.mp4" type="video/mp4"/></video>
 
 
@@ -197,7 +195,7 @@ Drop a detached tab *inside the worksheet area* of the main window to reattach i
 All tab actions can also be access via a context menu, invoked by right-clicking on a tab handle, or via the "Worksheets"
 entry in the menu bar.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_context_menu.mp4" type="video/mp4"/></video>
 
 ## Navigating the chart
@@ -213,7 +211,7 @@ Use the time range picker to select the worksheet current time range.
 Select the start and end dates for the time range using the calendar widget, or choose a preset time range (Last 24 Hours, 
 Last 90 Days, Today, etc...)
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_timerange_picker.mp4" type="video/mp4"/></video>
 
 ### Scaling the Y axis
@@ -224,7 +222,7 @@ By default, the Y axis for all charts is set to automatically adapt to the minim
 You can however override this behaviour and fix both minimum and maximum display boundaries for the Y axis, by unchecking
 the `Auto Scale Y Axis` option in the `Chart Properies` panel and set the desired values in the fields beneath it. 
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_scale_y_axis.mp4" type="video/mp4"/></video>
 
 ### Zooming
@@ -236,7 +234,7 @@ clicking on a chart and dragging the selection zone over the area you wish to zo
     You can also quickly toggle the horizontally and vertically crosshair marker by holding respectively the `Ctrl` and 
     `Shift` keys.
     
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_chart_zoom.mp4" type="video/mp4"/></video>
     
 !!! Info "Note"
@@ -251,7 +249,7 @@ clicking on a chart and dragging the selection zone over the area you wish to zo
 All changes to a worksheet's time line are automatically remembered by the application, and you can navigate that 
 history using the "backward" and "forward" arrows to the left of the navigation bar.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_navigation_history.mp4" type="video/mp4"/></video>
 
 ### Linking worksheets timelines
@@ -265,7 +263,7 @@ It is sometime useful to navigate multiple worksheets conjointly (especially if 
 
 All changes to the selected time range in a worksheet will then by applied to all linked worksheets as well.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worksheet_link_timelines.mp4" type="video/mp4"/></video>
     
 !!! Warning "Note"
@@ -286,7 +284,7 @@ save fot the menu bar, and a condensed legend is display beneath each chart.
 You can switch between "edit" and "presentation" modes at any time, by pressing the "board/pencil" icon on the 
 navigation bar, or by pressing `Ctrl+M`.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/worsheet_switch_modes.mp4" type="video/mp4"/></video>
     
 !!! Tip
@@ -303,6 +301,6 @@ scrolling is required to view it within the application.
 
 The worksheet's name and time range is also printed at the top of the snapshot. 
 
-??? Example "Show me"
+!!! Example "Example"
     ![snapshot](/assets/images/worksheet_snapshot.png) 
 

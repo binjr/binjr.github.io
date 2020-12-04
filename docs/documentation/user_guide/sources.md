@@ -20,18 +20,18 @@ shows the sources currently connected.
 To add a new source to a workspace, use the menu bar to navigate to
 Sources &gt; New Source and select the type of source to add.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls muted src="/assets/videos/add_source_menu.mp4" type="video/mp4"/></video>
 
 Alternatively, if there are no sources in the current workspace yet, you
 can click on the icon on the left pane.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/add_source_icon.mp4" type="video/mp4"/></video>
 
 you can add any number of sources, of any supported type to a single workspace.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/add_many_sources.mp4" type="video/mp4"/></video>
 
 
@@ -45,12 +45,12 @@ with a hierarchy depending on the type of source.
 
 Use the "filter" icon to filter out the series whose path matches the entered text.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/filter_tree_source.mp4" type="video/mp4"/></video>
 
 Use the "cog" icon to change the name of of given source tab.
 
-??? Example "Show me"
+!!! Example "Example"
     <video controls  muted src="/assets/videos/rename_source.mp4" type="video/mp4"/></video>
     
     
