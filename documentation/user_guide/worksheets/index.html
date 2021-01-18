@@ -1,7 +1,4 @@
 
-
-
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -12,11 +9,12 @@
         <meta name="description" content="binjr, a time series browser">
       
       
+      
+      
         <link rel="canonical" href="https://binjr.eu/documentation/user_guide/worksheets/">
       
-      
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
     
     
       
@@ -24,14 +22,18 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.077507d7.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.15aa0b43.min.css">
       
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.75751829.min.css">
+        
       
     
     
     
       
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
       
@@ -47,7 +49,13 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -65,7 +73,9 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="https://binjr.eu/" title="binjr" class="md-header-nav__button md-logo" aria-label="binjr">
       
@@ -76,18 +86,20 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
     </label>
     <div class="md-header-nav__title" data-md-component="header-title">
-      
-        <div class="md-header-nav__ellipsis">
-          <span class="md-header-nav__topic md-ellipsis">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
             binjr
           </span>
-          <span class="md-header-nav__topic md-ellipsis">
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
             
               Worksheet pane
             
           </span>
         </div>
-      
+      </div>
     </div>
     
       <label class="md-header-nav__button md-icon" for="__search">
@@ -98,7 +110,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -139,8 +151,6 @@
     
     <div class="md-container" data-md-component="container">
       
-        
-      
       
         
       
@@ -148,10 +158,16 @@
         <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="https://binjr.eu/" title="binjr" class="md-nav__button md-logo" aria-label="binjr">
       
@@ -181,11 +197,15 @@
       
 
 
-  <li class="md-nav__item">
-    <a href="../../.." title="Home" class="md-nav__link">
-      Home
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
 
     
       
@@ -193,181 +213,204 @@
       
 
 
-  <li class="md-nav__item md-nav__item--nested">
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
-    
-    <label class="md-nav__link" for="nav-2">
-      About
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="About" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
-        <span class="md-nav__icon md-icon"></span>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
         About
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../about/what_is_binjr/" title="What is binjr?" class="md-nav__link">
-      What is binjr?
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../about/features/" title="Features" class="md-nav__link">
-      Features
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../about/supported_data_sources/" title="Supported data sources" class="md-nav__link">
-      Supported data sources
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../about/notice/" title="License" class="md-nav__link">
-      License
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/what_is_binjr/" class="md-nav__link">
+        What is binjr?
+      </a>
+    </li>
   
 
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/features/" class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
 
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/supported_data_sources/" class="md-nav__link">
+        Supported data sources
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/notice/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../beta/beta/" class="md-nav__link">
+        beta
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      
+      
+      
+
+
+  
+  
     
-    <label class="md-nav__link" for="nav-3">
-      Documentation
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Documentation" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        <span class="md-nav__icon md-icon"></span>
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      
+      <label class="md-nav__link" for="nav-3">
         Documentation
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Documentation" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../getting-started/" title="Getting started" class="md-nav__link">
-      Getting started
-    </a>
-  </li>
-
-        
-          
-          
-          
-
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/" class="md-nav__link">
+        Getting started
+      </a>
+    </li>
   
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+          
+            
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+  
+  
     
-    <label class="md-nav__link" for="nav-3-2">
-      User guide
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="User guide" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-2">
-        <span class="md-nav__icon md-icon"></span>
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+      
+      <label class="md-nav__link" for="nav-3-2">
         User guide
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../main/" title="Landing screen" class="md-nav__link">
-      Landing screen
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../sources/" title="Source pane" class="md-nav__link">
-      Source pane
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Worksheet pane
         <span class="md-nav__icon md-icon"></span>
       </label>
+      <nav class="md-nav" aria-label="User guide" data-md-level="2">
+        <label class="md-nav__title" for="nav-3-2">
+          <span class="md-nav__icon md-icon"></span>
+          User guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../main/" class="md-nav__link">
+        Landing screen
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/" class="md-nav__link">
+        Source pane
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
-    <a href="./" title="Worksheet pane" class="md-nav__link md-nav__link--active">
-      Worksheet pane
-    </a>
-    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
       
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Worksheet pane
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Worksheet pane
+      </a>
+      
+        
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -562,66 +605,69 @@
     </ul>
   
 </nav>
-    
-  </li>
+      
+    </li>
+  
 
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workspaces/" class="md-nav__link">
+        Managing workspaces
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        Settings
+      </a>
+    </li>
+  
+
           
+        </ul>
+      </nav>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="../workspaces/" title="Managing workspaces" class="md-nav__link">
-      Managing workspaces
-    </a>
-  </li>
-
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verify-signature/" class="md-nav__link">
+        Verifying downloads
+      </a>
+    </li>
+  
+
           
-
-
-  <li class="md-nav__item">
-    <a href="../settings/" title="Settings" class="md-nav__link">
-      Settings
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../troubleshooting/" title="Troubleshooting" class="md-nav__link">
-      Troubleshooting
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../verify-signature/" title="Verifying downloads" class="md-nav__link">
-      Verifying downloads
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
+        </ul>
+      </nav>
+    </li>
+  
 
     
       
@@ -629,61 +675,67 @@
       
 
 
-  <li class="md-nav__item md-nav__item--nested">
+  
+  
+  
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
-    
-    <label class="md-nav__link" for="nav-4">
-      Download
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Download" data-md-level="1">
-      <label class="md-nav__title" for="nav-4">
-        <span class="md-nav__icon md-icon"></span>
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
         Download
+        <span class="md-nav__icon md-icon"></span>
       </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
+      <nav class="md-nav" aria-label="Download" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          Download
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../download/latest_release/" class="md-nav__link">
+        Application bundles
+      </a>
+    </li>
+  
+
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../download/plugins/" class="md-nav__link">
+        Plugins
+      </a>
+    </li>
+  
 
-
-  <li class="md-nav__item">
-    <a href="../../../download/latest_release/" title="Application bundles" class="md-nav__link">
-      Application bundles
-    </a>
-  </li>
-
-        
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../download/CHANGELOG/" class="md-nav__link">
+        Change log
+      </a>
+    </li>
+  
+
           
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../download/plugins/" title="Plugins" class="md-nav__link">
-      Plugins
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../download/CHANGELOG/" title="Change log" class="md-nav__link">
-      Change log
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
+        </ul>
+      </nav>
+    </li>
+  
 
     
   </ul>
@@ -693,7 +745,8 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -901,9 +954,6 @@
               
                 
                 
-                  
-                
-                
                 <h1 id="worksheet-pane">Worksheet pane<a class="headerlink" href="#worksheet-pane" title="Permanent link">&para;</a></h1>
 <style>
     video {
@@ -925,30 +975,40 @@
 <h2 id="adding-a-worksheet">Adding a worksheet<a class="headerlink" href="#adding-a-worksheet" title="Permanent link">&para;</a></h2>
 <p>To add a worksheet to the current workspace, use the menu bar to
 navigate to Worksheet and select New Worksheet (or press <code>Ctrl+W</code>):</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/add_worksheet_menu.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/add_worksheet_menu.mp4" type="video/mp4"/></video></p>
+</div>
 <p>Similarly to sources, clicking on the background chart icon on an empty
 pane will also add a new worksheet.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/add_worksheet_icon.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/add_worksheet_icon.mp4" type="video/mp4"/></video></p>
+</div>
 <h2 id="adding-time-series">Adding time series<a class="headerlink" href="#adding-time-series" title="Permanent link">&para;</a></h2>
 <p>In order to view and navigate the time series exposed by a connected source, you need to add it to a chart on a 
 worksheet first.</p>
 <h3 id="to-an-existing-chart">To an existing chart<a class="headerlink" href="#to-an-existing-chart" title="Permanent link">&para;</a></h3>
 <p>Drag the selected series onto the chart area in order to plot their data for the current time range of the worksheet</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/drop_series_existing_chart.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/drop_series_existing_chart.mp4" type="video/mp4"/></video></p>
+</div>
 <h3 id="to-a-new-charts">To a new charts<a class="headerlink" href="#to-a-new-charts" title="Permanent link">&para;</a></h3>
 <p>If you drop series from the tree onto the <em>hilited area below the other charts</em>, a new chart will be added the
 worksheet.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/drop_series_new_chart.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/drop_series_new_chart.mp4" type="video/mp4"/></video></p>
+</div>
 <p>Charts created this way will automatically have theirs name, unit and chart type set according to the corresponding 
 values in the source (if the source type provides that information).</p>
 <p>Furthermore, if you drop more than one &ldquo;sub-tree&rdquo; (nodes with leaves) onto this area, an equal amount of new charts will
  be created, each populated with its own leaves </p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/drop_series_multiple_charts.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/drop_series_multiple_charts.mp4" type="video/mp4"/></video></p>
+</div>
 <p>If you want to plot leaves from different hierarchical nodes onto the same chart, then you&rsquo;ll have to first create the 
 chart and explicitly drop the selected series onto its area.</p>
 <div class="admonition tip">
@@ -956,34 +1016,38 @@ chart and explicitly drop the selected series onto its area.</p>
 <p>All the actions described above can also be accomplished via a context menu instead of drag &amp; drop; simply 
 right-clik onto the selected
 series on the tree view and choose the action from the menu.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/menu_series_existing_chart.mp4" type="video/mp4"/></video></p>
-</details>
+<p><video controls  muted src="/assets/videos/menu_series_existing_chart.mp4" type="video/mp4"/></video></p>
 </div>
 <h3 id="to-a-new-worksheet">To a new worksheet<a class="headerlink" href="#to-a-new-worksheet" title="Permanent link">&para;</a></h3>
 <p>If you drop series from the tree onto the <em>hilited area above the worksheet</em>, a new tab is created and series are 
 added to it.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/drop_series_new_worksheet.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/drop_series_new_worksheet.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>If you drop a set of series directly onto the center icon on an empty worksheet pane, binjr will create a new 
 one and add the new charts.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/drop_series_empty_worksheet.mp4" type="video/mp4"/></video></p>
-</details>
+<p><video controls  muted src="/assets/videos/drop_series_empty_worksheet.mp4" type="video/mp4"/></video></p>
 </div>
 <h2 id="editing-the-view">Editing the view<a class="headerlink" href="#editing-the-view" title="Permanent link">&para;</a></h2>
 <p>Once you&rsquo;ve populated a worksheet with series you&rsquo;re interested in, you can edit and change many of its aspects to 
 tailor the view to your own needs and preferences. </p>
 <h3 id="renaming-a-worksheet">Renaming a worksheet<a class="headerlink" href="#renaming-a-worksheet" title="Permanent link">&para;</a></h3>
 <p>You can change the name of a worksheet at any time by double-clicking on its tab.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/rename_worksheet.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/rename_worksheet.mp4" type="video/mp4"/></video></p>
+</div>
 <h3 id="changing-the-layout">Changing the layout<a class="headerlink" href="#changing-the-layout" title="Permanent link">&para;</a></h3>
 <p>By default, multiple charts on a single worksheet are displayed one above the other, with their timeline (X axis) 
 aligned perfectly.<br />
 You can change that default &ldquo;stacked&rdquo; layout to an &ldquo;overlay&rdquo; layout using the icon to the far right of the navigation bar.  </p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_change_layout.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_change_layout.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition info">
 <p class="admonition-title">Note</p>
 <p>When viewed with an overlay layout, all series are plotted on the same chart (sharing a single X axis) but with 
@@ -994,8 +1058,10 @@ unit and scale on the Y axis.</p>
 <p>You can change the title, unit name and prefix in the table list below the charts when the <code>Chart Properties</code> panel 
 is available. To bring up the panel if it isn&rsquo;t visible, click on the <code>cog</code> icon next to a chart&rsquo;s entry in the table 
 or at the top of its Y axis.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_edit_chart_metadata.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_edit_chart_metadata.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition info">
 <p class="admonition-title">Note</p>
 <p>Changing a chart&rsquo;s unit prefix affects the way the scale of the Y axis 
@@ -1012,8 +1078,10 @@ automatically adapts its label:</p>
 </div>
 <p>You can change the visual representation of the current chart from the <code>Chart Properties</code>: pick-up a chart type in the 
 drop down menu and adjust the lines weight and area&rsquo;s opacity where applicable.  </p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_change_chart_type.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_change_chart_type.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Note</p>
 <p>Changing the chart&rsquo;s type affect <em>all</em> series in the chart: it is not possible to have some series plotted as areas
@@ -1023,13 +1091,17 @@ An approaching result can however be achieved <a href="#changing-the-layout">usi
 <h3 id="changing-series-color">Changing series color<a class="headerlink" href="#changing-series-color" title="Permanent link">&para;</a></h3>
 <p>Click on the colored square next to a series&rsquo; legend in the bottom table to invoke a color picker and choose a new color
 for it.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_change_series_color.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_change_series_color.mp4" type="video/mp4"/></video></p>
+</div>
 <h3 id="changing-series-order">Changing series order<a class="headerlink" href="#changing-series-order" title="Permanent link">&para;</a></h3>
 <p>To change the order in which a series are plotted onto the chart, drag it from the table view and drop it to the 
 desired position.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_change_series_order.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_change_series_order.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition info">
 <p class="admonition-title">Note</p>
 <p>Series order is important in area charts and stacked area charts as it affects the aspect of the graph.</p>
@@ -1040,8 +1112,10 @@ desired position.</p>
 </div>
 <h3 id="removing-series-from-a-chart">Removing series from a chart<a class="headerlink" href="#removing-series-from-a-chart" title="Permanent link">&para;</a></h3>
 <p>To remove series from a chart, simply select the desired series and press the <code>Delete</code> key.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_remove_series.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_remove_series.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>You can also hide series from a chart without removing them by unchecking the box next to their title in the bottom
@@ -1051,13 +1125,17 @@ table. </p>
 <p>Drag the tab handle of a worksheet and drop it <em>outside of the worksheet area</em> (or out of the binjr window 
 entirely) to move this worksheet into a new, independent window.</p>
 <p>Drop a detached tab <em>inside the worksheet area</em> of the main window to reattach it.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_detach_tabs.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_detach_tabs.mp4" type="video/mp4"/></video></p>
+</div>
 <h3 id="context-menu">Context menu<a class="headerlink" href="#context-menu" title="Permanent link">&para;</a></h3>
 <p>All tab actions can also be access via a context menu, invoked by right-clicking on a tab handle, or via the &ldquo;Worksheets&rdquo;
 entry in the menu bar.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_context_menu.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_context_menu.mp4" type="video/mp4"/></video></p>
+</div>
 <h2 id="navigating-the-chart">Navigating the chart<a class="headerlink" href="#navigating-the-chart" title="Permanent link">&para;</a></h2>
 <h3 id="selecting-the-time-range">Selecting the time range<a class="headerlink" href="#selecting-the-time-range" title="Permanent link">&para;</a></h3>
 <p>Use the time range picker to select the worksheet current time range. </p>
@@ -1068,15 +1146,19 @@ entry in the menu bar.</p>
 </div>
 <p>Select the start and end dates for the time range using the calendar widget, or choose a preset time range (Last 24 Hours, 
 Last 90 Days, Today, etc&hellip;)</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_timerange_picker.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_timerange_picker.mp4" type="video/mp4"/></video></p>
+</div>
 <h3 id="scaling-the-y-axis">Scaling the Y axis<a class="headerlink" href="#scaling-the-y-axis" title="Permanent link">&para;</a></h3>
 <p>By default, the Y axis for all charts is set to automatically adapt to the minimum and maximum values in the current
  time range.</p>
 <p>You can however override this behaviour and fix both minimum and maximum display boundaries for the Y axis, by unchecking
 the <code>Auto Scale Y Axis</code> option in the <code>Chart Properies</code> panel and set the desired values in the fields beneath it. </p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_scale_y_axis.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_scale_y_axis.mp4" type="video/mp4"/></video></p>
+</div>
 <h3 id="zooming">Zooming<a class="headerlink" href="#zooming" title="Permanent link">&para;</a></h3>
 <p>Toggle the horizontal or vertical crosshair axis using the icons on the left of the navigation bar, and zoom in by 
 clicking on a chart and dragging the selection zone over the area you wish to zoom. </p>
@@ -1085,8 +1167,10 @@ clicking on a chart and dragging the selection zone over the area you wish to zo
 <p>You can also quickly toggle the horizontally and vertically crosshair marker by holding respectively the <code>Ctrl</code> and 
 <code>Shift</code> keys.</p>
 </div>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_chart_zoom.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_chart_zoom.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition info">
 <p class="admonition-title">Note</p>
 <p>In the <code>stacked</code> layout, zooming on the horizontal axis (i.e. the time line) applies to all charts one the worksheet, 
@@ -1096,8 +1180,10 @@ while vertical zoom only applies to the selected chart.  </p>
 <h3 id="navigation-history">Navigation history<a class="headerlink" href="#navigation-history" title="Permanent link">&para;</a></h3>
 <p>All changes to a worksheet&rsquo;s time line are automatically remembered by the application, and you can navigate that 
 history using the &ldquo;backward&rdquo; and &ldquo;forward&rdquo; arrows to the left of the navigation bar.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_navigation_history.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_navigation_history.mp4" type="video/mp4"/></video></p>
+</div>
 <h3 id="linking-worksheets-timelines">Linking worksheets timelines<a class="headerlink" href="#linking-worksheets-timelines" title="Permanent link">&para;</a></h3>
 <p>All charts in a worksheet share a single time line, but worksheets are independent from one another; changing the 
 current time on a worksheet does not affect the other.</p>
@@ -1105,8 +1191,10 @@ current time on a worksheet does not affect the other.</p>
 <a href="#detaching-tabs">separate windows</a>), however, in which case you can link two or more worksheets by clicking on the 
 &ldquo;chain&rdquo; icon on a worksheet tab.</p>
 <p>All changes to the selected time range in a worksheet will then by applied to all linked worksheets as well.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worksheet_link_timelines.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worksheet_link_timelines.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Note</p>
 <p>You can link all the worksheets of a runtime instance of binjr, even the ones in separate windows, but you cannot 
@@ -1121,8 +1209,10 @@ to an audience.</p>
 save fot the menu bar, and a condensed legend is display beneath each chart.</p>
 <p>You can switch between &ldquo;edit&rdquo; and &ldquo;presentation&rdquo; modes at any time, by pressing the &ldquo;board/pencil&rdquo; icon on the 
 navigation bar, or by pressing <code>Ctrl+M</code>.</p>
-<details class="example"><summary>Show me</summary><p><video controls  muted src="/assets/videos/worsheet_switch_modes.mp4" type="video/mp4"/></video></p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><video controls  muted src="/assets/videos/worsheet_switch_modes.mp4" type="video/mp4"/></video></p>
+</div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>While you cannot add new series to charts when in &ldquo;presentation&rdquo; mode, all the navigation features (time range 
@@ -1134,8 +1224,10 @@ picker, zoom, navigation history) are still available.</p>
 pane, chart properties and condensed chart legends), and contain the entirety of the worksheet&rsquo;s chart area even if 
 scrolling is required to view it within the application.</p>
 <p>The worksheet&rsquo;s name and time range is also printed at the top of the snapshot. </p>
-<details class="example"><summary>Show me</summary><p><img alt="snapshot" src="/assets/images/worksheet_snapshot.png" /> </p>
-</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><img alt="snapshot" src="/assets/images/worksheet_snapshot.png" /> </p>
+</div>
                 
               
               
@@ -1271,15 +1363,15 @@ scrolling is required to view it within the application.</p>
       
     </div>
     
-      <script src="../../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
           base: "../../..",
           features: [],
           search: Object.assign({
-            worker: "../../../assets/javascripts/worker/search.5eca75d3.min.js"
+            worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
