@@ -48,7 +48,7 @@ setup nor maintenance to speak of.
 Please give it a try and let us know what you think; what's good and what's not? What's missing? What's broken? 
 What could be improved?
 
-You can download the latest beta version from the project's [github release page](https:/github.com/binjr/binjr/releases)
+You can download the latest beta version from the project's [github release page](https://github.com/binjr/binjr/releases)
 and share your thoughts in the [dedicated discussion thread](https://github.com/binjr/binjr/discussions/107).   
 
 You'll find the (Work-In-Progress) documentation for the new features [here](Using-binjr-to-view-logs.md).
