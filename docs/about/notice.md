@@ -69,7 +69,7 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 
 # Website
 
-The content on this website, authored by Frederic Thevenet, is licensed under a 
+The content on this website is licensed under a 
 [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 This website uses material from several third party open source software projects, listed below:

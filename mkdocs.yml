@@ -1,4 +1,4 @@
-site_name: binjr
+site_name: ""
 site_description: binjr, a time series browser
 site_url: https://binjr.eu/
 copyright: Website by Frederic Thevenet, licensed under CC BY 4.0
@@ -6,14 +6,13 @@ repo_url: https://github.com/binjr/binjr/
 edit_uri: ""
 
 nav:
-  - Home: index.html
   - About:
     - about/what_is_binjr.md
     - about/features.md
     - about/supported_data_sources.md
     - about/notice.md
     - Beta: beta/beta.md
-  - Documentation:
+  - Docs:
     - documentation/getting-started.md
     - "User guide":
         - documentation/user_guide/main.md
@@ -34,9 +33,13 @@ theme:
   name: material
   custom_dir: overrides
   favicon: assets/images/favicon.png
-  logo: assets/images/binjr_128.png
+  logo: assets/images/binjr_logo.png
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.sections
+#    - navigation.tabs
+
 
   highlightjs: true
   hljs_languages:
