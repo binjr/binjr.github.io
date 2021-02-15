@@ -45,7 +45,7 @@ Drag the selected series onto the chart area in order to plot their data for the
 !!! Example "Example"
     <video controls  muted src="/assets/videos/drop_series_existing_chart.mp4" type="video/mp4"/></video>
 
-###To a new charts
+### To a new chart
 
 If you drop series from the tree onto the *hilited area below the other charts*, a new chart will be added the
 worksheet.
