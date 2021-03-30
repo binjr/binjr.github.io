@@ -2,9 +2,9 @@
 
 These bundles contain all dependencies and runtime components needed to run binjr.   
 They also include support for the following data sources: 
-[JRDS](https://github.com/fbacchella/jrds), [Netdata](https://www.netdata.cloud), RDD Files and CSV files.
+[JRDS](https://github.com/fbacchella/jrds), [Netdata](https://www.netdata.cloud), RRD Files and CSV files.
 
-The latest available version is 2.17.1, released on Wed, 29 Jul 2020.  
+The latest available version is 3.0.0, released on Tue, 30 Mar 2021.  
 
 Complete release information can be found in the [change log](CHANGELOG.md). 
 
@@ -31,14 +31,14 @@ Complete release information can be found in the [change log](CHANGELOG.md).
 
 ## Installable bundles
 
-Installable bundles integrates with the host OS to provide menu shortcuts, file associations and per user settings.
+Installable bundles integrate with the host OS to provide menu shortcuts, file associations and per user settings.
 
 |Version     | Operating System       |  Architecture        |  Download  | |
 |----------|----------|----------|------|----|
-| binjr v2.17.1 | **Debian** (9, 10), **Ubuntu** (18.04, 20.04)| x84 64-bit | [APT Repo](https://repos.binjr.eu/apt) |   |
-| binjr v2.17.1 | **RHEL** (7, 8), **Fedora**| x84 64-bit | [RPM Repo](https://repos.binjr.eu/rpm) |   |
-| binjr v2.17.1 | **macOS** (10.10 or later)| x84 64-bit |  [<button ><img alt="" src="../../assets/images/download.svg"> .dmg</button>](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_mac-x86_64.dmg) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_mac-x86_64.dmg.asc)[^1] |
-| binjr v2.17.1 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_windows-amd64.msi) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_windows-amd64.msi.asc)[^1] |
+| binjr v3.0.0 | **Debian** (9, 10), **Ubuntu** (18.04, 20.04)| x84 64-bit | [APT Repo](https://repos.binjr.eu/apt) |   |
+| binjr v3.0.0 | **RHEL** (7, 8), **Fedora**| x84 64-bit | [RPM Repo](https://repos.binjr.eu/rpm) |   |
+| binjr v3.0.0 | **macOS** (10.10 or later)| x84 64-bit |  [<button ><img alt="" src="../../assets/images/download.svg"> .dmg</button>](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_mac-x86_64.dmg) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_mac-x86_64.dmg.asc)[^1] |
+| binjr v3.0.0 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_windows-amd64.msi) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_windows-amd64.msi.asc)[^1] |
 
 ## Portable bundles
 
@@ -46,9 +46,9 @@ Portable bundles can be unpacked to and used from a detachable drive or a file s
 
 |Version     | Operating System       |  Architecture        |  Download  | |
 |----------|----------|----------|------|----|
-| binjr v2.17.1 | **Linux** (glibc v2.5 or higher)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_linux-amd64.tar.gz)| [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_linux-amd64.tar.gz.asc)[^1]  |
-| binjr v2.17.1 | **macOS** (10.10 or later)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_mac-x86_64.tar.gz) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_mac-x86_64.tar.gz.asc)[^1] |
-| binjr v2.17.1 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_windows-amd64.zip)  | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v2.17.1/binjr-2.17.1_windows-amd64.zip.asc)[^1] |
+| binjr v3.0.0 | **Linux** (glibc v2.5 or higher)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_linux-amd64.tar.gz)| [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_linux-amd64.tar.gz.asc)[^1]  |
+| binjr v3.0.0 | **macOS** (10.10 or later)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_mac-x86_64.tar.gz) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_mac-x86_64.tar.gz.asc)[^1] |
+| binjr v3.0.0 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_windows-amd64.zip)  | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.0.0/binjr-3.0.0_windows-amd64.zip.asc)[^1] |
 
 [^1]: [How to verify the integrity of the downloaded file?](/documentation/verify-signature/)
 
