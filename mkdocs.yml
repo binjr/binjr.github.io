@@ -20,7 +20,7 @@ nav:
         - documentation/user_guide/workspaces.md
         - documentation/user_guide/settings.md
         - documentation/user_guide/shortcuts.md
-    - documentation/troubleshooting.md,;
+    - documentation/troubleshooting.md
     - documentation/verify-signature.md
   - Download:
     - download/latest_release.md
