@@ -67,6 +67,10 @@
     height: 2rem;
     width: 4.4rem;
 }
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 215; /* [0, 360] */
+}
 /*.md-content {*/
 /*    max-width: 800px;*/
 /*}*/
