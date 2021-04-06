@@ -751,12 +751,10 @@ They are less than 60 MB in size and there is one for each of the supported plat
 <div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew build
 </code></pre></div>
-
 </div>
 <input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat build
 </code></pre></div>
-
 </div>
 </div>
 </li>
@@ -765,12 +763,10 @@ They are less than 60 MB in size and there is one for each of the supported plat
 <div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew run
 </code></pre></div>
-
 </div>
 <input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat run
 </code></pre></div>
-
 </div>
 </div>
 </li>
@@ -779,12 +775,10 @@ They are less than 60 MB in size and there is one for each of the supported plat
 <div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageDistribution  
 </code></pre></div>
-
 </div>
 <input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat clean packageDistribution  
 </code></pre></div>
-
 </div>
 </div>
 <div class="admonition warning">
@@ -798,37 +792,30 @@ task in the same environment.</p>
 <div class="tabbed-set" data-tabs="5:7"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Linux (.tar.gz)</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageAsTar  
 </code></pre></div>
-
 </div>
 <input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Linux (.deb)</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageAsDeb  
 </code></pre></div>
-
 </div>
 <input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><label for="__tabbed_5_3">Linux (.rpm)</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageAsRpm  
 </code></pre></div>
-
 </div>
 <input id="__tabbed_5_4" name="__tabbed_5" type="radio" /><label for="__tabbed_5_4">macOS (.tar.gz)</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageAsTar  
 </code></pre></div>
-
 </div>
 <input id="__tabbed_5_5" name="__tabbed_5" type="radio" /><label for="__tabbed_5_5">macOS (.dmg)</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>sh gradlew clean packageAsDmg  
 </code></pre></div>
-
 </div>
 <input id="__tabbed_5_6" name="__tabbed_5" type="radio" /><label for="__tabbed_5_6">Windows (.zip)</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat clean packageAsZip  
 </code></pre></div>
-
 </div>
 <input id="__tabbed_5_7" name="__tabbed_5" type="radio" /><label for="__tabbed_5_7">Windows (.msi)</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>gradlew.bat clean packageAsMsi  
 </code></pre></div>
-
 </div>
 </div>
 <div class="admonition warning">
@@ -852,24 +839,20 @@ environment variable must point at a copy of a Java runtime version 11 or later.
 <div class="tabbed-set" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>mvn exec:java@java -f &lt;<span class="o">(</span>curl https://binjr.eu/run-binjr.pom<span class="o">)</span>
 </code></pre></div>
-
 </div>
 <input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><label for="__tabbed_6_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>curl https://binjr.eu/run-binjr.pom <span class="p">&gt;</span> <span class="nv">%temp%</span>\run-binjr.pom <span class="p">&amp;</span> mvn exec:java@java -f <span class="nv">%temp%</span>\run-binjr.pom
 </code></pre></div>
-
 </div>
 </div>
 <p>You can also use the <code>binjr.version</code>property to start a specific version of binr:</p>
 <div class="tabbed-set" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><label for="__tabbed_7_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>mvn exec:java@java -f &lt;<span class="o">(</span>curl https://binjr.eu/run-binjr.pom<span class="o">)</span> -Dbinjr.version<span class="o">=</span><span class="m">2</span>.17.1
 </code></pre></div>
-
 </div>
 <input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><label for="__tabbed_7_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>curl https://binjr.eu/run-binjr.pom <span class="p">&gt;</span> <span class="nv">%temp%</span>\run-binjr.pom <span class="p">&amp;</span> mvn exec:java@java -f <span class="nv">%temp%</span>\run-binjr.pom  -Dbinjr.version=2.17.1
 </code></pre></div>
-
 </div>
 </div>
 <div class="admonition tip">

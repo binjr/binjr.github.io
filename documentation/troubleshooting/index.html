@@ -724,17 +724,14 @@ binjr log files have names that follow the pattern: <code>binjr_PID_YYYY-MM-DD_H
 <div class="tabbed-set" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Linux</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="k">$(</span>dirname <span class="k">$(</span>mktemp -u<span class="k">))</span>/binjr/
 </code></pre></div>
-
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="nv">$TMPDIR</span>/binjr/
 </code></pre></div>
-
 </div>
 <input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code><span class="nv">%TEMP%</span>\binjr\
 </code></pre></div>
-
 </div>
 </div>
 <p>By default, only log files from the latest ten sessions are kept in this folder.     </p>
@@ -763,12 +760,10 @@ to import it into the JVM&rsquo;s trusted CA store (of course, <strong><em>only 
 <div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Linux / macOS</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>keytool -importcert -alias startssl -keystore <span class="nv">$JAVA_HOME</span>/jre/lib/security/cacerts -storepass changeit -file <span class="o">[</span>myCaCert.der<span class="o">]</span>
 </code></pre></div>
-
 </div>
 <input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Windows</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>keytool -importcert -alias startssl -keystore <span class="nv">%JAVA_HOME%</span>\jre\lib\security\cacerts -storepass changeit -file [myCaCert.der]
 </code></pre></div>
-
 </div>
 </div>
 <h3 id="kerberos-authentication">Kerberos authentication<a class="headerlink" href="#kerberos-authentication" title="Permanent link">&para;</a></h3>
@@ -780,6 +775,8 @@ to import it into the JVM&rsquo;s trusted CA store (of course, <strong><em>only 
 <strong>Check krb5 configuration</strong></p>
 <p>Make sure the information in krb5.ini/krb5.conf is correct. To override the default location for the krb5 configuration 
 file, use:</p>
+<div class="highlight"><pre><span></span><code>-Djava.security.krb5.conf<span class="o">=[</span>PathTo<span class="o">]</span>/krb5.conf
+</code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Refer to <a href="http://web.mit.edu/kerberos/krb5-1.4/krb5-1.4.1/doc/krb5-admin/krb5.conf.html">http://web.mit.edu/kerberos/krb5-1.4/krb5-1.4.1/doc/krb5-admin/krb5.conf.html</a> for more info on how to 
