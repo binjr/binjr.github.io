@@ -29,7 +29,7 @@ You can use the plugins below to further extend binjr's built-in functionalities
 
 |Version | Operating System | Architecture | Download |   |
 |--------|------------------|--------------|----------|---|
-| <p>[Demo data adapter](https://github.com/binjr/binjr-adapter-demo) v1.1.0</p> | <p>**All**</p> | <p>-</p> | <p>[<button ><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr-adapter-demo/releases/download/v1.1.0/binjr-adapter-demo-1.1.0.zip)</p> | <p>[Signature (GPG)](https://github.com/binjr/binjr-adapter-demo/releases/download/v1.1.0/binjr-adapter-demo-1.1.0.zip.asc)[^1]</p>  |
+| <p>[Demo data adapter](https://github.com/binjr/binjr-adapter-demo) v3.0.0</p> | <p>**All**</p> | <p>-</p> | <p>[<button ><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr-adapter-demo/releases/download/v3.0.0/binjr-adapter-demo-3.0.0.zip)</p> | <p>[Signature (GPG)](https://github.com/binjr/binjr-adapter-demo/releases/download/v3.0.0/binjr-adapter-demo-3.0.0.zip.asc)[^1]</p>  |
 
 
 

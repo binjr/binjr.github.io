@@ -176,8 +176,8 @@ the [demonstration data adapter](https://github.com/binjr/binjr-adapter-demo).
 It is a plugin which embeds a small, stand-alone data source that you can readily browse using ***binjr***.
 
 1. Make sure ***binjr*** is installed on your system and make a note of the folder it is installed in.
-2. Download the `binjr-adapter-demo-1.x.x.zip` archive from https://github.com/binjr/binjr-adapter-demo/releases/latest
-3. Copy the `binjr-adapter-demo-1.x.x.jar` file contained in the zip file into the `plugins` folder of your
+2. Download the `binjr-adapter-demo-3.x.x.zip` archive from https://github.com/binjr/binjr-adapter-demo/releases/latest
+3. Copy the `binjr-adapter-demo-3.x.x.jar` file contained in the zip file into the `plugins` folder of your
    ***binjr*** installation.
 4. Start ***binjr*** (or restart it if it was runnning when you copied the plugin) and open the `demo.bjr`
    workspace contained in the zip (from the command menu, select `Workspaces > Open...`, or press Ctrl+O)
