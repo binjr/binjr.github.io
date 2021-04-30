@@ -1,9 +1,14 @@
 # Change log
 
+## [binjr v3.0.2](https://github.com/binjr/binjr/releases/tag/v3.0.2)
+Released on Fri, 30 Apr 2021
+
+* _[Fixed]_ Application fails to start on Windows if Visual Studio 2019 Redistributable is not installed.
+
 ## [binjr v3.0.1](https://github.com/binjr/binjr/releases/tag/v3.0.1)
 Released on Tue, 6 Apr 2021
 
-* _[Fixed]_ Publication to APT and RPM repositories on new releases is broken. 
+* _[Fixed]_ Publication to APT and RPM repositories on new releases is broken.
 * _[Fixed]_ Incorrect progression reporting when indexing more than one log file simultaneously.
 
 ## [binjr v3.0.0](https://github.com/binjr/binjr/releases/tag/v3.0.0)
