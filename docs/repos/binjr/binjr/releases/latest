@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/binjr/binjr/releases/45488300",
-  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/45488300/assets",
-  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/45488300/assets{?name,label}",
-  "html_url": "https://github.com/binjr/binjr/releases/tag/v3.1.0",
-  "id": 45488300,
+  "url": "https://api.github.com/repos/binjr/binjr/releases/47729901",
+  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/47729901/assets",
+  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/47729901/assets{?name,label}",
+  "html_url": "https://github.com/binjr/binjr/releases/tag/v3.2.0",
+  "id": 47729901,
   "author": {
     "login": "fthevenet",
     "id": 7450507,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "MDc6UmVsZWFzZTQ1NDg4MzAw",
-  "tag_name": "v3.1.0",
-  "target_commitish": "1a8bb1514203b42be39864e93b91549aeea9c24e",
-  "name": "binjr v3.1.0",
+  "node_id": "MDc6UmVsZWFzZTQ3NzI5OTAx",
+  "tag_name": "v3.2.0",
+  "target_commitish": "ce97305d2d354df36d36292a4cb621b0bfaf7b81",
+  "name": "binjr v3.2.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2021-06-29T16:13:36Z",
-  "published_at": "2021-06-30T12:43:34Z",
+  "created_at": "2021-08-10T17:38:16Z",
+  "published_at": "2021-08-12T09:09:41Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481858",
-      "id": 39481858,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxODU4",
-      "name": "binjr-3.1.0_linux-amd64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277118",
+      "id": 42277118,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MTE4",
+      "name": "binjr-3.2.0_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 71551447,
-      "download_count": 11,
-      "created_at": "2021-06-30T12:47:07Z",
-      "updated_at": "2021-06-30T12:47:11Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_linux-amd64.tar.gz"
+      "size": 71559147,
+      "download_count": 0,
+      "created_at": "2021-08-12T09:13:25Z",
+      "updated_at": "2021-08-12T09:13:35Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481864",
-      "id": 39481864,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxODY0",
-      "name": "binjr-3.1.0_linux-amd64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277124",
+      "id": 42277124,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MTI0",
+      "name": "binjr-3.2.0_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -96,16 +96,16 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 821,
-      "download_count": 1,
-      "created_at": "2021-06-30T12:47:12Z",
-      "updated_at": "2021-06-30T12:47:12Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_linux-amd64.tar.gz.asc"
+      "download_count": 0,
+      "created_at": "2021-08-12T09:13:36Z",
+      "updated_at": "2021-08-12T09:13:36Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481867",
-      "id": 39481867,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxODY3",
-      "name": "binjr-3.1.0_mac-x86_64.dmg",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277194",
+      "id": 42277194,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MTk0",
+      "name": "binjr-3.2.0_mac-x86_64.dmg",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/x-apple-diskimage",
       "state": "uploaded",
-      "size": 70513112,
-      "download_count": 7,
-      "created_at": "2021-06-30T12:47:13Z",
-      "updated_at": "2021-06-30T12:47:16Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_mac-x86_64.dmg"
+      "size": 70551740,
+      "download_count": 0,
+      "created_at": "2021-08-12T09:14:46Z",
+      "updated_at": "2021-08-12T09:14:51Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_mac-x86_64.dmg"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481871",
-      "id": 39481871,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxODcx",
-      "name": "binjr-3.1.0_mac-x86_64.dmg.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277203",
+      "id": 42277203,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MjAz",
+      "name": "binjr-3.2.0_mac-x86_64.dmg.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -164,16 +164,16 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 821,
-      "download_count": 1,
-      "created_at": "2021-06-30T12:47:16Z",
-      "updated_at": "2021-06-30T12:47:16Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_mac-x86_64.dmg.asc"
+      "download_count": 0,
+      "created_at": "2021-08-12T09:14:51Z",
+      "updated_at": "2021-08-12T09:14:51Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_mac-x86_64.dmg.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481872",
-      "id": 39481872,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxODcy",
-      "name": "binjr-3.1.0_mac-x86_64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277206",
+      "id": 42277206,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MjA2",
+      "name": "binjr-3.2.0_mac-x86_64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -197,17 +197,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 68259043,
-      "download_count": 5,
-      "created_at": "2021-06-30T12:47:17Z",
-      "updated_at": "2021-06-30T12:47:20Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_mac-x86_64.tar.gz"
+      "size": 68296558,
+      "download_count": 0,
+      "created_at": "2021-08-12T09:14:51Z",
+      "updated_at": "2021-08-12T09:14:55Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_mac-x86_64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481878",
-      "id": 39481878,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxODc4",
-      "name": "binjr-3.1.0_mac-x86_64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277210",
+      "id": 42277210,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MjEw",
+      "name": "binjr-3.2.0_mac-x86_64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -232,16 +232,16 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 821,
-      "download_count": 1,
-      "created_at": "2021-06-30T12:47:20Z",
-      "updated_at": "2021-06-30T12:47:20Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_mac-x86_64.tar.gz.asc"
+      "download_count": 0,
+      "created_at": "2021-08-12T09:14:55Z",
+      "updated_at": "2021-08-12T09:14:55Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_mac-x86_64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481943",
-      "id": 39481943,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxOTQz",
-      "name": "binjr-3.1.0_windows-amd64.msi",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277154",
+      "id": 42277154,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MTU0",
+      "name": "binjr-3.2.0_windows-amd64.msi",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -265,17 +265,17 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 67878666,
-      "download_count": 23,
-      "created_at": "2021-06-30T12:47:52Z",
-      "updated_at": "2021-06-30T12:47:59Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_windows-amd64.msi"
+      "size": 67886862,
+      "download_count": 2,
+      "created_at": "2021-08-12T09:14:07Z",
+      "updated_at": "2021-08-12T09:14:12Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481955",
-      "id": 39481955,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxOTU1",
-      "name": "binjr-3.1.0_windows-amd64.msi.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277157",
+      "id": 42277157,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MTU3",
+      "name": "binjr-3.2.0_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -300,16 +300,16 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 838,
-      "download_count": 12,
-      "created_at": "2021-06-30T12:47:59Z",
-      "updated_at": "2021-06-30T12:47:59Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_windows-amd64.msi.asc"
+      "download_count": 0,
+      "created_at": "2021-08-12T09:14:12Z",
+      "updated_at": "2021-08-12T09:14:12Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481956",
-      "id": 39481956,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxOTU2",
-      "name": "binjr-3.1.0_windows-amd64.zip",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277160",
+      "id": 42277160,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MTYw",
+      "name": "binjr-3.2.0_windows-amd64.zip",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -333,17 +333,17 @@
       },
       "content_type": "application/zip",
       "state": "uploaded",
-      "size": 67325525,
-      "download_count": 7,
-      "created_at": "2021-06-30T12:47:59Z",
-      "updated_at": "2021-06-30T12:48:05Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_windows-amd64.zip"
+      "size": 67330921,
+      "download_count": 0,
+      "created_at": "2021-08-12T09:14:13Z",
+      "updated_at": "2021-08-12T09:14:17Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_windows-amd64.zip"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/39481971",
-      "id": 39481971,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM5NDgxOTcx",
-      "name": "binjr-3.1.0_windows-amd64.zip.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/42277165",
+      "id": 42277165,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQyMjc3MTY1",
+      "name": "binjr-3.2.0_windows-amd64.zip.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -368,13 +368,13 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 838,
-      "download_count": 1,
-      "created_at": "2021-06-30T12:48:05Z",
-      "updated_at": "2021-06-30T12:48:05Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.1.0/binjr-3.1.0_windows-amd64.zip.asc"
+      "download_count": 0,
+      "created_at": "2021-08-12T09:14:17Z",
+      "updated_at": "2021-08-12T09:14:17Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.2.0/binjr-3.2.0_windows-amd64.zip.asc"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v3.1.0",
-  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v3.1.0",
-  "body": "* _[New]_ It is now possible to select multiple charts in a worksheet to delete them all at once.\r\n* _[New]_ It is now possible to re-organize the position of charts in a worksheet using drag and drop.\r\n* _[New]_ The panel that shows the series details for charts has been redesigned to make better use of available screen real estate.\r\n* _[New]_ It is now possible to edit the name of a timeseries after it has been added to a worksheet."
+  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v3.2.0",
+  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v3.2.0",
+  "body": "* _[New]_ Keep the most recently used log filters in the user history and allow users to save filters as favorites.\r\n* _[Fixed]_ Freeze when clicking on “browse” to open a file or folder on Linux.\r\n* _[Fixed]_ The entered URL may be ignored when pressing \"Enter\" in the new source dialog.\r\n* _[Fixed]_ An error occurs when accepting an empty path in the RRD and CSV adapters dialogs."
 }
