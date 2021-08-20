@@ -108,6 +108,13 @@ algorithms[^1] to keep the best approximation of the original data.
 The maximum number of samples per time series to keep when sample reduction is enabled.
 
 **Default**: `1500`
+
+## Logs
+### Default color palette
+
+Select the default color palette to use for log files.
+
+**Default**: `Vibrant`
  
 ## Data Adapters
 ### List of installed data adapters

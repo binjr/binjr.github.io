@@ -32,6 +32,14 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 Copyright 1999-2017 Apache Software Foundation  
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
+[**Apache Lucene**](https://lucene.apache.org/)  
+Copyright 2001-2020 The Apache Software Foundation  
+Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+[**Bouncy Castle Cryptography APIs**](https://www.bouncycastle.org/)  
+Copyright (c) 2000 - 2020 The Legion of the Bouncy Castle Inc.  
+Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 [**ControlsFX**](https://github.com/controlsfx/controlsfx)  
 Copyright (c) 2013, 2014, ControlsFX. All rights reserved.  
 Licensed under the [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause).
@@ -60,6 +68,10 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 [**jfxutils**](https://github.com/gillius/jfxutils)  
 Copyright 2013 Jason Winnebeck  
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+[**RichTextFX**](https://github.com/FXMisc/RichTextFX)  
+Copyright (c) 2013-2017, Tomas Mikula and contributors  
+Licensed under the [The 2-Clause BSD License](https://opensource.org/licenses/BSD-2-Clause)
 
 [**RRD4J**](https://github.com/rrd4j/rrd4j)  
 Copyright (c) 2011-2019 The RRD4J Authors  

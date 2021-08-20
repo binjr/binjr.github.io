@@ -9,6 +9,7 @@
 | [Netdata](https://www.netdata.cloud)   | Distributed, real-time performance and health monitoring for systems and applications. | :heavy_check_mark: | Remote |
 | RRD Files | Round-Robin Database files produced by [RRDtool](https://oss.oetiker.ch/rrdtool/) and [RRD4J](https://github.com/rrd4j/rrd4j). | :heavy_check_mark: | Local files | 
 | CSV Files | Comma Separated Values files. | :heavy_check_mark: | Local files | 
+| Log Files | Text based, semi-structured log files. | :heavy_check_mark: | Local files | 
 |[Demo Adapter](https://github.com/binjr/binjr-adapter-demo) |A plugin for binjr that provides data sources for demonstration purposes.| |Local files |
 
 

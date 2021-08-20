@@ -38,11 +38,12 @@
 
 ### Logs Worksheets
 
-| Command                         | Shortcut                       |
-|---------------------------------|--------------------------------|
-| Filter logs events              | <kbd>Ctrl</kbd> + <kbd>K</kbd> |
-| Find in current worksheet       | <kbd>Ctrl</kbd> + <kbd>F</kbd> |
-| Remove the selected log file(s) | <kbd>Delete</kbd>              |
+| Command                                 | Shortcut                       |
+|-----------------------------------------|--------------------------------|
+| Filter logs events                      | <kbd>Ctrl</kbd> + <kbd>K</kbd> |
+| Add/remove current filter from favorites| <kbd>Crtl</kbd> + <kbd>D</kbd> |
+| Find in current worksheet               | <kbd>Ctrl</kbd> + <kbd>F</kbd> |
+| Remove the selected log file(s)         | <kbd>Delete</kbd>              |
 
 
 ## Miscellaneous

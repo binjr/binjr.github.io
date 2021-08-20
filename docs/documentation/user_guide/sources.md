@@ -94,3 +94,15 @@ Use the "cog" icon to change the name of of given source tab.
     You can add more than one RRD file to a single source tab.
     
     
+### Log Files 
+
+| Name | Description | Default|
+|------|-------------|--------|
+|**Path**  |The path to the CSV file you want to add to the source tab. | |
+|**Timezone**  | The time zone corresponding to the capture timestamps in the log files. | The host's current time zone. |
+|**Extensions**  | |`*.log`, `*.txt`| 
+|**Parsing**  | The set of regular expressions that will be used to parse the log files into structured events. | `[Built-in] ISO-like timestamps`
+
+!!! Tip
+    Users can edit the existing sets of parsing rules and create their own via the [log parsing profiles editor](editing_parsing_profiles.md).
+

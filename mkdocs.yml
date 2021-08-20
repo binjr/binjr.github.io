@@ -16,7 +16,10 @@ nav:
     - "User guide":
         - documentation/user_guide/main.md
         - documentation/user_guide/sources.md
+        - documentation/user_guide/editing_parsing_profiles.md
         - documentation/user_guide/worksheets.md
+        - documentation/user_guide/charts_worksheets.md
+        - documentation/user_guide/logs_worksheets.md
         - documentation/user_guide/workspaces.md
         - documentation/user_guide/settings.md
         - documentation/user_guide/shortcuts.md
@@ -39,6 +42,7 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.sections
+    - navigation.top
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

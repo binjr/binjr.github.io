@@ -5,6 +5,8 @@
   * Can connect to any number of sources, of different types, at the same time.
   * Communicates though the APIs exposed by the source. 
   * Supports for data sources is extensible via plugins.
+  * Supports time-series with numeric (e.g. charts) or text (e.g. logs) values.
+  
    
 ##  Designed for ad-hoc view composition
   * Drag and drop series from any sources directly on the chart view.
