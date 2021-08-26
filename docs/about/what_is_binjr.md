@@ -1,3 +1,5 @@
+# What is binjr?
+
 _binjr_ is a time series browser; it renders time series data produced by other applications as 
 dynamically editable representations and provides advanced features to navigate the data smoothly and efficiently 
 (drag & drop, zoom, history, detachable tabs, advanced time-range picker).
@@ -36,7 +38,7 @@ local solution (the data never needs to be pushed to the cloud - or anywhere els
 setup nor maintenance to speak of.
  
 
-# ...and what it isn't
+# ...and what it isn't!
 * _binjr_ is **not** a system performance collector, nor a collector of anything else for that matter. What it provides is
    efficient navigation and pretty presentation for time series collected elsewhere. 
 * _binjr_ is **not** a cloud solution. It's not even a server based solution; it's entirely a client application, 
