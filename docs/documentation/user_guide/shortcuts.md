@@ -31,9 +31,12 @@
 
 ### Charts Worksheets
 
-| Command                                | Shortcut           |
-|----------------------------------------|--------------------|
-| Remove the selected series from chart  | <kbd>Delete</kbd>  |
+| Command                                    | Shortcut                                           |
+|--------------------------------------------|----------------------------------------------------|
+| Remove the selected series from chart      | <kbd>Delete</kbd>                                  |
+| Enlarge / reduce charts height             | <kbd>Shift</kbd> + <kbd>mouse wheel</kbd>          |
+| Zoom in or out a worksheet's time range    | <kbd>Ctrl</kbd> + <kbd>mouse wheel</kbd>           |
+| Pan left or right on the current worksheet | <kbd>Alt</kbd> + <kbd>mouse wheel</kbd>            |
 
 
 ### Logs Worksheets
