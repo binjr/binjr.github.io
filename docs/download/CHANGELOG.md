@@ -1,14 +1,25 @@
 # Change log
 
+## [binjr v3.5.0](https://github.com/binjr/binjr/releases/tag/v3.5.0)
+Released on Thu, 25 Nov 2021
+
+* _[New]_ Added a bar chart to log worksheets that shows the distributions over time of events' severity.
+* _[New]_ The precision of the time axis for charts has been increased from seconds to milli-seconds.
+* _[New]_ Added the option to skip the confirmation dialog on closing worksheet tabs or charts.
+* _[New]_ Added the ability to restore closed tabs using the `Ctrl`+`Shift`+`t` shortcut, similarly to web browsers.
+* _[New]_ Enhanced the pagination control on log worksheets with the ability to jump directly to the first, last or arbitrary page. 
+* _[Fixed]_ After duplicating a log worksheet, changing properties of the log files (in the bottom view) affects both the original and duplicated worksheet.
+* _[Fixed]_ Navigating backward or forward on a log worksheet does not change the timeline of linked worksheets.
+
 ## [binjr v3.4.0](https://github.com/binjr/binjr/releases/tag/v3.4.0)
-Released on Fri, 22 Oct 2021
+Released on Thu, 22 Oct 2021
 
 * _[New]_ Added the ability to zoom and pan on charts using the mouse wheel (or swipe motions on touch devices):
   * `Shift + scroll up/down`: Enlarges / reduces the height of all charts in the current worksheet.
   * `Ctrl + scroll up/down`: Zooms in / out on the time range for the current worksheet.
   * `Alt + scroll up/dowm`: Pans all charts to the left / right in the current worksheet.
 * _[New]_ It is now possible to adjust the minimum height of charts in a worksheet.
-* _[Fixed]_ Series legend panel in chart worksheets does not fill all available space. 
+* _[Fixed]_ Series legend panel in chart worksheets does not fill all available space.
 
 ## [binjr v3.3.0](https://github.com/binjr/binjr/releases/tag/v3.3.0)
 Released on Thu, 16 Sep 2021
