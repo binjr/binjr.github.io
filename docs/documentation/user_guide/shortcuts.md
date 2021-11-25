@@ -19,15 +19,16 @@
 
 ### Navigation
 
-| Command                     | Shortcut                                                          |
-|-----------------------------|-------------------------------------------------------------------|
-| Back                        | <kbd>Alt</kbd> + <kbd>←</kbd>                                     |
-| Forward                     | <kbd>Alt</kbd> + <kbd>→</kbd>                                     |
-| Refresh                     | <kbd>F5</kbd> or <kbd>Ctrl</kbd> + <kbd>R</kbd>                   |
-| Expend/Reduce series view   | <kbd>Ctrl</kbd> + <kbd>M</kbd>                                    |
-| Save Snapshot               | <kbd>Ctrl</kbd> + <kbd>P</kbd>                                    |
-| Create a new worksheet      | <kbd>Ctrl</kbd> + <kbd>T</kbd>                                    |
-| Close the current worksheet | <kbd>Ctrl</kbd> + <kbd>W</kbd> or <kbd>Ctrl</kbd> + <kbd>F4</kbd> |
+| Command                              | Shortcut                                                          |
+|--------------------------------------|-------------------------------------------------------------------|
+| Back                                 | <kbd>Alt</kbd> + <kbd>←</kbd>                                     |
+| Forward                              | <kbd>Alt</kbd> + <kbd>→</kbd>                                     |
+| Refresh                              | <kbd>F5</kbd> or <kbd>Ctrl</kbd> + <kbd>R</kbd>                   |
+| Expend/Reduce series view            | <kbd>Ctrl</kbd> + <kbd>M</kbd>                                    |
+| Save Snapshot                        | <kbd>Ctrl</kbd> + <kbd>P</kbd>                                    |
+| Create a new worksheet               | <kbd>Ctrl</kbd> + <kbd>T</kbd>                                    |
+| Close the current worksheet          | <kbd>Ctrl</kbd> + <kbd>W</kbd> or <kbd>Ctrl</kbd> + <kbd>F4</kbd> |
+| Reopen a previously closed worksheet | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>                 |
 
 ### Charts Worksheets
 
