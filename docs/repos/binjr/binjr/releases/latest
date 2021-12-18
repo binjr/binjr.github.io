@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/binjr/binjr/releases/55555732",
-  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/55555732/assets",
-  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/55555732/assets{?name,label}",
-  "html_url": "https://github.com/binjr/binjr/releases/tag/v3.5.2",
-  "id": 55555732,
+  "url": "https://api.github.com/repos/binjr/binjr/releases/55594333",
+  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/55594333/assets",
+  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/55594333/assets{?name,label}",
+  "html_url": "https://github.com/binjr/binjr/releases/tag/v3.5.3",
+  "id": 55594333,
   "author": {
     "login": "fthevenet",
     "id": 7450507,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBEqfP84DT7aU",
-  "tag_name": "v3.5.2",
-  "target_commitish": "3fa88ed523c2f8a81d11e69debe5b7fbf0d3749d",
-  "name": "binjr v3.5.2",
+  "node_id": "RE_kwDOBEqfP84DUE1d",
+  "tag_name": "v3.5.3",
+  "target_commitish": "3562885db0afa3c6e4efcbd6ba9fa9161d065c79",
+  "name": "binjr v3.5.3",
   "draft": false,
   "prerelease": false,
-  "created_at": "2021-12-17T15:57:20Z",
-  "published_at": "2021-12-17T16:00:17Z",
+  "created_at": "2021-12-18T11:21:51Z",
+  "published_at": "2021-12-18T11:39:45Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52023943",
-      "id": 52023943,
-      "node_id": "RA_kwDOBEqfP84DGdKH",
-      "name": "binjr-3.5.2_linux-amd64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079106",
+      "id": 52079106,
+      "node_id": "RA_kwDOBEqfP84DGqoC",
+      "name": "binjr-3.5.3_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 71721792,
+      "size": 71703072,
       "download_count": 0,
-      "created_at": "2021-12-17T16:03:10Z",
-      "updated_at": "2021-12-17T16:03:15Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_linux-amd64.tar.gz"
+      "created_at": "2021-12-18T11:43:08Z",
+      "updated_at": "2021-12-18T11:43:13Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52023956",
-      "id": 52023956,
-      "node_id": "RA_kwDOBEqfP84DGdKU",
-      "name": "binjr-3.5.2_linux-amd64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079107",
+      "id": 52079107,
+      "node_id": "RA_kwDOBEqfP84DGqoD",
+      "name": "binjr-3.5.3_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -97,15 +97,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2021-12-17T16:03:15Z",
-      "updated_at": "2021-12-17T16:03:15Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_linux-amd64.tar.gz.asc"
+      "created_at": "2021-12-18T11:43:13Z",
+      "updated_at": "2021-12-18T11:43:13Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52023971",
-      "id": 52023971,
-      "node_id": "RA_kwDOBEqfP84DGdKj",
-      "name": "binjr-3.5.2_mac-x86_64.pkg",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079094",
+      "id": 52079094,
+      "node_id": "RA_kwDOBEqfP84DGqn2",
+      "name": "binjr-3.5.3_mac-x86_64.pkg",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 68716714,
+      "size": 68698148,
       "download_count": 0,
-      "created_at": "2021-12-17T16:03:37Z",
-      "updated_at": "2021-12-17T16:03:46Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_mac-x86_64.pkg"
+      "created_at": "2021-12-18T11:42:50Z",
+      "updated_at": "2021-12-18T11:42:53Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_mac-x86_64.pkg"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52023977",
-      "id": 52023977,
-      "node_id": "RA_kwDOBEqfP84DGdKp",
-      "name": "binjr-3.5.2_mac-x86_64.pkg.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079095",
+      "id": 52079095,
+      "node_id": "RA_kwDOBEqfP84DGqn3",
+      "name": "binjr-3.5.3_mac-x86_64.pkg.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -165,15 +165,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2021-12-17T16:03:46Z",
-      "updated_at": "2021-12-17T16:03:46Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_mac-x86_64.pkg.asc"
+      "created_at": "2021-12-18T11:42:53Z",
+      "updated_at": "2021-12-18T11:42:53Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_mac-x86_64.pkg.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52023979",
-      "id": 52023979,
-      "node_id": "RA_kwDOBEqfP84DGdKr",
-      "name": "binjr-3.5.2_mac-x86_64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079096",
+      "id": 52079096,
+      "node_id": "RA_kwDOBEqfP84DGqn4",
+      "name": "binjr-3.5.3_mac-x86_64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -197,17 +197,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 68590834,
+      "size": 68573791,
       "download_count": 0,
-      "created_at": "2021-12-17T16:03:46Z",
-      "updated_at": "2021-12-17T16:03:56Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_mac-x86_64.tar.gz"
+      "created_at": "2021-12-18T11:42:53Z",
+      "updated_at": "2021-12-18T11:42:56Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_mac-x86_64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52023986",
-      "id": 52023986,
-      "node_id": "RA_kwDOBEqfP84DGdKy",
-      "name": "binjr-3.5.2_mac-x86_64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079097",
+      "id": 52079097,
+      "node_id": "RA_kwDOBEqfP84DGqn5",
+      "name": "binjr-3.5.3_mac-x86_64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -233,15 +233,15 @@
       "state": "uploaded",
       "size": 821,
       "download_count": 0,
-      "created_at": "2021-12-17T16:03:56Z",
-      "updated_at": "2021-12-17T16:03:56Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_mac-x86_64.tar.gz.asc"
+      "created_at": "2021-12-18T11:42:56Z",
+      "updated_at": "2021-12-18T11:42:56Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_mac-x86_64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52023999",
-      "id": 52023999,
-      "node_id": "RA_kwDOBEqfP84DGdK_",
-      "name": "binjr-3.5.2_windows-amd64.msi",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079105",
+      "id": 52079105,
+      "node_id": "RA_kwDOBEqfP84DGqoB",
+      "name": "binjr-3.5.3_windows-amd64.msi",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -265,17 +265,17 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 67866331,
+      "size": 67845851,
       "download_count": 0,
-      "created_at": "2021-12-17T16:04:30Z",
-      "updated_at": "2021-12-17T16:04:34Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_windows-amd64.msi"
+      "created_at": "2021-12-18T11:43:08Z",
+      "updated_at": "2021-12-18T11:43:13Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52024002",
-      "id": 52024002,
-      "node_id": "RA_kwDOBEqfP84DGdLC",
-      "name": "binjr-3.5.2_windows-amd64.msi.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079108",
+      "id": 52079108,
+      "node_id": "RA_kwDOBEqfP84DGqoE",
+      "name": "binjr-3.5.3_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -301,15 +301,15 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2021-12-17T16:04:34Z",
-      "updated_at": "2021-12-17T16:04:34Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_windows-amd64.msi.asc"
+      "created_at": "2021-12-18T11:43:13Z",
+      "updated_at": "2021-12-18T11:43:13Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52024003",
-      "id": 52024003,
-      "node_id": "RA_kwDOBEqfP84DGdLD",
-      "name": "binjr-3.5.2_windows-amd64.zip",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079109",
+      "id": 52079109,
+      "node_id": "RA_kwDOBEqfP84DGqoF",
+      "name": "binjr-3.5.3_windows-amd64.zip",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -333,17 +333,17 @@
       },
       "content_type": "application/zip",
       "state": "uploaded",
-      "size": 67305022,
+      "size": 67286494,
       "download_count": 0,
-      "created_at": "2021-12-17T16:04:35Z",
-      "updated_at": "2021-12-17T16:04:41Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_windows-amd64.zip"
+      "created_at": "2021-12-18T11:43:13Z",
+      "updated_at": "2021-12-18T11:43:18Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_windows-amd64.zip"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52024004",
-      "id": 52024004,
-      "node_id": "RA_kwDOBEqfP84DGdLE",
-      "name": "binjr-3.5.2_windows-amd64.zip.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/52079110",
+      "id": 52079110,
+      "node_id": "RA_kwDOBEqfP84DGqoG",
+      "name": "binjr-3.5.3_windows-amd64.zip.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -369,12 +369,12 @@
       "state": "uploaded",
       "size": 838,
       "download_count": 0,
-      "created_at": "2021-12-17T16:04:41Z",
-      "updated_at": "2021-12-17T16:04:41Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.2/binjr-3.5.2_windows-amd64.zip.asc"
+      "created_at": "2021-12-18T11:43:18Z",
+      "updated_at": "2021-12-18T11:43:18Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.5.3/binjr-3.5.3_windows-amd64.zip.asc"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v3.5.2",
-  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v3.5.2",
-  "body": "* _[Fixed]_ Updated Log4j to version 2.16.0 in response to [CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046)"
+  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v3.5.3",
+  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v3.5.3",
+  "body": "* _[Fixed]_ Updated Log4j to version 2.17.0 in response to [CVE-2021-45105](https://nvd.nist.gov/vuln/detail/CVE-2021-45105)"
 }
