@@ -1,6 +1,6 @@
 # License
 
-***binjr*** is copyright 2016-2021 Frederic Thevenet
+***binjr*** is copyright 2016-2022 Frederic Thevenet
 
 It is licensed under the Apache License, Version 2.0 (the "License").  
 You may obtain a copy of the License at:
@@ -91,5 +91,5 @@ Copyright © 2014, Tom Christie. All rights reserved.
 Licensed under the [BSD License](https://www.mkdocs.org/about/license/)
 
 [**Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)  
-Copyright © 2016 - 2020 Martin Donath  
+Copyright © 2016 - 2022 Martin Donath  
 Licensed under the [MIT License](https://squidfunk.github.io/mkdocs-material/license/)
