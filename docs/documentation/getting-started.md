@@ -17,21 +17,18 @@ You can also build or run the application from the source code.
 ### Prerequisites:
 
 * [Git](https://git-scm.com/open)
-* [OpenJDK 11 or later](http://openjdk.java.net/)
+* [OpenJDK 17 or later](http://openjdk.java.net/)
 
 !!! Info "Optional"
     If you want to build native installer packages, you'll also need the following platform specific prerequisites: 
     
     === "Linux (.deb)"
-        * A version of OpenJDK that includes [jpackage](https://openjdk.java.net/jeps/343) (14 or later)
         * Debian package archive manipulation tool (dpkg-deb)
     
     === "Linux (.rpm)"
-        * A version of OpenJDK that includes [jpackage](https://openjdk.java.net/jeps/343) (14 or later)
         * RPM Package Manager
         
     === "macOS (.dmg)"
-        * A version of OpenJDK that includes [jpackage](https://openjdk.java.net/jeps/343) (14 or later)    
         * Xcode command line tools.
     
     === "Windows (.msi)"
