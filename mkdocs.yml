@@ -72,7 +72,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.mark
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - codehilite:
       guess_lang: False
       use_pygments: True
