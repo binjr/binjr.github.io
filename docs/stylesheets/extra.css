@@ -14,7 +14,7 @@
  *    limitations under the License.
  */
 
-:root {
+:root > * {
 
     /*!*!* Primary color shades *!*!*/
     --md-primary-fg-color: #204656;
