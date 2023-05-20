@@ -4,7 +4,7 @@ These bundles contain all dependencies and runtime components needed to run binj
 They also include support for the following data sources: 
 [JRDS](https://github.com/fbacchella/jrds), [Netdata](https://www.netdata.cloud), RRD Files and CSV files.
 
-The latest available version is 3.12.0, released on Tue, 16 May 2023.  
+The latest available version is 3.12.0, released on Sat, 20 May 2023.  
 
 Complete release information can be found in the [change log](CHANGELOG.md). 
 
