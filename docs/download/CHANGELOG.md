@@ -1,7 +1,7 @@
 # Change log
 
 ## [binjr v3.12.0](https://github.com/binjr/binjr/releases/tag/v3.12.0)
-Released on Sat, 20 May 2023
+Released on Tue, 23 May 2023
 
 _[New]_ *binjr* now defaults to an indexing strategy for log files that is optimized for partial terms search and filtering. It allows for fast matching of arbitrary character sequences without the need for explicit syntax like wildcards.
 > To revert back to the old behavior that favors searching for whole words, go to "Settings > Logs" and select "Optimize index for whole words search".
