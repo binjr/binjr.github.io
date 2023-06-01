@@ -1,6 +1,6 @@
 # License
 
-***binjr*** is copyright 2016-2022 Frederic Thevenet
+***binjr*** is copyright 2016-2023 Frederic Thevenet
 
 It is licensed under the Apache License, Version 2.0 (the "License").  
 You may obtain a copy of the License at:
@@ -54,6 +54,10 @@ Licensed under the [Eclipse Distribution License v. 1.0](https://www.eclipse.org
 [**e(fx)clipse**](https://www.eclipse.org/efxclipse/index.html)  
 Licensed under the [Eclipse Distribution License v. 1.0](https://www.eclipse.org/org/documents/edl-v10.html).
 
+[**Fira Code Font**](https://github.com/tonsky/FiraCode)  
+Copyright (c) 2014, The Fira Code Project Authors 
+This Font Software is licensed under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL)
+
 [**Font Awesome Free**](https://fontawesome.com)  
 License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 
@@ -68,6 +72,10 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 [**jfxutils**](https://github.com/gillius/jfxutils)  
 Copyright 2013 Jason Winnebeck  
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+**Lato Fonts**  
+Copyright (c) 2010-2014 by tyPoland Lukasz Dziedzic (team@latofonts.com) with Reserved Font Name "Lato"
+This Font Software is licensed under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL)
 
 [**RichTextFX**](https://github.com/FXMisc/RichTextFX)  
 Copyright (c) 2013-2017, Tomas Mikula and contributors  
