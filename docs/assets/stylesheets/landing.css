@@ -479,7 +479,8 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 6rem;
+    
 }
 
 .home-container {
@@ -557,8 +558,10 @@ hr {
 
 .home-typeset .home-button {
     display: inline-block;
+    text-align: center;
     padding: .625em 2em;
     color: var(--home-primary-fg-color);
+    min-width: 46%;
     font-weight: 700;
     border: .1rem solid currentColor;
     border-radius: .1rem;
@@ -938,7 +941,7 @@ html .home-footer-meta.home-typeset a:focus, html .home-footer-meta.home-typeset
 .home-footer-social__link {
     display: inline-block;
     width: 2rem;
-    height: 1.6rem;
+    height: auto;
     text-align: center
 }
 
@@ -3271,12 +3274,33 @@ html .home-typeset .tabbed-set>label:hover {
     [data-home-toggle=search]:checked~.home-header .home-search__overlay {
         transform: scale(45)
     }
+
+    .home-footer {
+        position: absolute;
+        bottom: 0ch;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+ 
 }
 
 @media screen and (min-width: 30em)and (max-width: 44.9375em) {
     [data-home-toggle=search]:checked~.home-header .home-search__overlay {
         transform: scale(60)
     }
+    .home-footer {
+        position: absolute;
+        bottom: 0ch;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 45em)and (max-width: 59.9375em) {
