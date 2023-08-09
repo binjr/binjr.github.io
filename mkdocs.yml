@@ -13,6 +13,8 @@ nav:
     - about/notice.md
   - Docs:
     - documentation/getting-started.md
+    - documentation/troubleshooting.md
+    - documentation/verify-signature.md
     - "User guide":
         - documentation/user_guide/main.md
         - documentation/user_guide/sources.md
@@ -23,12 +25,12 @@ nav:
         - documentation/user_guide/workspaces.md
         - documentation/user_guide/settings.md
         - documentation/user_guide/shortcuts.md
-    - documentation/troubleshooting.md
-    - documentation/verify-signature.md
   - Download:
     - download/latest_release.md
     - download/plugins.md
     - download/CHANGELOG.md
+  - Blog:
+    - blog/index.md
 
 extra_css:
   - stylesheets/extra.css
@@ -41,6 +43,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
+    - navigation.tabs
+#    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
   palette:
@@ -85,6 +89,13 @@ markdown_extensions:
 
 plugins:
   - search
+  - blog:
+      enabled: true
+#      blog_toc: true
+#      archive_toc: false
+#      categories_toc: true
+      post_date_format: long
+      post_url_date_format: yyyy/MM
 
 extra:
   social:
