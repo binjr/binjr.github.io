@@ -15,7 +15,7 @@ comments: true
 
 # New Data Adapter: JDK Flight Recorder
 
-With the latest release for binjr, it is the first time in a long while that we've added support for a new data source: recording produced by JDK Flight Recorder (JFR, for short).
+It has been a pretty long time since we've added support for a new data source in binjr, but coming up in release 3.13 is something quite new indeed: support for recordings produced by JDK Flight Recorder (JFR, for short).
 
 So what, exactly, is JFR? To quote Wikipedia:
 > JDK Flight Recorder is an event recorder built into the OpenJDK [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine). It can be thought of as the software equivalent of a Data Flight Recorder (Black Box) in a commercial aircraft. It captures information about the JVM itself, and the application running in the JVM. There is a wide variety of data captured, for example method profiling, allocation profiling and garbage collection related events. The technology was open sourced in 2018.  
