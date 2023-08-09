@@ -1,7 +1,20 @@
 # Change log
 
+## [binjr v3.13.0](https://github.com/binjr/binjr/releases/tag/v3.13.0)
+Released on Wed, 9 Aug 2023
+
+_[New]_ Added new JDK Flight Recorder data adapter.  
+_[New]_ Users can now choose a worksheet's type when creating a blank one.  
+_[New]_ Added new type of prefix formatting for charts axis: Percentage.  
+_[New]_ Added an icon representing the visualization type to   sources panes and worksheet tabs.  
+_[Fixed]_ When there are too many facet pills in an event worksheet, they now overflow to popup menu.  
+_[Fixed]_ The UI themes in the Settings panel are now listed in alphabetical order.  
+_[Fixed]_ LogWorksheetController instances cannot be loaded prior to an adapter acquiring Indexes.LOG_FILES  
+_[Fixed]_ UserInterfaceThemes services cannot be loaded from registered plugin path.  
+
+
 ## [binjr v3.12.0](https://github.com/binjr/binjr/releases/tag/v3.12.0)
-Released on Tue, 23 May 2023
+Released on Sat, 20 May 2023
 
 _[New]_ *binjr* now defaults to an indexing strategy for log files that is optimized for partial terms search and filtering. It allows for fast matching of arbitrary character sequences without the need for explicit syntax like wildcards.
 > To revert back to the old behavior that favors searching for whole words, go to "Settings > Logs" and select "Optimize index for whole words search".
@@ -18,7 +31,7 @@ _[Fixed]_ Different outcome when typing the name of a capture group vs selecting
 _[Fixed]_ Files selection on Linux do not show files with no extensions when "All files" filter is selected.  
 _[Fixed]_ Log file adapter does not list files without extensions.  
 _[Fixed]_ Log file view does not use a monotype font on macOS and Linux.  
-_[Fixed]_ Auto-update feature ignores alternative signing openPGP signature.  
+_[Fixed]_ Auto-update feature ignores alternative signing openPGP signature.
 
 ## [binjr v3.11.0](https://github.com/binjr/binjr/releases/tag/v3.11.0)
 Released on Wed, 1 Feb 2023
