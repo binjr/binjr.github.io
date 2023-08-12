@@ -11,6 +11,7 @@ categories:
   - binjr
   - JFR
   - How to
+comments: true
 ---
 
 # The benefit of wall clock time data in method profiling
