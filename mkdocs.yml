@@ -37,7 +37,7 @@ extra_css:
 theme:
   name: material
   custom_dir: overrides
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon.ico
   logo: assets/images/binjr_logo.png
   #  font: false
   icon:
@@ -103,6 +103,7 @@ plugins:
       post_url_date_format: yyyy/MM
 
 extra:
+  generator: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/binjr
