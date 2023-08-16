@@ -7,30 +7,30 @@ edit_uri: ""
 
 nav:
   - About:
-    - about/what_is_binjr.md
-    - about/features.md
-    - about/supported_data_sources.md
-    - about/notice.md
+      - about/what_is_binjr.md
+      - about/features.md
+      - about/supported_data_sources.md
+      - about/notice.md
   - Docs:
-    - documentation/getting-started.md
-    - documentation/troubleshooting.md
-    - documentation/verify-signature.md
-    - "User guide":
-        - documentation/user_guide/main.md
-        - documentation/user_guide/sources.md
-        - documentation/user_guide/editing_parsing_profiles.md
-        - documentation/user_guide/worksheets.md
-        - documentation/user_guide/charts_worksheets.md
-        - documentation/user_guide/logs_worksheets.md
-        - documentation/user_guide/workspaces.md
-        - documentation/user_guide/settings.md
-        - documentation/user_guide/shortcuts.md
+      - documentation/getting-started.md
+      - documentation/troubleshooting.md
+      - documentation/verify-signature.md
+      - "User guide":
+          - documentation/user_guide/main.md
+          - documentation/user_guide/sources.md
+          - documentation/user_guide/editing_parsing_profiles.md
+          - documentation/user_guide/worksheets.md
+          - documentation/user_guide/charts_worksheets.md
+          - documentation/user_guide/logs_worksheets.md
+          - documentation/user_guide/workspaces.md
+          - documentation/user_guide/settings.md
+          - documentation/user_guide/shortcuts.md
   - Download:
-    - download/latest_release.md
-    - download/plugins.md
-    - download/CHANGELOG.md
+      - download/latest_release.md
+      - download/plugins.md
+      - download/CHANGELOG.md
   - Blog:
-    - blog/index.md
+      - blog/index.md
 
 extra_css:
   - stylesheets/extra.css
@@ -39,12 +39,12 @@ theme:
   custom_dir: overrides
   favicon: assets/images/favicon.png
   logo: assets/images/binjr_logo.png
-#  font: false
+  #  font: false
   icon:
     repo: fontawesome/brands/github
   features:
     - navigation.tabs
-#    - navigation.tabs.sticky
+    #    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
   palette:
@@ -89,6 +89,11 @@ markdown_extensions:
 
 plugins:
   - search
+  - social:
+      cards_layout_options:
+        background_color: "#204656"
+        font_family: Gothic A1
+
   - blog:
       enabled: true
 #      blog_toc: true
