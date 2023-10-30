@@ -1,5 +1,15 @@
 # Change log
 
+## [binjr v3.14.0](https://github.com/binjr/binjr/releases/tag/v3.14.0)
+Released on Mon, 30 Oct 2023
+
+[New] Updated the embedded runtimes for Java and JavaFX to version 21.0.1  
+[New] Source and target compatibility level for binjr's artifacts have been updated to 21  
+[New] It is now possible to set the default values for chart type and unit prefixes, used when these aren't defined by the source  
+[New] Enhanced JVM logging parsing profiles to accept ISO timestamps  
+[New] Clicking on the find or filter button in a log worksheet now sets focus on the relevant input field  
+
+
 ## [binjr v3.13.0](https://github.com/binjr/binjr/releases/tag/v3.13.0)
 Released on Wed, 9 Aug 2023
 
@@ -10,8 +20,7 @@ _[New]_ Added an icon representing the visualization type to   sources panes and
 _[Fixed]_ When there are too many facet pills in an event worksheet, they now overflow to popup menu.  
 _[Fixed]_ The UI themes in the Settings panel are now listed in alphabetical order.  
 _[Fixed]_ LogWorksheetController instances cannot be loaded prior to an adapter acquiring Indexes.LOG_FILES  
-_[Fixed]_ UserInterfaceThemes services cannot be loaded from registered plugin path.  
-
+_[Fixed]_ UserInterfaceThemes services cannot be loaded from registered plugin path.
 
 ## [binjr v3.12.0](https://github.com/binjr/binjr/releases/tag/v3.12.0)
 Released on Sat, 20 May 2023
