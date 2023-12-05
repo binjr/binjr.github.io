@@ -1,14 +1,23 @@
 # Change log
 
-## [binjr v3.14.0](https://github.com/binjr/binjr/releases/tag/v3.14.0)
+## [binjr v3.15.0](https://github.com/binjr/binjr/releases/tag/v3.15.0)
 Released on Tue, 5 Dec 2023
 
-[New] Updated the embedded runtimes for Java and JavaFX to version 21.0.1  
-[New] Source and target compatibility level for binjr's artifacts have been updated to 21  
-[New] It is now possible to set the default values for chart type and unit prefixes, used when these aren't defined by the source  
-[New] Enhanced JVM logging parsing profiles to accept ISO timestamps  
-[New] Clicking on the find or filter button in a log worksheet now sets focus on the relevant input field  
+_[New]_ Added an option to ignore samples with an undefined Y value instead of forcing them to zero ("Settings > Charts > Treat undefined Y values as 0").  
+_[New]_ A  notification popup now shows download progress when the app is being updated.  
+_[Fixed]_ `NaN` values produce duplicated samples after Largest-Triangle-Three-Buckets algorithm is applied.  
+_[Fixed]_ Pagination mechanism when fetching data from index does not honor forceNanToZero property.  
+_[Fixed]_ A race condition in TimeSeriesProcessor.   
+_[Fixed]_ Continuously clicking on "Check for update" results in queuing as many download task.  
 
+## [binjr v3.14.0](https://github.com/binjr/binjr/releases/tag/v3.14.0)
+Released on Mon, 30 Oct 2023
+
+_[New]_ Updated the embedded runtimes for Java and JavaFX to version 21.0.1  
+_[New]_ Source and target compatibility level for binjr's artifacts have been updated to 21  
+_[New]_ It is now possible to set the default values for chart type and unit prefixes, used when these aren't defined by the source  
+_[New]_ Enhanced JVM logging parsing profiles to accept ISO timestamps  
+_[New]_ Clicking on the find or filter button in a log worksheet now sets focus on the relevant input field
 
 ## [binjr v3.13.0](https://github.com/binjr/binjr/releases/tag/v3.13.0)
 Released on Wed, 9 Aug 2023
