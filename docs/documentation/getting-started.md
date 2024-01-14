@@ -17,7 +17,7 @@ You can also build or run the application from the source code.
 ### Prerequisites:
 
 * [Git](https://git-scm.com/open)
-* [OpenJDK 17 or later](http://openjdk.java.net/)
+* [OpenJDK 21 or later](https://adoptium.net/marketplace/)
 
 !!! Info "Optional"
     If you want to build native installer packages, you'll also need the following platform specific prerequisites: 
@@ -133,7 +133,7 @@ on Maven Central.
 
 !!! Info "Note"
     In order to run binjr that way, you need to have Apache Maven installed on your machine and your JAVA_HOME
-    environment variable must point at a copy of a Java runtime version 11 or later.
+    environment variable must point at a copy of a Java runtime version 21 or later.
 
 
 === "Linux / macOS"
