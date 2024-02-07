@@ -45,7 +45,7 @@ First of all you need to have GnuPG installed before you can verify signatures.
     
 If the verification is successful, the program should output something along these lines:
 ```
-gpg: Signature made Mon Apr 27 23:51:53 2020 RDT
-gpg:                using RSA key 412EC8A85400AC3F
-gpg: Good signature from "Frederic Thevenet <thevenet.fred@free.fr>"
+gpg: Signature made Wed Feb  7 16:29:54 2024 CET
+gpg:                using RSA key AF45EEEFB23702CB
+gpg: Good signature from "binjr (Package signing key) <signing@binjr.eu>"
 ```
