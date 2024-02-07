@@ -1,5 +1,15 @@
 # Change log
 
+## [binjr v3.16.0](https://github.com/binjr/binjr/releases/tag/v3.16.0)
+Released on Wed, 7 Feb 2024
+
+_[New]_ Updated the embedded runtimes for Java and JavaFX to version 21.0.2  
+_[New]_ Added an option to allow Basic auth in tunneling over https.
+_[Fixed]_ Source pane remains opened if a connection failed.  
+_[Fixed]_ Replace Apache http client by OpenJDK's built-in implementation.  
+_[Fixed]_ Use https instead of http when inferring missing protocol.  
+
+
 ## [binjr v3.15.0](https://github.com/binjr/binjr/releases/tag/v3.15.0)
 Released on Tue, 5 Dec 2023
 
@@ -8,7 +18,7 @@ _[New]_ A  notification popup now shows download progress when the app is being 
 _[Fixed]_ `NaN` values produce duplicated samples after Largest-Triangle-Three-Buckets algorithm is applied.  
 _[Fixed]_ Pagination mechanism when fetching data from index does not honor forceNanToZero property.  
 _[Fixed]_ A race condition in TimeSeriesProcessor.   
-_[Fixed]_ Continuously clicking on "Check for update" results in queuing as many download task.  
+_[Fixed]_ Continuously clicking on "Check for update" results in queuing as many download task.
 
 ## [binjr v3.14.0](https://github.com/binjr/binjr/releases/tag/v3.14.0)
 Released on Mon, 30 Oct 2023
