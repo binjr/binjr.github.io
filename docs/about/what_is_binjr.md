@@ -9,9 +9,8 @@ no server or server-side components dedicated to _binjr_ that need to be install
 
 The user experience in _binjr_ revolves around enabling users to compose a custom view by using any of the time-series
 exposed by the source, simply by dragging and dropping them on the view.  
-That view then constantly evolves as users add or remove series from different sources, while navigating through it by changing the time range,
-the type of chart visualization and smaller aspects such as the color or transparency for each series.  
-Users can then save the current state of their session at any time to a file, in order to reopen it later or to share it with someone else.
+That view then constantly evolves as users add or remove series from different sources, while navigating through it by changing the time range, the type of chart visualization and smaller aspects such as the color or transparency for each series.  
+Users can navigate the change history for these views, using "back" and "forward" like in a web browser, and save the current state of their session at any time to a file, in order to reopen it later or to share it with someone else.
 
 _binjr_ also possesses the ability to visualize time series not only as charts of numeric values, but can be customized to 
 support visualization for any data type; for instance it features out-of-the-box a source adapter for text based log files.   
@@ -23,11 +22,10 @@ In practical terms, this means that a lot of the features built into binjr to co
 visualizations can be applied to log files with great benefits.
 
 Behind the scene, _binjr_ uses Apache Lucene to index data from log files; meaning users can use its powerful query 
-language to hack through vast quantities logged events.
-
+language to hack through vast quantities logged events.  
 It also allows _binjr_ to open log files of any size; unlike most text editors which will fail to load multi
 gigabytes-sized files as they try to fit it all in memory, _binjr_ will happily index those and present a paginated view so
- that memory usage remains reasonable, while the backing index ensures navigating and searching is lightning fast.
+ that memory usage remains reasonable, while the backing index ensures that searches are fast and navigation snappy.
 
 
 With these abilities, _binjr_ aims to become the missing link between text editors and command line tools
