@@ -47,6 +47,7 @@ theme:
 #    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
+    - content.code.select
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -72,8 +73,14 @@ markdown_extensions:
   - meta
   - smarty
   - extra
-  - pymdownx.magiclink
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.magiclink
   - pymdownx.details
   - pymdownx.mark
   - pymdownx.tabbed:
