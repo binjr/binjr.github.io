@@ -1,12 +1,12 @@
 # Application bundles
 
 These bundles contain all dependencies and runtime components needed to run binjr.   
-They also include support for the following data sources: 
+They also include support for the following data sources:
 [JRDS](https://github.com/fbacchella/jrds), [Netdata](https://www.netdata.cloud), RRD Files and CSV files.
 
-The latest available version is 3.16.0, released on Wed, 7 Feb 2024.  
+The latest available version is 3.17.0, released on Thu, 21 Mar 2024.
 
-Complete release information can be found in the [change log](CHANGELOG.md). 
+Complete release information can be found in the [change log](CHANGELOG.md).
 
 <style>
   .md-typeset button {
@@ -29,35 +29,44 @@ Complete release information can be found in the [change log](CHANGELOG.md).
   }
 </style>
 
+## Package managers
+binjr can be installed and updated using various package managers, depending on you operating system.
+
+| Version          | Operating System                        | Architecture | Package manager                                              |
+|------------------|-----------------------------------------|--------------|--------------------------------------------------------------|
+| binjr v3.17.0 | **Debian** (10,11), **Ubuntu** (22.04+) | x84 64-bit   | [binjr APT epository](https://repos.binjr.eu/apt)            |
+| binjr v3.17.0 | **RHEL** (8,9), **Fedora** (36+)        | x84 64-bit   | [binjr RPM Repository](https://repos.binjr.eu/rpm)           |
+| binjr v3.17.0 | **ArchLinux**                           | x84 64-bit   | [Arch User Repository](https://repos.binjr.eu/aur)           |
+| binjr v3.17.0 | **Windows** (10[^2] or 11)              | x84 64-bit   | [Winget Community Repository](https://repos.binjr.eu/winget) |
+
+
 ## Installable bundles
 
 Installable bundles integrate with the host OS to provide menu shortcuts, file associations and per user settings.
 
-|Version     | Operating System                        |  Architecture        |  Download  | |
-|----------|-----------------------------------------|----------|------|----|
-| binjr v3.16.0 | **Debian** (10,11), **Ubuntu** (22.04+) | x84 64-bit | [APT Repo](https://repos.binjr.eu/apt) |   |
-| binjr v3.16.0 | **RHEL** (8,9), **Fedora** (36+)        | x84 64-bit | [RPM Repo](https://repos.binjr.eu/rpm) |   |
-| binjr v3.16.0 | **macOS** (10.10 or later)              | x84 64-bit |  [<button ><img alt="" src="../../assets/images/download.svg"> .pkg</button>](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_mac-x86_64.pkg) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_mac-x86_64.pkg.asc)[^1] |
-| binjr v3.16.0 | **Windows** (7 or later)                | x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.msi) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.msi.asc)[^1] |
+| Version          | Operating System                        | Architecture | Download                                                                                                                                                                    | Signature[^1]                                                                                                                                                                    |
+|------------------|-----------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| binjr v3.17.0 | **Debian** (10,11), **Ubuntu** (22.04+) | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .deb</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.deb)  | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.deb.asc)   |
+| binjr v3.17.0 | **RHEL** (8,9), **Fedora** (36+)        | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .rpm</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.rpm)   | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.deb.asc)   |
+| binjr v3.17.0 | **macOS** (13.x or later)               | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .pkg</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.pkg)   | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.pkg.asc)    |
+| binjr v3.17.0 | **Windows** (7 or later)                | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.msi) | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.msi.asc) |
 
 ## Portable bundles
 
 Portable bundles can be unpacked to and used from a detachable drive or a file share.
 
-|Version     | Operating System       |  Architecture        |  Download  | |
-|----------|----------|----------|------|----|
-| binjr v3.16.0 | **Linux** (glibc v2.5 or higher)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_linux-amd64.tar.gz)| [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_linux-amd64.tar.gz.asc)[^1]  |
-| binjr v3.16.0 | **macOS** (10.10 or later)| x84 64-bit | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_mac-x86_64.tar.gz) | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_mac-x86_64.tar.gz.asc)[^1] |
-| binjr v3.16.0 | **Windows** (7 or later)| x84 64-bit | [<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.zip)  | [Signature (GPG)](https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.zip.asc)[^1] |
-
-[^1]: [How to verify the integrity of the downloaded file?](/documentation/verify-signature/)
+| Version          | Operating System                 | Architecture | Download                                                                                                                                                                         | Signature[^1]                                                                                                                                                                     |
+|------------------|----------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| binjr v3.17.0 | **Linux** (glibc v2.5 or higher) | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.tar.gz) | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.tar.gz.asc) |
+| binjr v3.17.0 | **macOS** (13.x or later)        | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.tar.gz)  | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.tar.gz.asc)  |
+| binjr v3.17.0 | **Windows** (7 or later)         | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.zip)      | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.zip.asc)  |
 
 !!! Warning "If you're having trouble launching binjr..."
     === "...on macOS"
-        **binjr** might not be recognized by the Apple notary service, so you may get a warning when trying to run it the 
-        first time.
-        To override it, locate binjr in the Finder on your Mac, control-click the app icon, then choose `Open` from the
-        shortcut menu and click `Open` ([see more](https://support.apple.com/guide/mac-help/mh40616/mac)).
+    **binjr** might not be recognized by the Apple notary service, so you may get a warning when trying to run it the
+    first time.
+    To override it, locate binjr in the Finder on your Mac, control-click the app icon, then choose `Open` from the
+    shortcut menu and click `Open` ([see more](https://support.apple.com/guide/mac-help/mh40616/mac)).
 
     === "...on Windows"
         **binjr** might not be recognized by Microsoft Defender SmartScreen, so you might need to suppress a warning
@@ -66,4 +75,7 @@ Portable bundles can be unpacked to and used from a detachable drive or a file s
         
     To ensure that your download has not been tempered with,
     [you should verify its OpenGPG signature](/documentation/verify-signature).
-           
+
+[^1]: [How to verify the integrity of the downloaded file?](/documentation/verify-signature/)
+[^2]: The winget command line tool is only supported on Windows 10 1709 (build 16299) or later
+

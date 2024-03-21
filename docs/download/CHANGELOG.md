@@ -1,14 +1,23 @@
 # Change log
 
+## [binjr v3.17.0](https://github.com/binjr/binjr/releases/tag/v3.17.0)
+Released on Thu, 21 Mar 2024
+
+_[New]_ Updated the embedded runtimes for Java and JavaFX to version 22.  
+_[New]_ Support for new package managers: AUR for Archlinux and winget for Windows.  
+_[New]_ Added an option to override hardware acceleration support.  
+_[New]_ Added an option to change the user interface scaling factor.  
+_[New]_ Added an option to trim extraneous spaces in malformed CSV files in parsing profiles.  
+_[Fixed]_ Dead links for support pages in MSI installer metadata.  
+
 ## [binjr v3.16.0](https://github.com/binjr/binjr/releases/tag/v3.16.0)
 Released on Wed, 7 Feb 2024
 
 _[New]_ Updated the embedded runtimes for Java and JavaFX to version 21.0.2  
-_[New]_ Added an option to allow Basic auth in tunneling over https.
+_[New]_ Added an option to allow Basic auth in tunneling over https.  
 _[Fixed]_ Source pane remains opened if a connection failed.  
 _[Fixed]_ Replace Apache http client by OpenJDK's built-in implementation.  
-_[Fixed]_ Use https instead of http when inferring missing protocol.  
-
+_[Fixed]_ Use https instead of http when inferring missing protocol.
 
 ## [binjr v3.15.0](https://github.com/binjr/binjr/releases/tag/v3.15.0)
 Released on Tue, 5 Dec 2023

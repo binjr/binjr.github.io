@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 83927792,
-      "download_count": 0,
+      "download_count": 21,
       "created_at": "2024-02-07T19:31:38Z",
       "updated_at": "2024-02-07T19:31:56Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_linux-amd64.tar.gz"
@@ -96,7 +96,7 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 821,
-      "download_count": 0,
+      "download_count": 15,
       "created_at": "2024-02-07T19:31:57Z",
       "updated_at": "2024-02-07T19:31:57Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_linux-amd64.tar.gz.asc"
@@ -130,7 +130,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 81103397,
-      "download_count": 0,
+      "download_count": 10,
       "created_at": "2024-02-07T19:30:50Z",
       "updated_at": "2024-02-07T19:30:53Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_mac-x86_64.pkg"
@@ -164,7 +164,7 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 821,
-      "download_count": 0,
+      "download_count": 2,
       "created_at": "2024-02-07T19:30:54Z",
       "updated_at": "2024-02-07T19:30:54Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_mac-x86_64.pkg.asc"
@@ -198,7 +198,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 81182661,
-      "download_count": 0,
+      "download_count": 2,
       "created_at": "2024-02-07T19:30:55Z",
       "updated_at": "2024-02-07T19:30:59Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_mac-x86_64.tar.gz"
@@ -266,7 +266,7 @@
       "content_type": "application/x-msdownload",
       "state": "uploaded",
       "size": 81873199,
-      "download_count": 0,
+      "download_count": 74,
       "created_at": "2024-02-07T19:31:19Z",
       "updated_at": "2024-02-07T19:31:23Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.msi"
@@ -300,7 +300,7 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 838,
-      "download_count": 0,
+      "download_count": 17,
       "created_at": "2024-02-07T19:31:23Z",
       "updated_at": "2024-02-07T19:31:23Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.msi.asc"
@@ -334,7 +334,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 81276489,
-      "download_count": 0,
+      "download_count": 21,
       "created_at": "2024-02-07T19:31:24Z",
       "updated_at": "2024-02-07T19:31:27Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.zip"
@@ -368,7 +368,7 @@
       "content_type": "application/pgp-signature",
       "state": "uploaded",
       "size": 838,
-      "download_count": 0,
+      "download_count": 2,
       "created_at": "2024-02-07T19:31:28Z",
       "updated_at": "2024-02-07T19:31:28Z",
       "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.16.0/binjr-3.16.0_windows-amd64.zip.asc"
