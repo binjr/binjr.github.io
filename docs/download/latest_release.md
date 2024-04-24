@@ -4,7 +4,7 @@ These bundles contain all dependencies and runtime components needed to run binj
 They also include support for the following data sources:
 [JRDS](https://github.com/fbacchella/jrds), [Netdata](https://www.netdata.cloud), RRD Files and CSV files.
 
-The latest available version is 3.17.0, released on Thu, 21 Mar 2024.
+The latest available version is 3.18.0, released on Wed, 24 Apr 2024.
 
 Complete release information can be found in the [change log](CHANGELOG.md).
 
@@ -34,10 +34,10 @@ binjr can be installed and updated using various package managers, depending on 
 
 | Version          | Operating System                        | Architecture | Package manager                                              |
 |------------------|-----------------------------------------|--------------|--------------------------------------------------------------|
-| binjr v3.17.0 | **Debian** (10,11), **Ubuntu** (22.04+) | x84 64-bit   | [binjr APT epository](https://repos.binjr.eu/apt)            |
-| binjr v3.17.0 | **RHEL** (8,9), **Fedora** (36+)        | x84 64-bit   | [binjr RPM Repository](https://repos.binjr.eu/rpm)           |
-| binjr v3.17.0 | **ArchLinux**                           | x84 64-bit   | [Arch User Repository](https://repos.binjr.eu/aur)           |
-| binjr v3.17.0 | **Windows** (10[^2] or 11)              | x84 64-bit   | [Winget Community Repository](https://repos.binjr.eu/winget) |
+| binjr v3.18.0 | **Debian** (10,11), **Ubuntu** (22.04+) | x84 64-bit   | [binjr APT epository](https://repos.binjr.eu/apt)            |
+| binjr v3.18.0 | **RHEL** (8,9), **Fedora** (36+)        | x84 64-bit   | [binjr RPM Repository](https://repos.binjr.eu/rpm)           |
+| binjr v3.18.0 | **ArchLinux**                           | x84 64-bit   | [Arch User Repository](https://repos.binjr.eu/aur)           |
+| binjr v3.18.0 | **Windows** (10[^2] or 11)              | x84 64-bit   | [Winget Community Repository](https://repos.binjr.eu/winget) |
 
 
 ## Installable bundles
@@ -46,10 +46,10 @@ Installable bundles integrate with the host OS to provide menu shortcuts, file a
 
 | Version          | Operating System                        | Architecture | Download                                                                                                                                                                    | Signature[^1]                                                                                                                                                                    |
 |------------------|-----------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| binjr v3.17.0 | **Debian** (10,11), **Ubuntu** (22.04+) | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .deb</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.deb)  | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.deb.asc)   |
-| binjr v3.17.0 | **RHEL** (8,9), **Fedora** (36+)        | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .rpm</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.rpm)   | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.deb.asc)   |
-| binjr v3.17.0 | **macOS** (13.x or later)               | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .pkg</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.pkg)   | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.pkg.asc)    |
-| binjr v3.17.0 | **Windows** (7 or later)                | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.msi) | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.msi.asc) |
+| binjr v3.18.0 | **Debian** (10,11), **Ubuntu** (22.04+) | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .deb</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.deb)  | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.deb.asc)   |
+| binjr v3.18.0 | **RHEL** (8,9), **Fedora** (36+)        | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .rpm</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.rpm)   | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.deb.asc)   |
+| binjr v3.18.0 | **macOS** (13.x or later)               | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .pkg</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.pkg)   | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.pkg.asc)    |
+| binjr v3.18.0 | **Windows** (7 or later)                | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .msi</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.msi) | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.msi.asc) |
 
 ## Portable bundles
 
@@ -57,9 +57,9 @@ Portable bundles can be unpacked to and used from a detachable drive or a file s
 
 | Version          | Operating System                 | Architecture | Download                                                                                                                                                                         | Signature[^1]                                                                                                                                                                     |
 |------------------|----------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| binjr v3.17.0 | **Linux** (glibc v2.5 or higher) | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.tar.gz) | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_linux-amd64.tar.gz.asc) |
-| binjr v3.17.0 | **macOS** (13.x or later)        | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.tar.gz)  | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_mac-x86_64.tar.gz.asc)  |
-| binjr v3.17.0 | **Windows** (7 or later)         | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.zip)      | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.17.0/binjr-3.17.0_windows-amd64.zip.asc)  |
+| binjr v3.18.0 | **Linux** (glibc v2.5 or higher) | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.tar.gz) | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_linux-amd64.tar.gz.asc) |
+| binjr v3.18.0 | **macOS** (13.x or later)        | x84 64-bit   | [<button ><img alt="" src="../../assets/images/download.svg"> .tar.gz</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.tar.gz)  | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_mac-x86_64.tar.gz.asc)  |
+| binjr v3.18.0 | **Windows** (7 or later)         | x84 64-bit   | [<button><img alt="" src="../../assets/images/download.svg"> .zip</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.zip)      | [<button ><img alt="" src="../../assets/images/download.svg"> .asc</button>](https://github.com/binjr/binjr/releases/download/v3.18.0/binjr-3.18.0_windows-amd64.zip.asc)  |
 
 !!! Warning "If you're having trouble launching binjr..."
     === "...on macOS"
