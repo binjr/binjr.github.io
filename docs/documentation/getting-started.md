@@ -8,7 +8,6 @@ The simplest way to start using ***binjr*** is to download an application bundle
 
 These bundles contain all the dependencies required to run the app, including a copy of the Java runtime specially
 crafted to only include the required components and save disk space.
-They are less than 60 MB in size and there is one for each of the supported platform.
 
 ## Build from source
 
