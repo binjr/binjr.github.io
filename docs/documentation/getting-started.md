@@ -31,7 +31,7 @@ You can also build or run the application from the source code.
         * Xcode command line tools.
     
     === "Windows (.msi)"
-        * [WiX 3.0 or later](https://wixtoolset.org/).
+        * [WiX 5.0.1 or later](https://github.com/wixtoolset/wix/releases/tag/v5.0.1).
 
 
 ### Build
