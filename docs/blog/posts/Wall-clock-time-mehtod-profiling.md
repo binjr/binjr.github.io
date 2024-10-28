@@ -1,6 +1,9 @@
 ---
 draft: false 
-date: 2023-08-10 
+date: 
+  created: 2023-08-10 
+  udpated: 2023-08-10
+image: "assets/images/Wall-clock-method-profiling-metrics.png"
 tags:
   - JFR
   - Profiling

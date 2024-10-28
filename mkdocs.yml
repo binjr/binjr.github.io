@@ -102,8 +102,13 @@ plugins:
       post_url_date_format: yyyy/MM
   - rss:
       feed_title: "binjr"
-      match_path: "(blog.posts.*|download.CHANGELOG.*)"
+      match_path: "blog.posts.*"
       image: "https://binjr.eu/assets/images/binjr_avatar.png"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+      abstract_chars_count: -1
+      abstract_delimiter: ""
 
 extra:
   social:

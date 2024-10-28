@@ -1,6 +1,9 @@
 ---
 draft: false 
-date: 2023-08-09 
+date: 
+  created: 2023-08-09
+  updated: 2023-08-09
+image: "assets/images/blog_01_JFR_charts.png"
 tags:
   - JFR
   - Adapter
