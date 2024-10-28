@@ -14,8 +14,8 @@ There are several types of worksheets in _binjr_, that offers different visual r
 
 The two main types of worksheets currently available are:
 
-* [Charts worksheets](#charts-worksheets)
-* [Logs worksheets](#logs-worksheets)
+* [Charts worksheets](charts_worksheets.md)
+* [logs worksheets](logs_worksheets.md)
 
 ## Navigation
 
@@ -28,7 +28,7 @@ Use the time range picker to select the worksheet current time range.
 !!! Info "Note"
     Invoke the time range picker by clicking the "From... To..." label at the center of the navigation bar.
     
-    ![](/assets/images/worksheet_time_range_picker.png)
+    ![](../../assets/images/worksheet_time_range_picker.png)
     
 Select the start and end dates for the time range using the calendar widget, or choose a preset time range (Last 24 Hours, 
 Last 90 Days, Today, etc...)

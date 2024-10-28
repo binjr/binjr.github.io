@@ -13,7 +13,7 @@
 
 Users can edit the existing sets of parsing rules and create their own via the built-in editor.
 
-![Parsing profile editor](/assets/images/parsing_profil_editor.png)
+![Parsing profile editor](../../assets/images/parsing_profil_editor.png)
 
 ## 1. Parsing profiles selection and management
 

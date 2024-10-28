@@ -1,6 +1,6 @@
 # Verifying downloads
 
-Each file on the [download page](/download/latest_release/) is accompanied by an OpenPGP signature (a file with the 
+Each file on the [download page](../download/latest_release.md) is accompanied by an OpenPGP signature (a file with the 
 same name as the package and the extension ".asc").   
 It allows you to verify the file you've downloaded is exactly the one we intended you to get.
 

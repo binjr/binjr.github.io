@@ -41,16 +41,16 @@ You can invoke the binjr debug console by pressing `F12`
 The `Console` tab on the console show the last events logged for the running session.  
 From this screen you can also change the verbosity level (default is INFO).
 
-![debug console](/assets/images/debug_console.png)
+![debug console](../assets/images/debug_console.png)
 
 !!! Note
     Although the logs' output in the debug console is truncated to a configurable number of lines, it always appears in 
     full in the log files. 
 
 The `Preferences` tab allows you to change all of binjr's settings, including some that are not exposed in the
-[Setting panel](/documentation/user_guide/settings/).
+[Setting panel](../documentation/user_guide/settings.md).
 
-![debug console](/assets/images/debug_preferences.png)
+![debug console](../assets/images/debug_preferences.png)
 
 !!! Warning
     Please proceed with caution when changing undocumented settings from the debug console, as it may affect the 

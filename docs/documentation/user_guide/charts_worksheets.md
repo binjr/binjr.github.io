@@ -8,7 +8,7 @@
     }
 </style>
 
-![chart worksheet](/assets/images/chart_worksheet.png)
+![chart worksheet](../../assets/images/chart_worksheet.png)
 
 A chart worksheet is composed of the following areas:
 
@@ -214,4 +214,4 @@ scrolling is required to view it within the application.
 The worksheet's name and time range is also printed at the top of the snapshot. 
 
 !!! Example "Example"
-    ![snapshot](/assets/images/worksheet_snapshot.png) 
+    ![snapshot](../../assets/images/worksheet_snapshot.png) 

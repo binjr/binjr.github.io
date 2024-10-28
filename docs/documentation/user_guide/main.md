@@ -10,7 +10,7 @@
 
 The landing screen for binjr is composed of three main parts; from left to right:
 
-![landing page](/assets/images/landing-page.png)
+![landing page](../../assets/images/landing-page.png)
 
 ## 1. The menu bar
 
@@ -25,11 +25,11 @@ assistance, modifying user preferences and exiting the application.
 
 This is the area where currently available time-series sources are shown.
 
-(see [Source pane](/documentation/user_guide/sources) for more details)
+(see [Source pane](sources.md) for more details)
 
 
 ## 3. The worksheet pane
 
 This is the area where data visualization and navigation takes place.
 
-(see [Worksheet pane](/documentation/user_guide/worksheets) for more details)
+(see [Worksheet pane](worksheets.md) for more details)

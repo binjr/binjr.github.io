@@ -16,7 +16,7 @@ at a later time.
       
 All workspace management features are access from the "Workspaces" entry in the menu bar.
 
-![](/assets/images/workspaces_menu.png)
+![menu](../../assets/images/workspaces_menu.png)
 
 ## New Workspace
 

@@ -40,7 +40,7 @@ you can add any number of sources, of any supported type to a single workspace.
 Once you've successfully connected to a data source, all of its available time series are displayed in a tree view, 
 with a hierarchy depending on the type of source.
 
-![tree](/assets/images/source_tree_view.png)
+![tree](../../assets/images/source_tree_view.png)
 
 
 Use the "filter" icon to filter out the series whose path matches the entered text.

@@ -33,4 +33,4 @@ You can use the plugins below to further extend binjr's built-in functionalities
 
 
 
-[^1]: [How to verify the integrity of the downloaded file?](/documentation/verify-signature/)
+[^1]: [How to verify the integrity of the downloaded file?](../documentation/verify-signature.md)

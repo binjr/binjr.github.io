@@ -11,7 +11,7 @@
 !!! Warning
     This section is under construction.
 
-![Logs worksheet](/assets/images/logs_worksheet.png)
+![Logs worksheet](../../assets/images/logs_worksheet.png)
 
 A logs worksheet is composed of the following areas:
 
