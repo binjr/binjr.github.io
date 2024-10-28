@@ -1,9 +1,9 @@
 ---
-draft: false 
-date: 
-  created: 2023-08-10 
-  udpated: 2023-08-10
-image: "assets/images/Wall-clock-method-profiling-metrics.png"
+draft: false
+date:
+  created: 2023-08-10
+  updated: 2023-08-10
+image: assets/images/Wall-clock-method-profiling-metrics.png
 tags:
   - JFR
   - Profiling
@@ -16,7 +16,6 @@ categories:
   - How to
 comments: true
 ---
-
 # The benefit of wall clock time data in method profiling
 
 

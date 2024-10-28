@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 
+date:
   created: 2024-10-27
   updated: 2024-10-27
 image: "assets/images/splittable-pane-overview.png"

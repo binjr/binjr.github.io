@@ -105,11 +105,11 @@ plugins:
       match_path: "blog.posts.*"
       image: "https://binjr.eu/assets/images/binjr_avatar.png"
       date_from_meta:
-        as_creation: date.created
-        as_update: date.updated
+        as_creation: "date.created"
+        as_update: "date.updated"
       abstract_chars_count: -1
       abstract_delimiter: ""
-
+      use_git: false
 extra:
   social:
     - icon: fontawesome/brands/github

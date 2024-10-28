@@ -1,8 +1,8 @@
 ---
-draft: false 
-date: 
+date:
   created: 2023-08-09
   updated: 2023-08-09
+draft: false
 image: "assets/images/blog_01_JFR_charts.png"
 tags:
   - JFR

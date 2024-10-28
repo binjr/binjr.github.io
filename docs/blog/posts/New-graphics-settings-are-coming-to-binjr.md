@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 
+date:
   created: 2024-02-27
   updated: 2024-02-27
 image: assets/images/graphics_settings_panel.png
