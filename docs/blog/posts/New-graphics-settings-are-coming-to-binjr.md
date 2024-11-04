@@ -26,7 +26,7 @@ Not that I am planning to turn binjr into a video game engine or anything, but b
 
 <!-- more -->
 
-![graphics_settings_panel](../../assets/images/graphics_settings_panel.png)
+![graphics_settings_panel](https://binjr.eu/assets/images/graphics_settings_panel.png)
 
 
 ## Hardware acceleration support
@@ -37,7 +37,7 @@ It generally does a good job at that on pretty much all OS, but there are some c
 
 Conversely, you might want to forcibly **disable** HW acceleration, if you experience rendering glitches or if the application is unstable.
 
-![alt text](../../assets/images/graphics_settings_HW_support.png)
+![alt text](https://binjr.eu/assets/images/graphics_settings_HW_support.png)
 
 ## Overriding the User Interface scaling factor
 
@@ -57,7 +57,7 @@ For these reasons, the next release of binjr will propose a new set of settings 
 Right now, I've opted to propose a closed list of settings, ranging from 50 to 350 percents, by 25% intervals. We also only propose square ratios (i.e. identical horizontal and vertical values).  
 This feels like a good compromise in exposing _some_ of the possibilities enabled by JavaFX while keeping the list of available choice reasonably short.  
 
-![graphics_settings_UI_scaling](../../assets/images/graphics_settings_UI_scaling.png)
+![graphics_settings_UI_scaling](https://binjr.eu/assets/images/graphics_settings_UI_scaling.png)
 
 With that said, this is still a work-in-progress, so feel free to chime in if you'd like to propose something else.
 

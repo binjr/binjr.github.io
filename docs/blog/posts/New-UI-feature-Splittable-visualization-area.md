@@ -34,21 +34,21 @@ Of course, the ability to detach a tab into a new window isn't going anywhere, a
 
 Below is an example of what it looks like: 
 
-![Splittable pane](../../assets/images/splittable-pane-overview.png)
+![Splittable pane](https://binjr.eu/assets/images/splittable-pane-overview.png)
 
 If you're feeling adventurous, you can even give it a try in the [v3.21.0 Preview build](https://github.com/binjr/binjr/releases/tag/v3.21.0-SNAPSHOT), but please be warned that it is still early days and that it is quite buggy at the moment, and not everything is implemented yet.
 
 To split a view, click on the icon to the right of the tabs to create a new pane to the right, or ALT+click to create a new pane at the bottom.
 
-![split_tab_button](../../assets/images/split_tab_button.png)
+![split_tab_button](https://binjr.eu/assets/images/split_tab_button.png)
 
 You can drag series from the source panel to create a new worksheet, or drag an existing tab from onto it. When a split pane is empty, you can discard it by process the top let cross icon.
 
-<video controls  muted src="/assets/videos/splittable_pane_demo.mp4" type="video/mp4"/></video>
+<video controls  muted src="https://binjr.eu/assets/videos/splittable_pane_demo.mp4" type="video/mp4"/></video>
 
 Alternatively, you can send an exiting tag into a new split pane directly using the right-click context menu:
 
-![Splittable pane menu](../../assets/images/splittable_pane_menu.png)
+![Splittable pane menu](https://binjr.eu/assets/images/splittable_pane_menu.png)
 
 
 To be honest, it's been a while since the last time a brand new UI feature was introduced in binjr, so I'm pretty exited about this one, and I hope you'll like it too. 

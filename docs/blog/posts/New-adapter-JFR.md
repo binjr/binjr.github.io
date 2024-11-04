@@ -47,7 +47,7 @@ Upon opening a `.jfr` file using this adapter, two distinct sources are added to
 ### The `JFR:Events` source
 When dragging items for the source named `[JFR: Events] my_recording.jfr` onto the worksheet area, a view similar to that used for log files is created and a textual representation of the selected events are shown. 
 
-![image](../../assets/images/blog_01_JFR_charts.png)
+![image](https://binjr.eu/assets/images/blog_01_JFR_charts.png)
 
 Like for log files, you can keep on adding more even types onto the same page, and use the filtering box to refine the event view based on their textual content and the event density histogram to filter out on their timestamps.
 
@@ -61,7 +61,7 @@ This makes it remarkably easy to produced a unified and dynamically filterable v
 ### The `JFR:Charts` source
 The JFR Charts source is very reminiscent of the core binjr experience: it allows for every types of event in a JFR recording that contain fields typed as numbers to be plotted as time series on various types of charts.
 
-![image](../../assets/images/blog_01_JFR_events.png)
+![image](https://binjr.eu/assets/images/blog_01_JFR_events.png)
 
 Plotting values over time makes perfect and immediate sense for a majority of all the available numeric field in JFR, like in the case of CPU usage or heap statistics, while for some others... well... not so much!  
 For thing like memory addresses or identifiers, well, let's just say that it makes for some "interesting" charts...
@@ -76,7 +76,7 @@ Although it is not possible to mix events and charts in a same worksheet, it is 
 
 Used together with the ability to detach worksheets from the main window, you can then compose dynamic rich views, that allow for peeking into events and charts simultaneously: 
 
-<video controls  muted src="/assets/videos/blog_01_JFR_sync_charts_events.mp4" type="video/mp4"/></video>
+<video controls  muted src="https://binjr.eu/assets/videos/blog_01_JFR_sync_charts_events.mp4" type="video/mp4"/></video>
 
 
 ## What's next?
