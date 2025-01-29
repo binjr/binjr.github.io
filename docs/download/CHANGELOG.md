@@ -1,11 +1,14 @@
 # Change log
 
-## [binjr v3.20.1](https://github.com/binjr/binjr/releases/tag/v3.20.1)
-Released on Sun, 10 Nov 2024
+## [binjr v3.21.0](https://github.com/binjr/binjr/releases/tag/v3.21.0)
+Released on Wed, 29 Jan 2025
 
-* _[Dependencies]_ Rolled back embedded OpenJDK runtime to 21.0.5
-* _[Fixed]_ Bad performances when using the CSV and Logs adapters caused by a regression in OpenJDK 23.0.1 when using Shenandoah GC.
-* _[Fixed]_ An error is raised in the installer when clicking on the 'back' button on the install verification dialog.
+* _[New] [UI]_ It is now possible to split the visualisation area in the main window or in a detached tab, to display many worksheets side-by-side.
+* _[New] [GC logs Adapter]_ Added a new data adaptor to plot metrics extracted from JVM GC logs.
+* _[New] [HTTP Adapters]_ Http adaptors now support basic authentication.  
+* _[New] [Dependencies]_ Updated embedded OpenJDK and JavaFX runtimes to 23.0.2  
+* _[Fixed] [Log files Adapter]_ JVM unified logs parsing rules sometime fail to capture log severity.  
+* _[Fixed] [Packaging]_ Cannot install .deb on Debian bookworm (unmet dependencies for libffi)  
 
 ## [binjr v3.20.0](https://github.com/binjr/binjr/releases/tag/v3.20.0)
 Released on Wed, 23 Oct 2024
@@ -23,11 +26,11 @@ Released on Wed, 23 Oct 2024
 * _[Fixed]_ The title bar for the binjr window is larger (or smaller) than it should be when using multiple monitors on Windows.
 * _[Fixed]_ Closing and reopening the application causes the main window to slightly grow (or shrink) each time when using multiple monitors on Windows.
 
-
 ## [binjr v3.19.0](https://github.com/binjr/binjr/releases/tag/v3.19.0)
 Released on Fri, 19 Jul 2024
 
 * _[New]_ It is now possible for the user to configure a default value for the stroke width used in different types of charts.
+* _[New]_ Updated embedded OpenJDK and JavaFX runtimes to 22.0.2
 * _[Fixed]_  Event heatmap in log worksheet shows wrong data when displaying events older than 1970/01/01 00:00:00 UTC.
 * _[Fixed]_ Do not interpolate Y values at interval boundaries for scatter point charts.
 * _[Fixed]_ Wrapping text in log view does not always work when selecting the option.
