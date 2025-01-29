@@ -1,6 +1,6 @@
 # Change log
 
-## [binjr v3.21.0](https://github.com/binjr/binjr/releases/tag/v3.21.0)
+## [binjr v3.21.1](https://github.com/binjr/binjr/releases/tag/v3.21.1)
 Released on Wed, 29 Jan 2025
 
 * _[New] [UI]_ It is now possible to split the visualisation area in the main window or in a detached tab, to display many worksheets side-by-side.
