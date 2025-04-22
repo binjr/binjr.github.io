@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/binjr/binjr/releases/197457107",
-  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/197457107/assets",
-  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/197457107/assets{?name,label}",
-  "html_url": "https://github.com/binjr/binjr/releases/tag/v3.21.1",
-  "id": 197457107,
+  "url": "https://api.github.com/repos/binjr/binjr/releases/213889241",
+  "assets_url": "https://api.github.com/repos/binjr/binjr/releases/213889241/assets",
+  "upload_url": "https://uploads.github.com/repos/binjr/binjr/releases/213889241/assets{?name,label}",
+  "html_url": "https://github.com/binjr/binjr/releases/tag/v3.22.0",
+  "id": 213889241,
   "author": {
     "login": "fthevenet",
     "id": 7450507,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBEqfP84LxPTT",
-  "tag_name": "v3.21.1",
-  "target_commitish": "a41839fed7398d061454457acbb4a70c861c24e1",
-  "name": "binjr v3.21.1",
+  "node_id": "RE_kwDOBEqfP84Mv7DZ",
+  "tag_name": "v3.22.0",
+  "target_commitish": "bdf2077012a10b4c45c5818fcff23a07ab719a4b",
+  "name": "binjr v3.22.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2025-01-29T21:11:22Z",
-  "published_at": "2025-01-29T21:14:15Z",
+  "created_at": "2025-04-22T09:03:13Z",
+  "published_at": "2025-04-22T10:17:14Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720736",
-      "id": 224720736,
-      "node_id": "RA_kwDOBEqfP84NZPdg",
-      "name": "binjr-3.21.1_linux-amd64.deb",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399733",
+      "id": 248399733,
+      "node_id": "RA_kwDOBEqfP84Ozkd1",
+      "name": "binjr-3.22.0_linux-amd64.deb",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -63,17 +63,17 @@
       },
       "content_type": "application/x-debian-package",
       "state": "uploaded",
-      "size": 85294006,
+      "size": 85834434,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:34Z",
-      "updated_at": "2025-01-29T21:18:37Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_linux-amd64.deb"
+      "created_at": "2025-04-22T10:21:49Z",
+      "updated_at": "2025-04-22T10:21:53Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_linux-amd64.deb"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720745",
-      "id": 224720745,
-      "node_id": "RA_kwDOBEqfP84NZPdp",
-      "name": "binjr-3.21.1_linux-amd64.deb.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399740",
+      "id": 248399740,
+      "node_id": "RA_kwDOBEqfP84Ozkd8",
+      "name": "binjr-3.22.0_linux-amd64.deb.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -100,15 +100,15 @@
       "state": "uploaded",
       "size": 831,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:38Z",
-      "updated_at": "2025-01-29T21:18:38Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_linux-amd64.deb.asc"
+      "created_at": "2025-04-22T10:21:53Z",
+      "updated_at": "2025-04-22T10:21:53Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_linux-amd64.deb.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720747",
-      "id": 224720747,
-      "node_id": "RA_kwDOBEqfP84NZPdr",
-      "name": "binjr-3.21.1_linux-amd64.rpm",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399742",
+      "id": 248399742,
+      "node_id": "RA_kwDOBEqfP84Ozkd-",
+      "name": "binjr-3.22.0_linux-amd64.rpm",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -133,17 +133,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 89654237,
+      "size": 90234262,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:38Z",
-      "updated_at": "2025-01-29T21:18:42Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_linux-amd64.rpm"
+      "created_at": "2025-04-22T10:21:54Z",
+      "updated_at": "2025-04-22T10:21:58Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_linux-amd64.rpm"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720755",
-      "id": 224720755,
-      "node_id": "RA_kwDOBEqfP84NZPdz",
-      "name": "binjr-3.21.1_linux-amd64.rpm.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399751",
+      "id": 248399751,
+      "node_id": "RA_kwDOBEqfP84OzkeH",
+      "name": "binjr-3.22.0_linux-amd64.rpm.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -170,15 +170,15 @@
       "state": "uploaded",
       "size": 831,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:42Z",
-      "updated_at": "2025-01-29T21:18:42Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_linux-amd64.rpm.asc"
+      "created_at": "2025-04-22T10:21:58Z",
+      "updated_at": "2025-04-22T10:21:58Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_linux-amd64.rpm.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720756",
-      "id": 224720756,
-      "node_id": "RA_kwDOBEqfP84NZPd0",
-      "name": "binjr-3.21.1_linux-amd64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399753",
+      "id": 248399753,
+      "node_id": "RA_kwDOBEqfP84OzkeJ",
+      "name": "binjr-3.22.0_linux-amd64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -203,17 +203,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 89138759,
+      "size": 89764633,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:42Z",
-      "updated_at": "2025-01-29T21:18:46Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_linux-amd64.tar.gz"
+      "created_at": "2025-04-22T10:21:59Z",
+      "updated_at": "2025-04-22T10:22:02Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_linux-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720765",
-      "id": 224720765,
-      "node_id": "RA_kwDOBEqfP84NZPd9",
-      "name": "binjr-3.21.1_linux-amd64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399760",
+      "id": 248399760,
+      "node_id": "RA_kwDOBEqfP84OzkeQ",
+      "name": "binjr-3.22.0_linux-amd64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -240,15 +240,15 @@
       "state": "uploaded",
       "size": 831,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:46Z",
-      "updated_at": "2025-01-29T21:18:46Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_linux-amd64.tar.gz.asc"
+      "created_at": "2025-04-22T10:22:03Z",
+      "updated_at": "2025-04-22T10:22:03Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_linux-amd64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720679",
-      "id": 224720679,
-      "node_id": "RA_kwDOBEqfP84NZPcn",
-      "name": "binjr-3.21.1_mac-x86_64.pkg",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399452",
+      "id": 248399452,
+      "node_id": "RA_kwDOBEqfP84OzkZc",
+      "name": "binjr-3.22.0_mac-x86_64.pkg",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -273,17 +273,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 86785800,
+      "size": 87346708,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:14Z",
-      "updated_at": "2025-01-29T21:18:17Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_mac-x86_64.pkg"
+      "created_at": "2025-04-22T10:20:16Z",
+      "updated_at": "2025-04-22T10:20:20Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_mac-x86_64.pkg"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720702",
-      "id": 224720702,
-      "node_id": "RA_kwDOBEqfP84NZPc-",
-      "name": "binjr-3.21.1_mac-x86_64.pkg.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399460",
+      "id": 248399460,
+      "node_id": "RA_kwDOBEqfP84OzkZk",
+      "name": "binjr-3.22.0_mac-x86_64.pkg.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -310,15 +310,15 @@
       "state": "uploaded",
       "size": 831,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:17Z",
-      "updated_at": "2025-01-29T21:18:17Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_mac-x86_64.pkg.asc"
+      "created_at": "2025-04-22T10:20:21Z",
+      "updated_at": "2025-04-22T10:20:21Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_mac-x86_64.pkg.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720703",
-      "id": 224720703,
-      "node_id": "RA_kwDOBEqfP84NZPc_",
-      "name": "binjr-3.21.1_mac-x86_64.tar.gz",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399461",
+      "id": 248399461,
+      "node_id": "RA_kwDOBEqfP84OzkZl",
+      "name": "binjr-3.22.0_mac-x86_64.tar.gz",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -343,17 +343,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 86873009,
+      "size": 87485819,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:18Z",
-      "updated_at": "2025-01-29T21:18:21Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_mac-x86_64.tar.gz"
+      "created_at": "2025-04-22T10:20:21Z",
+      "updated_at": "2025-04-22T10:20:25Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_mac-x86_64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720707",
-      "id": 224720707,
-      "node_id": "RA_kwDOBEqfP84NZPdD",
-      "name": "binjr-3.21.1_mac-x86_64.tar.gz.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399468",
+      "id": 248399468,
+      "node_id": "RA_kwDOBEqfP84OzkZs",
+      "name": "binjr-3.22.0_mac-x86_64.tar.gz.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -380,15 +380,15 @@
       "state": "uploaded",
       "size": 831,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:21Z",
-      "updated_at": "2025-01-29T21:18:21Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_mac-x86_64.tar.gz.asc"
+      "created_at": "2025-04-22T10:20:25Z",
+      "updated_at": "2025-04-22T10:20:25Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_mac-x86_64.tar.gz.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720705",
-      "id": 224720705,
-      "node_id": "RA_kwDOBEqfP84NZPdB",
-      "name": "binjr-3.21.1_windows-amd64.msi",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399752",
+      "id": 248399752,
+      "node_id": "RA_kwDOBEqfP84OzkeI",
+      "name": "binjr-3.22.0_windows-amd64.msi",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -413,17 +413,17 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 85608415,
-      "download_count": 1,
-      "created_at": "2025-01-29T21:18:18Z",
-      "updated_at": "2025-01-29T21:18:22Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_windows-amd64.msi"
+      "size": 86292817,
+      "download_count": 0,
+      "created_at": "2025-04-22T10:21:58Z",
+      "updated_at": "2025-04-22T10:22:02Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_windows-amd64.msi"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720708",
-      "id": 224720708,
-      "node_id": "RA_kwDOBEqfP84NZPdE",
-      "name": "binjr-3.21.1_windows-amd64.msi.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399756",
+      "id": 248399756,
+      "node_id": "RA_kwDOBEqfP84OzkeM",
+      "name": "binjr-3.22.0_windows-amd64.msi.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -450,15 +450,15 @@
       "state": "uploaded",
       "size": 848,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:22Z",
-      "updated_at": "2025-01-29T21:18:22Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_windows-amd64.msi.asc"
+      "created_at": "2025-04-22T10:22:02Z",
+      "updated_at": "2025-04-22T10:22:02Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_windows-amd64.msi.asc"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720709",
-      "id": 224720709,
-      "node_id": "RA_kwDOBEqfP84NZPdF",
-      "name": "binjr-3.21.1_windows-amd64.zip",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399759",
+      "id": 248399759,
+      "node_id": "RA_kwDOBEqfP84OzkeP",
+      "name": "binjr-3.22.0_windows-amd64.zip",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -483,17 +483,17 @@
       },
       "content_type": "application/zip",
       "state": "uploaded",
-      "size": 87371054,
+      "size": 88007859,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:22Z",
-      "updated_at": "2025-01-29T21:18:26Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_windows-amd64.zip"
+      "created_at": "2025-04-22T10:22:03Z",
+      "updated_at": "2025-04-22T10:22:06Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_windows-amd64.zip"
     },
     {
-      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/224720716",
-      "id": 224720716,
-      "node_id": "RA_kwDOBEqfP84NZPdM",
-      "name": "binjr-3.21.1_windows-amd64.zip.asc",
+      "url": "https://api.github.com/repos/binjr/binjr/releases/assets/248399766",
+      "id": 248399766,
+      "node_id": "RA_kwDOBEqfP84OzkeW",
+      "name": "binjr-3.22.0_windows-amd64.zip.asc",
       "label": "",
       "uploader": {
         "login": "binjr-bot",
@@ -520,12 +520,12 @@
       "state": "uploaded",
       "size": 848,
       "download_count": 0,
-      "created_at": "2025-01-29T21:18:26Z",
-      "updated_at": "2025-01-29T21:18:26Z",
-      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_windows-amd64.zip.asc"
+      "created_at": "2025-04-22T10:22:06Z",
+      "updated_at": "2025-04-22T10:22:07Z",
+      "browser_download_url": "https://github.com/binjr/binjr/releases/download/v3.22.0/binjr-3.22.0_windows-amd64.zip.asc"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v3.21.1",
-  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v3.21.1",
-  "body": "* _[New] [UI]_ It is now possible to split the visualisation area in the main window or in a detached tab, to display many worksheets side-by-side.\n* _[New] [GC logs Adapter]_ Added a new data adaptor to plot metrics extracted from JVM GC logs.\n* _[New] [HTTP Adapters]_ Http adaptors now support basic authentication.  \n* _[New] [Dependencies]_ Updated embedded OpenJDK and JavaFX runtimes to 23.0.2  \n* _[Fixed] [Log files Adapter]_ JVM unified logs parsing rules sometime fail to capture log severity.  \n* _[Fixed] [Packaging]_ Cannot install .deb on Debian bookworm (unmet dependencies for libffi)  "
+  "tarball_url": "https://api.github.com/repos/binjr/binjr/tarball/v3.22.0",
+  "zipball_url": "https://api.github.com/repos/binjr/binjr/zipball/v3.22.0",
+  "body": "* _[New] [UI]_ There is now an option to specify whether a split worksheet pane should be automatically closed or left open when the last tab is contains is closed (`Settings > Close empty tab panes automatically`).   \r\n* _[New] [Dependencies]_ Updated embedded OpenJDK and JavaFX runtimes to 24.0.1.\r\n* _[Fixed] [UI]_ The new tab `[+]` button on split and detached tab pane does not have a context menu for choosing the type of worksheet to create.  \r\n* _[Fixed] [JFR]_  The JFR adapter fails to parse recordings that contain custom event types and fields without a label.  "
 }

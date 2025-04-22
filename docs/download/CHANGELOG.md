@@ -1,14 +1,22 @@
 # Change log
 
+## [binjr v3.22.0](https://github.com/binjr/binjr/releases/tag/v3.22.0)
+Released on Tue, 22 Apr 2025
+
+* _[New] [UI]_ There is now an option to specify whether a split worksheet pane should be automatically closed or left open when the last tab is contains is closed (`Settings > Close empty tab panes automatically`).   
+* _[New] [Dependencies]_ Updated embedded OpenJDK and JavaFX runtimes to 24.0.1.
+* _[Fixed] [UI]_ The new tab `[+]` button on split and detached tab pane does not have a context menu for choosing the type of worksheet to create.  
+* _[Fixed] [JFR]_  The JFR adapter fails to parse recordings that contain custom event types and fields without a label.  
+
 ## [binjr v3.21.1](https://github.com/binjr/binjr/releases/tag/v3.21.1)
 Released on Wed, 29 Jan 2025
 
 * _[New] [UI]_ It is now possible to split the visualisation area in the main window or in a detached tab, to display many worksheets side-by-side.
 * _[New] [GC logs Adapter]_ Added a new data adaptor to plot metrics extracted from JVM GC logs.
-* _[New] [HTTP Adapters]_ Http adaptors now support basic authentication.  
-* _[New] [Dependencies]_ Updated embedded OpenJDK and JavaFX runtimes to 23.0.2  
-* _[Fixed] [Log files Adapter]_ JVM unified logs parsing rules sometime fail to capture log severity.  
-* _[Fixed] [Packaging]_ Cannot install .deb on Debian bookworm (unmet dependencies for libffi)  
+* _[New] [HTTP Adapters]_ Http adaptors now support basic authentication.
+* _[New] [Dependencies]_ Updated embedded OpenJDK and JavaFX runtimes to 23.0.2
+* _[Fixed] [Log files Adapter]_ JVM unified logs parsing rules sometime fail to capture log severity.
+* _[Fixed] [Packaging]_ Cannot install .deb on Debian bookworm (unmet dependencies for libffi)
 
 ## [binjr v3.20.0](https://github.com/binjr/binjr/releases/tag/v3.20.0)
 Released on Wed, 23 Oct 2024
