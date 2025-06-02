@@ -16,7 +16,7 @@ You can also build or run the application from the source code.
 ### Prerequisites:
 
 * [Git](https://git-scm.com/open)
-* [OpenJDK 21 or later](https://adoptium.net/marketplace/)
+* [OpenJDK 22 or later](https://adoptium.net/marketplace/)
 
 !!! Info "Optional"
     If you want to build native installer packages, you'll also need the following platform specific prerequisites: 

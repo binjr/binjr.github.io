@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date:
   created: 2025-01-29
   updated: 2025-01-29
@@ -7,7 +7,7 @@ image: assets/images/binjr_card.png
 tags:
   - News
   - Releases
-  - v3.21.1-SNAPSHOT
+  - v3.21.1
 authors:
   - binjr
 categories:
@@ -15,7 +15,7 @@ categories:
   - New releases
 comments: true
 ---
-# [binjr v3.21.1-SNAPSHOT](https://github.com/binjr/binjr/releases/tag/v3.21.1-SNAPSHOT) is now available! 🎉
+# [binjr v3.21.1](https://github.com/binjr/binjr/releases/tag/v3.21.1) is now available! 🎉
 Released on Wed, 29 Jan 2025
 <!-- more -->
 

@@ -115,6 +115,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/binjr
     - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@binjr
+      link: https://social.binjr.eu/@binjr
     - icon: material/rss-box
       link: https://binjr.eu/feed_rss_updated.xml
