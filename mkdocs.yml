@@ -3,6 +3,7 @@ site_description: binjr, a time series browser
 site_url: https://binjr.eu/
 copyright: This website is licensed under a Creative Commons Attribution 4.0 International License.
 repo_url: https://github.com/binjr/binjr/
+repo_name: "Go to repository"
 edit_uri: ""
 
 nav:
@@ -41,12 +42,13 @@ theme:
   logo: assets/images/binjr_logo.png
 #  font: false
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/git-alt
   features:
     - navigation.tabs
 #    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - content.code.select
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -113,8 +115,14 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/binjr
+      link: https://github.com/binjr/binjr
+      name: "binjr on GitHub"
+    - icon: codeberg
+      link: https://codeberg.org/binjr/binjr
+      name: "binjr on Codeberg"
     - icon: fontawesome/brands/mastodon
       link: https://social.binjr.eu/@binjr
+      name: "binjr on the Fediverse"
     - icon: material/rss-box
       link: https://binjr.eu/feed_rss_updated.xml
+      name: "RSS feed"

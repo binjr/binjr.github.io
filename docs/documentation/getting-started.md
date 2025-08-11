@@ -102,7 +102,7 @@ You can also build or run the application from the source code.
     
         === "macOS (.tar.gz)"
             ``` sh
-            sh gradlew clean packageAsTar  
+            sh gradlew clean packageAsMacApp  
             ```
     
         === "macOS (.dmg)"
