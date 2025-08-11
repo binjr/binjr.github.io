@@ -22,9 +22,9 @@ comments: true
 At long last, native binjr application bundles for machines with ARM64 CPUs are coming! 
 
 This will be welcome news mostly to mac users, as all new macBooks have come equipped with Apple silicon CPUs for a quite a while now.  
-ARM64 builds for Linux are also coming, by the way, but Windows users will have to wait a little more, unfortunately. While everything is in place on our end and aarch64 OpenJDK builds for Windows are available right now, that is sadly not yet the case for JavaFX, binjr's only other arch-specific dependency.
+ARM64 builds for Linux are also coming, by the way, but Windows users will have to wait a little longer, unfortunately. While everything is in place on our end and aarch64 OpenJDK builds for Windows are available right now, that is sadly not yet the case for JavaFX, binjr's only other arch-specific dependency.
 
-And if you're running Intel or AMD based machines, don't worry: x86_64 builds are not going anywhere for now.
+Of course, if you're running Intel or AMD based machines, do not worry: x86_64 builds are not going anywhere!
 
 <!-- more -->
 
