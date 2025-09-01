@@ -1,0 +1,4031 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="binjr, a time series browser">
+      
+      
+      
+        <link rel="canonical" href="https://binjr.eu/download/CHANGELOG/">
+      
+      
+        <link rel="prev" href="../plugins/">
+      
+      
+        <link rel="next" href="../../blog/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Change log - </title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#change-log" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
+      
+  <img src="../../assets/images/binjr_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Change log
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.768 3.96zl-.002-.005a9 9 0 0 0-.218-.779c-.13-.394.21-.8.602-.67q.435.144.855.328l.01.005A10.002 10.002 0 0 1 12 22a10 10 0 0 1-9.162-5.985l-.004-.01a10 10 0 0 1-.329-.855c-.13-.392.277-.732.67-.602q.386.126.78.218l.004.002A9 9 0 0 0 14.999 6a9 9 0 0 0-.231-2.04M16.5 6c0 5.799-4.701 10.5-10.5 10.5q-.64 0-1.26-.075A8.5 8.5 0 1 0 16.425 4.74q.075.62.075 1.259Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 19a7 7 0 1 1 0-14 7 7 0 0 1 0 14m0-1.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 1 0 0 11m-5.657.157a.75.75 0 0 1 0 1.06l-1.768 1.768a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734l1.767-1.768a.75.75 0 0 1 1.061 0M3.515 3.515a.75.75 0 0 1 1.06 0l1.768 1.768a.749.749 0 0 1-.326 1.275.75.75 0 0 1-.734-.215L3.515 4.575a.75.75 0 0 1 0-1.06M12 0a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 12 0M4 12a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h2.5A.75.75 0 0 1 4 12m8 8a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-1.5 0v-2.5A.75.75 0 0 1 12 20m12-8a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h2.5A.75.75 0 0 1 24 12m-6.343 5.657a.75.75 0 0 1 1.06 0l1.768 1.768a.75.75 0 0 1-.018 1.042.75.75 0 0 1-1.042.018l-1.768-1.767a.75.75 0 0 1 0-1.061m2.828-14.142a.75.75 0 0 1 0 1.06l-1.768 1.768a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l1.767-1.768a.75.75 0 0 1 1.061 0"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/binjr/binjr/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Go to repository
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../about/what_is_binjr/" class="md-tabs__link">
+          
+  
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../documentation/getting-started/" class="md-tabs__link">
+          
+  
+  
+  Docs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../latest_release/" class="md-tabs__link">
+          
+  
+  
+  Download
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../blog/" class="md-tabs__link">
+          
+  
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
+      
+  <img src="../../assets/images/binjr_logo.png" alt="logo">
+
+    </a>
+    
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/binjr/binjr/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Go to repository
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/what_is_binjr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What is binjr?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/supported_data_sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Supported data sources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/notice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Docs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/verify-signature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Verifying downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    User guide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            User guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/main/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Landing screen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/sources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Source pane
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/editing_parsing_profiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Parsing profiles editor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/worksheets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Worksheet pane
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/charts_worksheets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Charts worksheets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/logs_worksheets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Logs worksheets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/workspaces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Managing workspaces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/user_guide/shortcuts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Keyboard shortcuts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Download
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Download
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../latest_release/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Application bundles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plugins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plugins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Change log
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Change log
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3241" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.24.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3240" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.24.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3230" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.23.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3220" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.22.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3211" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.21.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3201" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.20.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3200" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.20.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3190" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.19.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3180" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.18.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3170" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.17.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3160" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.16.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3150" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.15.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3140" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.14.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3130" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.13.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3120" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.12.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3110" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.11.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3100" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.10.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v390" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.9.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v380" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.8.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v370" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.7.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v360" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.6.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v352" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.5.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v351" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.5.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v350" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.5.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v340" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.4.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v330" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.3.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v320" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.2.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v310" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.1.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v302" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.0.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v301" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.0.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v300" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.0.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2170" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.17.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2160" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.16.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2150" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.15.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2140" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.14.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2130" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.13.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2120" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.12.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2110" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.11.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2100" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.10.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v290" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.9.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v281" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.8.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v280" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.8.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v270" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.7.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v263" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.6.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v260" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.6.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v250" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.5.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v241" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.4.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v240" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.4.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v231" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.3.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v230" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.3.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v221" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.2.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v220" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.2.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v211" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.1.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v210" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.1.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v200" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.0.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v160" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.6.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v153" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v152" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v151" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v150" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v143" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.4.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v141" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.4.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v140" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.4.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v134" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.3.4
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v130" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.3.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v123" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.2.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v110" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.1.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1015" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.15
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1013" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.13
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1012" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.12
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1011" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.11
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1010" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.10
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v109" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.9
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v108" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.8
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v107" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.7
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v106" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.6
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v105" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.5
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v104" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.4
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v103" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v102" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v101" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v100" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.0
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/archive/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/archive/2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/archive/2023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2023
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Categories
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/fediverse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fediverse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/how-to/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/jfr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JFR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/new-features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    New features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/new-releases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    New releases
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/binjr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    binjr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/category/news/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    news
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3241" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.24.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3240" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.24.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3230" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.23.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3220" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.22.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3211" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.21.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3201" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.20.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3200" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.20.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3190" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.19.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3180" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.18.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3170" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.17.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3160" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.16.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3150" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.15.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3140" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.14.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3130" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.13.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3120" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.12.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3110" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.11.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v3100" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.10.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v390" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.9.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v380" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.8.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v370" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.7.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v360" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.6.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v352" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.5.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v351" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.5.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v350" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.5.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v340" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.4.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v330" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.3.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v320" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.2.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v310" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.1.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v302" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.0.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v301" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.0.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v300" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v3.0.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2170" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.17.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2160" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.16.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2150" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.15.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2140" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.14.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2130" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.13.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2120" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.12.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2110" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.11.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v2100" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.10.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v290" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.9.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v281" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.8.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v280" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.8.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v270" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.7.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v263" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.6.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v260" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.6.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v250" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.5.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v241" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.4.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v240" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.4.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v231" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.3.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v230" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.3.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v221" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.2.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v220" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.2.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v211" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.1.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v210" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.1.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v200" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v2.0.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v160" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.6.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v153" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v152" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v151" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v150" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.5.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v143" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.4.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v141" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.4.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v140" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.4.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v134" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.3.4
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v130" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.3.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v123" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.2.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v110" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.1.0
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1015" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.15
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1013" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.13
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1012" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.12
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1011" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.11
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v1010" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.10
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v109" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.9
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v108" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.8
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v107" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.7
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v106" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.6
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v105" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.5
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v104" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.4
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v103" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v102" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v101" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binjr-v100" class="md-nav__link">
+    <span class="md-ellipsis">
+      binjr v1.0.0
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="change-log">Change log<a class="headerlink" href="#change-log" title="Permanent link">&para;</a></h1>
+<h2 id="binjr-v3241"><a href="https://github.com/binjr/binjr/releases/tag/v3.24.1">binjr v3.24.1</a><a class="headerlink" href="#binjr-v3241" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 1 Sep 2025</p>
+<ul>
+<li><em>[Fixed] [Core]</em> In-app updater on Windows fails to download the binary for the update.  </li>
+<li><em>[Fixed] [Core]</em> In-app updater on Linux aarch64 attempts to update with the x86_64 binary.  </li>
+</ul>
+<h2 id="binjr-v3240"><a href="https://github.com/binjr/binjr/releases/tag/v3.24.0">binjr v3.24.0</a><a class="headerlink" href="#binjr-v3240" title="Permanent link">&para;</a></h2>
+<p>Released on Sun, 30 August 2025</p>
+<ul>
+<li><em>[New] [Bundles]</em> Application bundles for machines with ARM64 CPUs are now available for macOS and Linux.</li>
+<li><em>[New] [Core]</em> It is now possible to display values on the timeline axis as durations.</li>
+<li><em>[New] [Log adapter]</em> Added a built-in parsing profile for Hotspot JVM JIT compile logs.</li>
+<li><em>[New] [Log adapter]</em> The event density histogram can now be resized by the user.</li>
+<li><em>[New] [Log adapter]</em> Assign a random color for severity labels that do not match a known severity level.</li>
+<li><em>[New] [Log adapter]</em> It is now possible to adjust the behaviour of the parser when encountering lines that cannot be parsed.</li>
+<li><em>[New] [JVM GC Logs]</em> Added support for loading rolling GC log files.</li>
+<li><em>[Fixed] [Core]</em> Saving parsing profile to JSON does not account for latest changes.</li>
+<li><em>[Fixed] [JVM GC Logs]</em> JVM GC Logs adapter cannot load workspace with log paths relative to the workspace path.</li>
+<li><em>[Fixed] [UI]</em> Split pane dividers are larger and easier to grab.</li>
+<li><em>[Fixed] [UI]</em> Use a trashcan icon to better distinguish actions that remove an element from actions that close a UI panel.</li>
+<li><em>[Fixed] [JFR adapter]</em> Some events are attached to the wrong category in the tree view.</li>
+<li><em>[Fixed] [JFR adapter]</em> JFR event durations are indexed in ticks instead of seconds.</li>
+<li><em>[Fixed] [RPM package]</em> Desktop shortcut for the rpm package does not show properly in application menu on Fedora.</li>
+</ul>
+<h2 id="binjr-v3230"><a href="https://github.com/binjr/binjr/releases/tag/v3.23.0">binjr v3.23.0</a><a class="headerlink" href="#binjr-v3230" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 29 July 2025</p>
+<ul>
+<li><em>[New] [CSV Adapter]</em> The CSV adapter now allows for browsing multiple files from a folder or a ZIP compressed archive.<blockquote>
+<p><strong>Please Note:</strong> All the CSV files made available as a part of a single source declaration will share the same parsing profile. If some of these files require different parsing options, you&rsquo;ll need to declare another source with the appropriate parsing profile for these.</p>
+</blockquote>
+</li>
+<li><em>[New] [Core]</em> <a href="https://openjdk.org/jeps/450">Compact object headers</a> are now enabled by default by the application&rsquo;s launcher, for a 10 to 20% reduction in heap memory usage.</li>
+<li><em>[New] [Core]</em> The binjr workspace schema version number has been updated to <code>3.2</code>. Opening workspaces created with this version in prior versions of binjr will cause warnings to be logged and may result in compatibility issues.</li>
+<li><em>[Dependencies]</em> Updated embedded OpenJDK and JavaFX runtimes to <code>24.0.2</code></li>
+<li><em>[Fixed] [Netdata Adapter]</em> &ldquo;Unexpected value &lsquo;heatmap&rsquo;&rdquo; error when attempting to connect to a Netdata instance that serves probes with a &lsquo;heatmap&rsquo; chart type.</li>
+<li><em>[Fixed] [Core]</em> binjr can now properly resolve relative paths to source assets (e.g. paths to .csv, .jfr or log files, etc&hellip;) inside saved workspaces (.bjr).</li>
+<li><em>[Fixed] [Core]</em> Missing &ldquo;jdk.accessibility&rdquo; module causes binjr to fail working with screen readers.</li>
+<li><em>[Fixed] [Core]</em> Explicitly enabled native access for JavaFX graphics modules to remove warnings.</li>
+<li><em>[Fixed] [UI]</em> Closing the last tab in a panel on an external tab window closes the whole window even if it contains other non-empty panels.</li>
+</ul>
+<h2 id="binjr-v3220"><a href="https://github.com/binjr/binjr/releases/tag/v3.22.0">binjr v3.22.0</a><a class="headerlink" href="#binjr-v3220" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 23 Apr 2025</p>
+<ul>
+<li><em>[New] [UI]</em> There is now an option to specify whether a split worksheet pane should be automatically closed or left open when the last tab is contains is closed (<code>Settings &gt; Close empty tab panes automatically</code>).</li>
+<li><em>[Dependencies]</em> Updated embedded OpenJDK and JavaFX runtimes to 24.0.1.</li>
+<li><em>[Fixed] [UI]</em> The new tab <code>[+]</code> button on split and detached tab pane does not have a context menu for choosing the type of worksheet to create.</li>
+<li><em>[Fixed] [JFR]</em>  The JFR adapter fails to parse recordings that contain custom event types and fields without a label.</li>
+</ul>
+<h2 id="binjr-v3211"><a href="https://github.com/binjr/binjr/releases/tag/v3.21.1">binjr v3.21.1</a><a class="headerlink" href="#binjr-v3211" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 29 Jan 2025</p>
+<ul>
+<li><em>[New] [UI]</em> It is now possible to split the visualisation area in the main window or in a detached tab, to display many worksheets side-by-side.</li>
+<li><em>[New] [GC logs Adapter]</em> Added a new data adaptor to plot metrics extracted from JVM GC logs.</li>
+<li><em>[New] [HTTP Adapters]</em> Http adaptors now support basic authentication.</li>
+<li><em>[Dependencies]</em> Updated embedded OpenJDK and JavaFX runtimes to 23.0.2</li>
+<li><em>[Fixed] [Log files Adapter]</em> JVM unified logs parsing rules sometime fail to capture log severity.</li>
+<li><em>[Fixed] [Packaging]</em> Cannot install .deb on Debian bookworm (unmet dependencies for libffi)</li>
+</ul>
+<h2 id="binjr-v3201"><a href="https://github.com/binjr/binjr/releases/tag/v3.20.1">binjr v3.20.1</a><a class="headerlink" href="#binjr-v3201" title="Permanent link">&para;</a></h2>
+<p>Released on Sun, 10 Nov 2024</p>
+<ul>
+<li><em>[Dependencies]</em> Rolled back embedded OpenJDK runtime to 21.0.5</li>
+<li><em>[Fixed]</em> Bad performances when using the CSV and Logs adapters caused by a regression in OpenJDK 23.0.1 when using Shenandoah GC.</li>
+<li><em>[Fixed]</em> An error is raised in the installer when clicking on the &lsquo;back&rsquo; button on the install verification dialog.</li>
+</ul>
+<h2 id="binjr-v3200"><a href="https://github.com/binjr/binjr/releases/tag/v3.20.0">binjr v3.20.0</a><a class="headerlink" href="#binjr-v3200" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 23 Oct 2024</p>
+<ul>
+<li><em>[New] [UI]</em> The number of ticks between two graduations the Y axis now automatically adapts to best fit based on the available space and unit types.</li>
+<li><em>[New] [UI]</em> Added a keyboard shortcut (F9) to reset the time range of a worksheet to its default value.</li>
+<li><em>[New] [CSV Adapter]</em> Doing a hard refresh (Ctrl+F5) on a worksheet now forces all data read form CSV sources to be reloaded from the underlying files.</li>
+<li><em>[New] [CSV Adapter]</em> Added an option to ignore lines with unparsable time stamps.</li>
+<li><em>[New] [CSV Adapter]</em> Better error message when failing to parse a time stamp (provides column and line numbers).</li>
+<li><em>[Dependencies]</em> Updated embedded OpenJDK and JavaFX runtimes to 23.0.1</li>
+<li><em>[Dependencies]</em> Updated to Lucene 10.</li>
+<li><em>[Fixed]</em> &ldquo;Unable to find valid certification path to requested target&rdquo; error when trying to establish an HTTPS connection on macOS.</li>
+<li><em>[Fixed]</em> When dropping more than one node from the source tree view onto the legend pane of a worksheet, only the last node is added to the current chart.</li>
+<li><em>[Fixed]</em> User preference for &ldquo;Treat undefined Y values as 0&rdquo; is ignored.</li>
+<li><em>[Fixed]</em> The title bar for the binjr window is larger (or smaller) than it should be when using multiple monitors on Windows.</li>
+<li><em>[Fixed]</em> Closing and reopening the application causes the main window to slightly grow (or shrink) each time when using multiple monitors on Windows.</li>
+</ul>
+<h2 id="binjr-v3190"><a href="https://github.com/binjr/binjr/releases/tag/v3.19.0">binjr v3.19.0</a><a class="headerlink" href="#binjr-v3190" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 19 Jul 2024</p>
+<ul>
+<li><em>[New]</em> It is now possible for the user to configure a default value for the stroke width used in different types of charts.</li>
+<li><em>[Dependencies]</em> Updated embedded OpenJDK and JavaFX runtimes to 22.0.2</li>
+<li><em>[Fixed]</em>  Event heatmap in log worksheet shows wrong data when displaying events older than 1970/01/01 00:00:00 UTC.</li>
+<li><em>[Fixed]</em> Do not interpolate Y values at interval boundaries for scatter point charts.</li>
+<li><em>[Fixed]</em> Wrapping text in log view does not always work when selecting the option.</li>
+</ul>
+<h2 id="binjr-v3180"><a href="https://github.com/binjr/binjr/releases/tag/v3.18.0">binjr v3.18.0</a><a class="headerlink" href="#binjr-v3180" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 24 Apr 2024</p>
+<ul>
+<li><em>[New]</em> Added a new &ldquo;System&rdquo; UI theme that inherits the OS color scheme preferences.  </li>
+<li><em>[Dependencies]</em> Updated embedded OpenJDK and JavaFX runtimes to 22.0.1  </li>
+<li><em>[Dependencies]</em> Migrated Wix toolset config to version 5.0.0  </li>
+<li><em>[New]</em> Added an option to force using the embedded JVM certificate store instead of the host&rsquo;s on Windows and macOS.  </li>
+<li><em>[Fixed]</em> Broken parsing profile for unified JVM logs containing only elapsed time.  </li>
+<li><em>[Fixed]</em> Notification popup does not show if the text it contains is too long.  </li>
+</ul>
+<h2 id="binjr-v3170"><a href="https://github.com/binjr/binjr/releases/tag/v3.17.0">binjr v3.17.0</a><a class="headerlink" href="#binjr-v3170" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 21 Mar 2024</p>
+<ul>
+<li><em>[New]</em> Support for new package managers: AUR for Archlinux and winget for Windows.  </li>
+<li><em>[New]</em> Added an option to override hardware acceleration support.  </li>
+<li><em>[New]</em> Added an option to change the user interface scaling factor.  </li>
+<li><em>[New]</em> Added an option to trim extraneous spaces in malformed CSV files in parsing profiles.  </li>
+<li><em>[Dependencies]</em> Updated the embedded runtimes for Java and JavaFX to version 22.  </li>
+<li><em>[Fixed]</em> Dead links for support pages in MSI installer metadata.</li>
+</ul>
+<h2 id="binjr-v3160"><a href="https://github.com/binjr/binjr/releases/tag/v3.16.0">binjr v3.16.0</a><a class="headerlink" href="#binjr-v3160" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 7 Feb 2024</p>
+<ul>
+<li><em>[New]</em> Added an option to allow Basic auth in tunneling over https.  </li>
+<li><em>[Dependencies]</em> Updated the embedded runtimes for Java and JavaFX to version 21.0.2</li>
+<li><em>[Fixed]</em> Source pane remains opened if a connection failed.  </li>
+<li><em>[Fixed]</em> Replace Apache http client by OpenJDK&rsquo;s built-in implementation.  </li>
+<li><em>[Fixed]</em> Use https instead of http when inferring missing protocol.</li>
+</ul>
+<h2 id="binjr-v3150"><a href="https://github.com/binjr/binjr/releases/tag/v3.15.0">binjr v3.15.0</a><a class="headerlink" href="#binjr-v3150" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 5 Dec 2023</p>
+<ul>
+<li><em>[New]</em> Added an option to ignore samples with an undefined Y value instead of forcing them to zero (&ldquo;Settings &gt; Charts &gt; Treat undefined Y values as 0&rdquo;).  </li>
+<li><em>[New]</em> A  notification popup now shows download progress when the app is being updated.  </li>
+<li><em>[Fixed]</em> <code>NaN</code> values produce duplicated samples after Largest-Triangle-Three-Buckets algorithm is applied.  </li>
+<li><em>[Fixed]</em> Pagination mechanism when fetching data from index does not honor forceNanToZero property.  </li>
+<li><em>[Fixed]</em> A race condition in TimeSeriesProcessor.   </li>
+<li><em>[Fixed]</em> Continuously clicking on &ldquo;Check for update&rdquo; results in queuing as many download task.</li>
+</ul>
+<h2 id="binjr-v3140"><a href="https://github.com/binjr/binjr/releases/tag/v3.14.0">binjr v3.14.0</a><a class="headerlink" href="#binjr-v3140" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 30 Oct 2023</p>
+<ul>
+<li><em>[Dependencies]</em> Updated the embedded runtimes for Java and JavaFX to version 21.0.1  </li>
+<li><em>[New]</em> Source and target compatibility level for binjr&rsquo;s artifacts have been updated to 21  </li>
+<li><em>[New]</em> It is now possible to set the default values for chart type and unit prefixes, used when these aren&rsquo;t defined by the source  </li>
+<li><em>[New]</em> Enhanced JVM logging parsing profiles to accept ISO timestamps  </li>
+<li><em>[New]</em> Clicking on the find or filter button in a log worksheet now sets focus on the relevant input field</li>
+</ul>
+<h2 id="binjr-v3130"><a href="https://github.com/binjr/binjr/releases/tag/v3.13.0">binjr v3.13.0</a><a class="headerlink" href="#binjr-v3130" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 9 Aug 2023</p>
+<ul>
+<li><em>[New]</em> Added new JDK Flight Recorder data adapter.  </li>
+<li><em>[New]</em> Users can now choose a worksheet&rsquo;s type when creating a blank one.  </li>
+<li><em>[New]</em> Added new type of prefix formatting for charts axis: Percentage.  </li>
+<li><em>[New]</em> Added an icon representing the visualization type to   sources panes and worksheet tabs.  </li>
+<li><em>[Fixed]</em> When there are too many facet pills in an event worksheet, they now overflow to popup menu.  </li>
+<li><em>[Fixed]</em> The UI themes in the Settings panel are now listed in alphabetical order.  </li>
+<li><em>[Fixed]</em> LogWorksheetController instances cannot be loaded prior to an adapter acquiring Indexes.LOG_FILES  </li>
+<li><em>[Fixed]</em> UserInterfaceThemes services cannot be loaded from registered plugin path.</li>
+</ul>
+<h2 id="binjr-v3120"><a href="https://github.com/binjr/binjr/releases/tag/v3.12.0">binjr v3.12.0</a><a class="headerlink" href="#binjr-v3120" title="Permanent link">&para;</a></h2>
+<p>Released on Sat, 20 May 2023</p>
+<ul>
+<li><em>[New]</em> <em>binjr</em> now defaults to an indexing strategy for log files that is optimized for partial terms search and filtering. It allows for fast matching of arbitrary character sequences without the need for explicit syntax like wildcards.<blockquote>
+<p>To revert back to the old behavior that favors searching for whole words, go to &ldquo;Settings &gt; Logs&rdquo; and select &ldquo;Optimize index for whole words search&rdquo;.</p>
+</blockquote>
+</li>
+<li><em>[New]</em> Added the ability to open a single log file instead of a whole folder or a zip archive.  </li>
+<li><em>[New]</em> Inline help is now directly accessible for many options throughout the application&rsquo;s User Interface by clicking the <code>?</code>next to it.  </li>
+<li><em>[New]</em> Let users choose the date &amp; time that serves as an anchor to construct timestamps for partial data.  </li>
+<li><em>[New]</em> Added an option for the user to toggle whether or not the Y axis should always include the origin (0) when auto-scale is enabled.  </li>
+<li><em>[Dependencies]</em> Updated embedded runtimes to OpenJDK 20.0.1 and OpenJFX 20.0.1  </li>
+<li><em>[New]</em> Added more built-in parsing profiles (Quarkus, Syslog).  </li>
+<li><em>[Fixed]</em> Removed unnecessary scoring computation in Log adapter queries to increase filtering performances.  </li>
+<li><em>[Fixed]</em> Settings panel is now wider and its content less cramped.  </li>
+<li><em>[Fixed]</em> Different outcome when typing the name of a capture group vs selecting it from the dropdown list in the  profile editor.  </li>
+<li><em>[Fixed]</em> Files selection on Linux do not show files with no extensions when &ldquo;All files&rdquo; filter is selected.  </li>
+<li><em>[Fixed]</em> Log file adapter does not list files without extensions.  </li>
+<li><em>[Fixed]</em> Log file view does not use a monotype font on macOS and Linux.  </li>
+<li><em>[Fixed]</em> Auto-update feature ignores alternative signing openPGP signature.</li>
+</ul>
+<h2 id="binjr-v3110"><a href="https://github.com/binjr/binjr/releases/tag/v3.11.0">binjr v3.11.0</a><a class="headerlink" href="#binjr-v3110" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 1 Feb 2023</p>
+<ul>
+<li><em>[New]</em> Added the possibility to parse months from their names (english only for now) in logs and CSV parsing rules.</li>
+<li><em>[New]</em> Added built-in parsing profile for IcedTea-Web log files.</li>
+<li><em>[New]</em> Application bundles are now built with, and embed, the Eclipse Temurin distribution of OpenJDK.</li>
+<li><em>[Dependencies]</em> Updated embedded runtimes to OpenJDK 19.0.2 and OpenJFX 19.0.2.1</li>
+<li><em>[Fixed]</em> Removed unused dependencies to gtk2 package in rpm build.</li>
+<li><em>[Fixed]</em> Rpm package cannot be built using rpm v4.16.0 or later.</li>
+</ul>
+<h2 id="binjr-v3100"><a href="https://github.com/binjr/binjr/releases/tag/v3.10.0">binjr v3.10.0</a><a class="headerlink" href="#binjr-v3100" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 6 Oct 2022</p>
+<ul>
+<li><em>[New]</em> It is now possible to adjust the size of the text in logs worksheets, as well as changing the default size in the preferences (<code>Settings &gt; Logs &gt; Default text size</code>).</li>
+<li><em>[Dependencies]</em> Updated Java and JavaFX Runtimes to version 19.</li>
+<li><em>[Fixed]</em> Text in debug console could be rendered using wrong encoding on some platforms.</li>
+</ul>
+<h2 id="binjr-v390"><a href="https://github.com/binjr/binjr/releases/tag/v3.9.0">binjr v3.9.0</a><a class="headerlink" href="#binjr-v390" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 1 Sep 2022</p>
+<ul>
+<li><em>[New]</em> The csv plugin has been entirely rewritten and now features:</li>
+<li>A new, off heap, backend which allows for working with large quantities of data.</li>
+<li>A much larger selection of user-configurable parameters for parsing CSV files.</li>
+<li>A brand new User Interface to set these parameters and interactively test their effects on sample data.</li>
+<li>The ability to organize, save and import user defined sets of parameters as &ldquo;profiles&rdquo; so that they can be reused and shared.</li>
+<li><em>[New]</em> It is now possible to cancel the loading of log files if it takes too long.</li>
+<li><em>[Fixed]</em> It is now possible to zoom in on a time interval shorter than one second on charts.</li>
+<li><em>[Fixed]</em> Resetting the time range on a chart worksheet no longer only takes the first chart into account.</li>
+<li><em>[Fixed]</em> The reference date for the predefined ranges on the time range picker is now based on the boundaries reported by the adapter.</li>
+<li><em>[Fixed]</em> Loading indicator causes high GPU usage.</li>
+</ul>
+<h2 id="binjr-v380"><a href="https://github.com/binjr/binjr/releases/tag/v3.8.0">binjr v3.8.0</a><a class="headerlink" href="#binjr-v380" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 18 May 2022</p>
+<ul>
+<li><em>[New]</em> It is now possible to reorder worksheet tabs using drag and drop.</li>
+<li><em>[New]</em> Use a more robust cache mechanism for data fetched from data adapters.</li>
+<li><em>[New]</em> It is now possible to override the root location for <em>binjr</em> temporary folders and files, by setting the <code>temporaryFilesRoot</code> property.</li>
+</ul>
+<h2 id="binjr-v370"><a href="https://github.com/binjr/binjr/releases/tag/v3.7.0">binjr v3.7.0</a><a class="headerlink" href="#binjr-v370" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 23 Mar 2022</p>
+<ul>
+<li><em>[New]</em> It is now possible to set distinct parsing rules for log files retrieved from a single source, and to swap or edit parsing profiles after a file was added to a worksheet.</li>
+<li><em>[New]</em> Enhanced snapshot feature to provide a preview of the snapped image and allows users to either save it to a file or to the clipboard.</li>
+<li><em>[New]</em> Added contextual menu entries for copying series details from tree view and table view.</li>
+<li><em>[New]</em> <em>binjr</em> can now be built to run natively on aarch64 architectures on Linux and macOS.</li>
+<li><em>[Dependencies]</em> Updated Java and JavaFX Runtimes to version 18.</li>
+<li><em>[Fixed]</em> Pressing the &ldquo;delete&rdquo; key while editing series name removes it from worksheet.</li>
+<li><em>[Fixed]</em> Leaves in source treeview are not sorted in alphabetical order.</li>
+<li><em>[Fixed]</em> A deadlock can occur if an error is raised while parsing log events.</li>
+<li><em>[Fixed]</em> It is not possible to browse a folder for log files if some of its children are not accessible to the current user (e.g. due to lack of permission for instance).</li>
+<li></li>
+</ul>
+<h2 id="binjr-v360"><a href="https://github.com/binjr/binjr/releases/tag/v3.6.0">binjr v3.6.0</a><a class="headerlink" href="#binjr-v360" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 21 Jan 2022</p>
+<ul>
+<li><em>[New]</em> Added support for proxy on all HTTP-based data adapters.</li>
+<li><em>[New]</em> It is now possible to use regular expressions when filtering the source tree view.</li>
+<li><em>[New]</em> Added a context menu to the list of series in a worksheet to expose edition features (select, delete, rename, etc&hellip;)</li>
+<li><em>[New]</em> Introduced features to automatically infer names and colors for multiple series in a worksheet.</li>
+<li><em>[Dependencies]</em> Updated the embedded OpenJDK and JavaFX runtimes to 17.0.2</li>
+<li><em>[Fixed]</em> A memory leak cause by a regression introduced in JavaFX 17.0.0</li>
+<li><em>[Fixed]</em> Improved performances and reduced memory usage when working with logs.</li>
+<li><em>[Fixed]</em> A regression introduced in v3.3.0 that caused logs with messages already displayed in debug console to not
+  be displayed there again until console is cleared.</li>
+<li><em>[Fixed]</em> Selecting a series color using the &ldquo;custom colors&rdquo; panel from the color picker does not change the graph.</li>
+</ul>
+<h2 id="binjr-v352"><a href="https://github.com/binjr/binjr/releases/tag/v3.5.2">binjr v3.5.2</a><a class="headerlink" href="#binjr-v352" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 17 Dec 2021</p>
+<ul>
+<li><em>[Dependencies]</em> Updated Log4j to version 2.16.0 in response to <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-45046">CVE-2021-45046</a></li>
+</ul>
+<h2 id="binjr-v351"><a href="https://github.com/binjr/binjr/releases/tag/v3.5.1">binjr v3.5.1</a><a class="headerlink" href="#binjr-v351" title="Permanent link">&para;</a></h2>
+<p>Released on Sat, 11 Dec 2021</p>
+<ul>
+<li><em>[Dependencies]</em> Updated Log4j to version 2.15.0 in response to <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-44228">CVE-2021-44228</a></li>
+</ul>
+<h2 id="binjr-v350"><a href="https://github.com/binjr/binjr/releases/tag/v3.5.0">binjr v3.5.0</a><a class="headerlink" href="#binjr-v350" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 25 Nov 2021</p>
+<ul>
+<li><em>[New]</em> Added a bar chart to log worksheets that shows the distributions over time of events&rsquo; severity.</li>
+<li><em>[New]</em> The precision of the time axis for charts has been increased from seconds to milli-seconds.</li>
+<li><em>[New]</em> Added the option to skip the confirmation dialog on closing worksheet tabs or charts.</li>
+<li><em>[New]</em> Added the ability to restore closed tabs using the <code>Ctrl</code>+<code>Shift</code>+<code>t</code> shortcut, similarly to web browsers.</li>
+<li><em>[New]</em> Enhanced the pagination control on log worksheets with the ability to jump directly to the first, last or arbitrary page.</li>
+<li><em>[Fixed]</em> After duplicating a log worksheet, changing properties of the log files (in the bottom view) affects both the original and duplicated worksheet.</li>
+<li><em>[Fixed]</em> Navigating backward or forward on a log worksheet does not change the timeline of linked worksheets.</li>
+</ul>
+<h2 id="binjr-v340"><a href="https://github.com/binjr/binjr/releases/tag/v3.4.0">binjr v3.4.0</a><a class="headerlink" href="#binjr-v340" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 22 Oct 2021</p>
+<ul>
+<li><em>[New]</em> Added the ability to zoom and pan on charts using the mouse wheel (or swipe motions on touch devices):</li>
+<li><code>Shift + scroll up/down</code>: Enlarges / reduces the height of all charts in the current worksheet.</li>
+<li><code>Ctrl + scroll up/down</code>: Zooms in / out on the time range for the current worksheet.</li>
+<li><code>Alt + scroll up/dowm</code>: Pans all charts to the left / right in the current worksheet.</li>
+<li><em>[New]</em> It is now possible to adjust the minimum height of charts in a worksheet.</li>
+<li><em>[Fixed]</em> Series legend panel in chart worksheets does not fill all available space.</li>
+</ul>
+<h2 id="binjr-v330"><a href="https://github.com/binjr/binjr/releases/tag/v3.3.0">binjr v3.3.0</a><a class="headerlink" href="#binjr-v330" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 16 Sep 2021</p>
+<ul>
+<li><em>[New]</em> Updated the embedded runtimes for Java and JavaFX to version 17.</li>
+<li><em>[New]</em> Source and target compatibility level for binjr&rsquo;s artifacts have been updated to 17.</li>
+<li><em>[New]</em> Added the ability to search for and highlight keywords in the application&rsquo;s logs in the debug console.</li>
+<li>
+<p><em>[New]</em> Changed the format of macOS installable from a <code>dmg</code> image to a <code>pkg</code> installer.</p>
+<blockquote>
+<p>The reason behind this change in format for the macOS deliverable is that unsigned DMG images produced by jpackage
+could be reported as &ldquo;corrupted&rdquo; under certain conditions instead of just warning users that the application was not
+recognized by the Apple notary service.<br />
+Bundles generated as PKG installers do not exhibit the same problem and correctly warns users that the application is
+not recognized by Apple (and not that the package is corrupted).</p>
+</blockquote>
+</li>
+<li>
+<p><em>[Fixed]</em> It is not possible to select and copy portions of the logs output in the debug console.</p>
+</li>
+<li><em>[Fixed]</em> The button to empty the search text field in log work worksheets is displayed even if the field is already empty.</li>
+<li><em>[Fixed]</em> Clean-up phase could sometime be skipped on closing worksheets, leading to potential memory leaks.</li>
+<li><em>[Fixed]</em> Inconsistent content type checking when processing http responses from data adapters.</li>
+</ul>
+<h2 id="binjr-v320"><a href="https://github.com/binjr/binjr/releases/tag/v3.2.0">binjr v3.2.0</a><a class="headerlink" href="#binjr-v320" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 12 August 2021</p>
+<ul>
+<li><em>[New]</em> Keep the most recently used log filters in the user history and allow users to save filters as favorites.</li>
+<li><em>[Fixed]</em> Freeze when clicking on <code>Browse</code> to open a file or folder on Linux.</li>
+<li><em>[Fixed]</em> The entered URL may be ignored when pressing &ldquo;Enter&rdquo; in the new source dialog.</li>
+<li><em>[Fixed]</em> An error occurs when accepting an empty path in the RRD and CSV adapters dialogs.</li>
+</ul>
+<h2 id="binjr-v310"><a href="https://github.com/binjr/binjr/releases/tag/v3.1.0">binjr v3.1.0</a><a class="headerlink" href="#binjr-v310" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 30 July 2021</p>
+<ul>
+<li><em>[New]</em> It is now possible to select multiple charts in a worksheet to delete them all at once.</li>
+<li><em>[New]</em> It is now possible to re-organize the position of charts in a worksheet using drag and drop.</li>
+<li><em>[New]</em> The panel that shows the series details for charts has been redesigned to make better use of available screen real estate.</li>
+<li><em>[New]</em> It is now possible to edit the name of a timeseries after it has been added to a worksheet.</li>
+</ul>
+<h2 id="binjr-v302"><a href="https://github.com/binjr/binjr/releases/tag/v3.0.2">binjr v3.0.2</a><a class="headerlink" href="#binjr-v302" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 30 Apr 2021</p>
+<ul>
+<li><em>[Fixed]</em> Application fails to start on Windows if Visual Studio 2019 Redistributable is not installed.</li>
+</ul>
+<h2 id="binjr-v301"><a href="https://github.com/binjr/binjr/releases/tag/v3.0.1">binjr v3.0.1</a><a class="headerlink" href="#binjr-v301" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 6 Apr 2021</p>
+<ul>
+<li><em>[Fixed]</em> Publication to APT and RPM repositories on new releases is broken.</li>
+<li><em>[Fixed]</em> Incorrect progression reporting when indexing more than one log file simultaneously.</li>
+</ul>
+<h2 id="binjr-v300"><a href="https://github.com/binjr/binjr/releases/tag/v3.0.0">binjr v3.0.0</a><a class="headerlink" href="#binjr-v300" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 31 Mar 2021</p>
+<ul>
+<li><em>[Breaking Change]</em> The plugin API for <em>binjr</em> v3.0.0 is no longer compatible with previous versions.</li>
+<li><em>[New]</em> <em>binjr</em> is now able to handle and render time series with data types other than numerical values.</li>
+<li><em>[New]</em> <em>binjr</em> can now extract timeseries data from log files to navigate and filter through log events , in sync with other sources.</li>
+<li><em>[New]</em> <em>binjr</em> can now be run under the Eclipse OpenJ9 JVM</li>
+<li><em>[New]</em> Relative presets in the time range selection panel.</li>
+<li><em>[New]</em> Users no longer have to input a minimum of 3 characters in the source filtering bar to trigger filtering.</li>
+<li><em>[New]</em> Added a new PERF log level in between INFO and DEBUG.</li>
+<li><em>[Dependencies]</em> Embedded Java runtime updated to OpenJDK 16 and OpenJFX 16.</li>
+<li><em>[New]</em> Added a &ldquo;Reset Time Range&rdquo; button to TimeRangePicker control.</li>
+<li><em>[New]</em> Added new keyboard shortcuts to close a worksheet and navigate history.</li>
+<li><em>[New]</em> Windows installer allows overriding existing installation path via an MSI property.</li>
+<li><em>[New]</em> Added the option to display numerical values on charts without unit prefixes.</li>
+<li><em>[Change]</em> Icons and labels for switching to/from &lsquo;Edit&rsquo; and &lsquo;Presentation&rsquo; mode changed to &lsquo;Expand/Reduce Series Views&rsquo;</li>
+<li><em>[Fixed]</em> If an error occurs while loading an adapter, all subsequent adapter aren&rsquo;t loaded.</li>
+<li><em>[Fixed]</em> A sharp performance drop when zooming extremely close up on the time axis (i.e. displaying less than a few seconds)</li>
+<li><em>[Fixed]</em> Removed unused time zone selection field on Netdata adapter dialog.</li>
+<li><em>[Fixed]</em> Snapshots taken with the default output scaling use the main monitor scaling factor instead of the one on which the window is displayed.</li>
+<li><em>[Fixed]</em> Error occurring while fetching data from a single adapter prevents plotting the data recovered from other adapters.</li>
+<li><em>[Fixed]</em> Modified &ldquo;New Tab&rdquo; and &ldquo;Save As&rdquo; keyboard shortcuts to be more consistent with well known applications.</li>
+<li><em>[Fixed]</em> Clicking on an expended source tab&rsquo;s title does not cause it to collapse its contents.</li>
+<li><em>[Fixed]</em> Pressing <code>enter</code> or loosing focus from text entry field when editing source tab title does not validate entry.</li>
+<li><em>[Fixed]</em> Charts are blurry when binjr is displayed on a screen with a 125%, 150% or 175% scale ratio.</li>
+<li><em>[Fixed]</em> A concurrent modification exception when applying sampling reduction pre-processing on series.</li>
+<li><em>[Fixed]</em> Changes to Y axis scale in chart properties are not taken into account by navigation history.</li>
+</ul>
+<h2 id="binjr-v2170"><a href="https://github.com/binjr/binjr/releases/tag/v2.17.0">binjr v2.17.0</a><a class="headerlink" href="#binjr-v2170" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 02 Jul 2020</p>
+<ul>
+<li><em>[Fixed]</em> Jitter on the y-axis when hovering over charts with full height crosshair.</li>
+<li><em>[Fixed]</em> Incorrect capitalization on some menu entries and labels.</li>
+</ul>
+<h2 id="binjr-v2160"><a href="https://github.com/binjr/binjr/releases/tag/v2.16.0">binjr v2.16.0</a><a class="headerlink" href="#binjr-v2160" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 10 Jun 2020</p>
+<ul>
+<li><em>[New]</em> binjr can now be used as a &ldquo;portable&rdquo; application on all supported platforms. 
+  Portable apps can be unpacked to and used from a detachable drive or a file share.<br />
+  Portable bundles are available in the following formats:</li>
+<li><code>tar.gz</code> for Linux </li>
+<li><code>tar.gz</code> for macOS</li>
+<li><code>zip</code> for Windows</li>
+<li><em>[New]</em> Alternatively, it can be used as an &ldquo;installable&rdquo; application on all supported platforms. 
+  Installable apps integrates with the host OS to provide menu shortcuts, file associations and per user settings. <br />
+  Installers are available in the following formats:</li>
+<li><code>deb</code> for Debian &amp; Ubuntu</li>
+<li><code>rpm</code> for RHEL, Centos &amp; Fedora</li>
+<li><code>dmg</code> for macOS</li>
+<li><code>msi</code> for Windows</li>
+</ul>
+<blockquote>
+<p><strong>IMPORTANT NOTE</strong>: When upgrading an existing copy of the Linux <code>tar.gz</code> distribution to version 2.16.0 or later, any previously set preferences will be reset, since it now defaults in &ldquo;portable&rdquo; mode and settings are stored directly into the application folder.<br />
+You can override this behaviour by adding the command line option <code>-Dbinjr.portable=false</code> when starting the application. You can also use the built-in settings import/export functions to migrate settings from one mode to another.</p>
+</blockquote>
+<h2 id="binjr-v2150"><a href="https://github.com/binjr/binjr/releases/tag/v2.15.0">binjr v2.15.0</a><a class="headerlink" href="#binjr-v2150" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 12 May 2020</p>
+<ul>
+<li><em>[New]</em> A new adapter allows to use Netdata (<a href="https://netdata.cloud">https://netdata.cloud</a>) servers as data sources.  </li>
+<li><em>[New]</em> Users can now choose which default color palette to use for charts when the color isn&rsquo;t specified by the source. </li>
+<li><em>[New]</em> &ldquo;Show outline&rdquo; and &ldquo;Default opacity&rdquo; preferences are now settable separately for &ldquo;area charts&rdquo; and &ldquo;stacked area&rdquo; charts.</li>
+<li><em>[Dependencies]</em> Updated the embedded runtime to OpenJDK 14.0.1 and OpenJFX 14.0.1</li>
+<li><em>[Fixed]</em> JRDS adapter incorrectly reports all charts as stacked area charts.</li>
+<li><em>[Fixed]</em> &ldquo;Show outline on area charts &rdquo; user preference is not persisted across sessions. </li>
+<li><em>[Fixed]</em> A concurrency issue causes an ArrayIndexOutOfBoundsException when applying sample reduction transform. </li>
+<li><em>[Fixed]</em> The time range picker is not dismissed automatically after the user selects a preset range.</li>
+</ul>
+<h2 id="binjr-v2140"><a href="https://github.com/binjr/binjr/releases/tag/v2.14.0">binjr v2.14.0</a><a class="headerlink" href="#binjr-v2140" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 19 Mar 2020</p>
+<ul>
+<li><em>[Dependencies]</em> Updated the embedded runtime to OpenJDK 14 and OpenJFX 14.</li>
+<li><em>[New]</em> Linux version no longer depends on GTK 2.</li>
+<li><em>[Fixed]</em> &ldquo;Unrecognized image loader:null&rdquo; error occurs when attempting to capture snapshots of worksheet with many a large number of charts.</li>
+</ul>
+<h2 id="binjr-v2130"><a href="https://github.com/binjr/binjr/releases/tag/v2.13.0">binjr v2.13.0</a><a class="headerlink" href="#binjr-v2130" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 30 Jan 2020</p>
+<ul>
+<li><em>[New]</em> Enhanced downsampling algorithm; this allows a more faithful visual representation of series while still dramatically reducing the number of plotted samples.</li>
+<li><em>[Dependencies]</em> Updated the embedded Java and JavaFX runtimes to 13.0.2</li>
+<li><em>[New]</em> Changed default value for max heap size to 4GB</li>
+<li><em>[Fixed]</em> Last and first samples for the selected time range are ignored when rendering data from CSV adapter.</li>
+<li><em>[Fixed]</em> Time range label on screenshots is incorrect.</li>
+<li><em>[Fixed]</em> Charts on scaled up screenshots taken in &ldquo;Presentation&rdquo; mode are blurry.</li>
+<li><em>[Fixed]</em> Changed the icon for switching to &ldquo;Edit&rdquo; mode to a pen as the previously used cog was confusing.</li>
+</ul>
+<h2 id="binjr-v2120"><a href="https://github.com/binjr/binjr/releases/tag/v2.12.0">binjr v2.12.0</a><a class="headerlink" href="#binjr-v2120" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 20 Dec 2019</p>
+<ul>
+<li><em>[New]</em> Automatically adjusts the time range up when dropping series on an existing worksheets, provided no series where already present.</li>
+<li><em>[New]</em> The macOS application bundle is now available as a DMG image. This allows for better integration with the menu bar and to register workspace file extention. </li>
+<li><em>[Fixed]</em> The JRDS data adapter does not check the content type before attempting tp parse an http response payload as JSON.</li>
+<li><em>[Fixed]</em> The CSV Data Adapter cannot deal with columns having the same name in a single file.</li>
+</ul>
+<h2 id="binjr-v2110"><a href="https://github.com/binjr/binjr/releases/tag/v2.11.0">binjr v2.11.0</a><a class="headerlink" href="#binjr-v2110" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 25 Nov 2019</p>
+<ul>
+<li><em>[Dependencies]</em> Updated the embedded Java runtime to OpenJDK 13.0.1</li>
+<li><em>[New]</em> It is now possible to choose the output scale (i.e. the physical pixel density) for snapshots taken from binjr worksheets.</li>
+<li><em>[Fixed]</em> On HiDPI screens the tooltip representing a tree node when dragging it to a worksheet is not at the right scale.  </li>
+</ul>
+<h2 id="binjr-v2100"><a href="https://github.com/binjr/binjr/releases/tag/v2.10.0">binjr v2.10.0</a><a class="headerlink" href="#binjr-v2100" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 24 Oct 2019</p>
+<ul>
+<li><em>[New]</em> New Adapter API method to center worksheets&rsquo; time interval to be most relevant with regard to sources</li>
+<li><em>[New]</em> Application logs are now written to disk by default (in temp directory, 1 file per session, only keeps the last 10 files)</li>
+<li><em>[Fixed]</em> Concurrent modifications to output console&rsquo;s log queue.</li>
+<li><em>[Fixed]</em> File or folder chooser dialog does not appear when last opened path is invalid.</li>
+</ul>
+<h2 id="binjr-v290"><a href="https://github.com/binjr/binjr/releases/tag/v2.9.0">binjr v2.9.0</a><a class="headerlink" href="#binjr-v290" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 27 Sep 2019</p>
+<ul>
+<li><em>[New]</em> Added options to import and export user preferences, as well as clear opened files history.</li>
+<li><em>[Dependencies]</em> Update bundled OpenJavaFX to version 13.</li>
+<li><em>[Fixed]</em> NPE in JrdsDataAdapter when the adapter is loaded from saved workspace.</li>
+<li><em>[Fixed]</em> CsvDataAdapter ignores some configuration keys when loaded from saved workspace.</li>
+<li><em>[Fixed]</em> Fetching data via an adapter may fail silently.</li>
+<li><em>[Fixed]</em> Charts do no honor the exact time range specified by the user.</li>
+<li><em>[Fixed]</em> An offset on the time axis between two or more charts may occur if the sources for them have different resolutions.</li>
+<li><em>[Fixed]</em> UI themes defined in external plugins aren&rsquo;t loaded if set as the current theme when binjr is started.</li>
+<li><em>[Fixed]</em> Unexpected cache miss in http data adapters.</li>
+<li><em>[Fixed]</em> Disabling a DataAdapter in the settings section doesn&rsquo;t prevent it from being present in &ldquo;Sources &gt; New Sources&hellip;&rdquo; menu.</li>
+<li><em>[Fixed]</em> Enabled DataAdapter settings are not persisted in between sessions </li>
+</ul>
+<h2 id="binjr-v281"><a href="https://github.com/binjr/binjr/releases/tag/v2.8.1">binjr v2.8.1</a><a class="headerlink" href="#binjr-v281" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 04 Sep 2019</p>
+<ul>
+<li><em>[Fixed]</em> Memory leak: a closed worksheet controller remains reachable if an error notification popup is displayed and user preference <em>&ldquo;Discard notification after:&rdquo;</em> is set to <em>&ldquo;Never&rdquo;</em>.</li>
+</ul>
+<h2 id="binjr-v280"><a href="https://github.com/binjr/binjr/releases/tag/v2.8.0">binjr v2.8.0</a><a class="headerlink" href="#binjr-v280" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 03 Sep 2019</p>
+<ul>
+<li><em>[New]</em> Now supports the addition of custom UI themes via external plugins.</li>
+<li><em>[New]</em> Accepts &lsquo;.xml&rsquo; as a valid extension for saved workspaces, in addition to &lsquo;.bjr&rsquo;</li>
+<li><em>[Fixed]</em> A regression introduced in 2.7.0 which prevents access to OS specific certificate stores for SSL validation (Windows / macOS)</li>
+</ul>
+<h2 id="binjr-v270"><a href="https://github.com/binjr/binjr/releases/tag/v2.7.0">binjr v2.7.0</a><a class="headerlink" href="#binjr-v270" title="Permanent link">&para;</a></h2>
+<p>Released on Sun, 18 Aug 2019</p>
+<ul>
+<li><em>[New]</em> Fetching data for a single chart but from different paths is now done concurrently on multiple threads.</li>
+<li><em>[New]</em> Added support for adapter that don&rsquo;t need a setup dialog box.</li>
+<li><em>[Fixed]</em> Worksheet masker pane is dismissed before all charts have been refreshed.</li>
+<li><em>[Fixed]</em> Concurrent modification of TextFlow control in OutputConsole throws an exception.</li>
+<li><em>[Fixed]</em> Spurious warnings about cookies invalid expires attributes. </li>
+<li><em>[Fixed]</em> CsvDecoder should not be re-instantiated each time it is called.</li>
+</ul>
+<h2 id="binjr-v263"><a href="https://github.com/binjr/binjr/releases/tag/v2.6.3">binjr v2.6.3</a><a class="headerlink" href="#binjr-v263" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 07 Aug 2019</p>
+<ul>
+<li><em>[Fixed]</em> Prevent update check from proposing to download and install an update on macOS, as in-application installation does not work on this platform at the moment.</li>
+<li><em>[Fixed]</em> Stop deploying all platform specific resources across all platform application bundles. </li>
+</ul>
+<h2 id="binjr-v260"><a href="https://github.com/binjr/binjr/releases/tag/v2.6.0">binjr v2.6.0</a><a class="headerlink" href="#binjr-v260" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 05 Aug 2019</p>
+<ul>
+<li><em>[New]</em> Ability to drag branches with many sub levels from the tree and have them rendered as separate charts on a worksheet.</li>
+<li><em>[New]</em> Better visual feedback when hovering above a worksheet during a drag and drop operation.</li>
+<li><em>[New]</em> Ability to select multiple nodes from the source tree to drag onto a worksheet.</li>
+<li><em>[New]</em> Added a filter functionality to the source tree.</li>
+<li><em>[New]</em> It is now possible to remove a chart or invoke its property page directly from buttons located on top of the chart&rsquo;s Y axis. </li>
+<li><em>[New]</em> The position and size of the various resizable panes in the UI are now saved alongside the rest of a workspace, so that its appearance can be fully restored on reload.</li>
+<li><em>[New]</em> Charts legends pane in edit mode can now be scrolled up and down when many charts are added to a single worksheet. </li>
+<li><em>[Fixed]</em> Vertical scrollbar on chart view in stacked layout hides part of the graph and causes an horizontal scrollbar to appear.</li>
+<li><em>[Fixed]</em> The &ldquo;path&rdquo; column in the chart legend table doesn&rsquo;t fill up the pane. </li>
+</ul>
+<h2 id="binjr-v250"><a href="https://github.com/binjr/binjr/releases/tag/v2.5.0">binjr v2.5.0</a><a class="headerlink" href="#binjr-v250" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 06 Jul 2019</p>
+<ul>
+<li><em>[New]</em> Updates can now be downloaded and applied from within the application.</li>
+<li><em>[New]</em> binjr now remembers its main window&rsquo;s screen position in-between sessions.</li>
+<li><em>[New]</em> Added a new &ldquo;Presentation Mode&rdquo; that maximize the amount of space dedicated to the visualization of charts by hiding the source pane, chart settings pane and displays the chart legends in a condensed view.</li>
+<li><em>[New]</em> The snapshot functionality has been enhanced to automatically take a snapshot of the whole charts display area of a worksheet, even if this area requires scrolling when displayed in the application. </li>
+<li><em>[Dependencies]</em> Embedded OpenJDK in application bundle has been updated to version 12.</li>
+<li><em>[New]</em> Defaults to the new Shenandoah garbage collector with the &ldquo;compact&rdquo; heuristics, which allows for a larger maximum heap size while keeping actual memory usage reasonable when a large heap is no longer required.   </li>
+<li><em>[New]</em> Warn end-users when trying to add a large number of series to a single chart at once.</li>
+<li><em>[New]</em> History of previously opened sources is now accessible via a combo box on the selection dialog (as well as through the existing auto-completion feature).</li>
+<li><em>[New]</em> Charts vertical axis label are now hilited on mouse-over, to better indicate that they are clickable (clicking on an axis selects the chart as the one currently editable when more than one chart are present on a worksheet).</li>
+<li><em>[Fixed]</em> Unsightly UI theme application on start-up or when detaching tabs.</li>
+<li><em>[Fixed]</em> If &ldquo;Span crosshair over all charts&rdquo; is true and &ldquo;auto scale Y axis&rdquo; is off, then selecting a new time range using the mouse results in incorrectly changing the Y axis scale.</li>
+<li><em>[Fixed]</em> Selecting a timezone in time picker sometime doesn&rsquo;t register.</li>
+<li><em>[Fixed]</em> Synchronizing timelines across worksheets is broken.</li>
+<li><em>[Fixed]</em> UI becomes unresponsive when output console displays  a large number of lines (&gt;20000).</li>
+<li><em>[Fixed]</em> Check for a new versions fails due to Github API rate limit being reached.</li>
+</ul>
+<h2 id="binjr-v241"><a href="https://github.com/binjr/binjr/releases/tag/v2.4.1">binjr v2.4.1</a><a class="headerlink" href="#binjr-v241" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 08 Apr 2019</p>
+<ul>
+<li><em>[Fixed]</em> The application becomes unresponsive and crashes with an out-of-memory error if it gets overflown with user requests (e.g. continuous clicks on refresh or back/forward buttons).</li>
+<li><em>[Fixed]</em> NPE when drag-and-dropping a folded tree.</li>
+<li><em>[Fixed]</em> Tooltips are not styled according to the selected UI theme.</li>
+<li><em>[Fixed]</em> Chart properties slide pane should not obscure charting area.</li>
+<li><em>[Fixed]</em> Stroke width slider is grayed out for line and scatter point charts.</li>
+<li><em>[Fixed]</em> Suggest popup on data adapter dialog doesn&rsquo;t adapt to longer URLs/paths.</li>
+</ul>
+<h2 id="binjr-v240"><a href="https://github.com/binjr/binjr/releases/tag/v2.4.0">binjr v2.4.0</a><a class="headerlink" href="#binjr-v240" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 29 Mar 2019</p>
+<ul>
+<li><strong><em>[API Change]</em></strong> Removed type parameters from the following classes from the Data Adapter API:<ul>
+<li><code>DataAdapter&lt;T&gt;</code> is replaced by <code>DataAdapter</code></li>
+<li><code>BaseDataAdapter&lt;T&gt;</code> is replaced by <code>BaseDataAdapter</code></li>
+<li><code>HttpDataAdapter&lt;T, A extends Decoder&gt;</code> is replaced by <code>HttpDataAdapter</code></li>
+<li><code>Decoder&lt;T&gt;</code> is replaced by <code>Decoder</code></li>
+<li><code>TimeSeriesBinding&lt;T&gt;</code> is replaced by <code>TimeSeriesBinding</code></li>
+<li><code>TimeSeriesInfo&lt;T&gt;</code> is replaced by <code>TimeSeriesInfo</code></li>
+<li><code>TimeSeriesProcessor&lt;T&gt;</code> is replaced by <code>TimeSeriesProcessor</code></li>
+</ul>
+</li>
+<li><em>[New]</em> Added a &ldquo;Settings&rdquo; button to source panes. </li>
+<li><em>[New]</em> Added an option to hide the source pane (Command bar menu &ldquo;Sources &gt; Hide Source Pane&rdquo; or Ctrl+L)</li>
+<li><em>[New]</em> Added an option to hide charts legend (Worksheet toolbar &ldquo;Hide Charts Legends&rdquo; or Ctrl+B)</li>
+<li><em>[New]</em> Added an option to span the vertical bar of the selection crosshair over the height of all charts in a
+worksheets using a stacked layout (Command bar &ldquo;Settings &gt; Charts &gt; Hide Source Pane &gt; Span crosshair over all charts&rdquo;)</li>
+<li><em>[New]</em> Buttons in a worksheet&rsquo;s toolbar will now overflow to a menu pane if there is not enough space to display all
+of them all at once.</li>
+<li><em>[New]</em> A visual indication now identifies the currently selected charts on worksheets when there are more than one.</li>
+<li><em>[New]</em> Clicking on a chart&rsquo;s title in the graphing area new selects it and expands its legend in the bottom pane.  </li>
+<li><em>[New]</em> Added support for small numbers unit prefix (m = milli, µ = micro, n = nano, etc&hellip;) for formatting Y axis values.</li>
+<li><em>[New]</em> Added confirmation dialog when closing one or several worksheet tabs.  </li>
+<li><em>[Fixed]</em> A memory leak that occurs when adding, moving or changing the type of a chart in an existing worksheet.</li>
+<li><em>[Fixed]</em> Uncaught exception when entering a negative range for a chart&rsquo;s Y axis causes a worksheet to become.</li>
+<li><em>[Fixed]</em> Keyboard shortcuts do no work on detached tab windows.</li>
+<li><em>[Fixed]</em> Dialog boxes are sometime drawn with a null width and height on some Linux/KDE platforms.</li>
+</ul>
+<h2 id="binjr-v231"><a href="https://github.com/binjr/binjr/releases/tag/v2.3.1">binjr v2.3.1</a><a class="headerlink" href="#binjr-v231" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 11 Feb 2019</p>
+<ul>
+<li><em>[Fixed]</em> Debug console appender is initialized only when console is displayed for the first time.</li>
+<li><em>[Fixed]</em> Log level changes when entering or leaving debug console.</li>
+<li><em>[Fixed]</em> Date formatting does not use the system locale.</li>
+<li><em>[Fixed]</em> Wrong tooltip for time range picker on worksheet.</li>
+</ul>
+<h2 id="binjr-v230"><a href="https://github.com/binjr/binjr/releases/tag/v2.3.0">binjr v2.3.0</a><a class="headerlink" href="#binjr-v230" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 28 Jan 2019</p>
+<ul>
+<li><em>[Fixed]</em> Dropping series onto worksheets in main view fail after a detached tab window was closed.</li>
+<li><em>[Fixed]</em> Scatter charts are drawn using default colours instead of the colours defined in the source.</li>
+<li><em>[Fixed]</em> binjr fails to start when double-cliking on the launcher script on Linux or macOS.</li>
+<li><em>[Fixed]</em> DataAdapter plugins do not get loaded when starting binjr from exec-maven-plugin or Graviton.</li>
+<li><em>[Fixed]</em> JavaFX crashes on focus loss from dialog on macOS 10.14 Mojave.</li>
+<li><em>[Fixed]</em> Trying to establish a connection via HTTPS fails with &rdquo; Received fatal alert: handshake_failure&rdquo;. </li>
+<li><em>[Fixed]</em> DataAdapter never cleans up its resources if fails when populating source tree view.</li>
+</ul>
+<h2 id="binjr-v221"><a href="https://github.com/binjr/binjr/releases/tag/v2.2.1">binjr v2.2.1</a><a class="headerlink" href="#binjr-v221" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 11 Jan 2019</p>
+<ul>
+<li><em>[New]</em> Enhancements to debug mode console</li>
+<li><em>[New]</em> Added changelog to distribution</li>
+<li><em>[Fixed]</em> Disabled the forced sync mechanism for Rrd4J NIO backend.</li>
+</ul>
+<h2 id="binjr-v220"><a href="https://github.com/binjr/binjr/releases/tag/v2.2.0">binjr v2.2.0</a><a class="headerlink" href="#binjr-v220" title="Permanent link">&para;</a></h2>
+<p>Released on Sat, 5 Jan 2019</p>
+<blockquote>
+<p><strong>Please note</strong>: Starting with this release, the Maven groupID for all the binjr artifacts changes from <code>eu.fthevenet</code> to <code>eu.binjr</code></p>
+</blockquote>
+<ul>
+<li><em>[Change]</em> The keyboard shortcut to invoke debug mode changed from CRTL+SHIFT+D to F12.</li>
+<li><em>[FIxed]</em> The debug output console&rsquo;s log view perpetually grows.</li>
+</ul>
+<h2 id="binjr-v211"><a href="https://github.com/binjr/binjr/releases/tag/v2.1.1">binjr v2.1.1</a><a class="headerlink" href="#binjr-v211" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 28 Dec 2018</p>
+<ul>
+<li><em>[New]</em> It is now possible to open binary files and XML dumps created with <a href="https://oss.oetiker.ch/rrdtool/">RrdTool</a> using the Rrd4j data adapter.<br />
+<strong>NB:</strong> This uses Rrd4j &lsquo;s built-in conversion facilities in order to import the original file&rsquo;s data into a temporary Rrd4j backend, so be aware that opening a very large rrd file (or a very large number of smaller ones) may be slower than expected, due to the necessary conversion process.</li>
+<li><em>[Fixed]</em> The tree hierarchy for series bindings created with the Rrd4j adapter is incorrect or incomplete</li>
+</ul>
+<h2 id="binjr-v210"><a href="https://github.com/binjr/binjr/releases/tag/v2.1.0">binjr v2.1.0</a><a class="headerlink" href="#binjr-v210" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 20 Dec 2018</p>
+<ul>
+<li><em>[New]</em> Added a new data adapter to directly open and plot the content of rrd db files produced by <a href="https://github.com/rrd4j/rrd4j">RRd4j</a></li>
+<li><em>[New]</em> Added a context menu accessible when right-clicking on the tab that provide shortcuts to various manipulations of the tabs (close, edit, duplicate and detach).</li>
+</ul>
+<h2 id="binjr-v200"><a href="https://github.com/binjr/binjr/releases/tag/v2.0.0">binjr v2.0.0</a><a class="headerlink" href="#binjr-v200" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 26 Nov 2018</p>
+<blockquote>
+<p>Starting with version 2.0.0, binjr is built to run on Java 11 and beyond. </p>
+<p><strong><em>Please note that it does not run on previous version of Java.</em></strong></p>
+<p>If you require a version that runs on Java 8, you can use the latest releases versioned 1.x.x.</p>
+</blockquote>
+<ul>
+<li><em>[New]</em> Built to run on Java 11 and beyond, and use the new standalone distribution of OpenJFX (<a href="https://openjfx.io/">https://openjfx.io/</a>)
+The platform specific packages above contain all required dependencies, including the Java runtime; simply download the one for your OS, unpack it and run &ldquo;binjr&rdquo; to start.</li>
+<li><em>[New]</em> It is now possible to link the timeline of two or more independent worksheets (i.e. change the time range on one worksheet also affect all linked worksheets).</li>
+<li><em>[New]</em> It is now possible to copy/paste a time range from one worksheet to another.</li>
+<li><em>[New]</em> Removed the modal dialog shown when adding a new worksheet; instead new worksheet are set to editable mode upon creation.</li>
+<li><em>[Fixed]</em> Clicking the &ldquo;OK&rdquo; button on new source dialog has no effect when the source adapter is loaded from a faulty plugin.</li>
+</ul>
+<h2 id="binjr-v160"><a href="https://github.com/binjr/binjr/releases/tag/v1.6.0">binjr v1.6.0</a><a class="headerlink" href="#binjr-v160" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 31 Oct 2018</p>
+<ul>
+<li><em>[New]</em> Greatly enhanced time range selection on worksheets.</li>
+<li><em>[New]</em> Changes to source navigation panel&rsquo;s interface to make it clearer.</li>
+<li><em>[New]</em>  When a source connection is closed,  all associated series on worksheets  are now removed.</li>
+<li><em>[New]</em> Many minor tweaks and fixes to UI themes.</li>
+<li><em>[Fixed]</em> Trailing slash in urls prevent connection to JRDS and other http sources.</li>
+<li><em>[Fixed]</em> An NPE could occur when closing a source with no worksheet.</li>
+</ul>
+<h2 id="binjr-v153"><a href="https://github.com/binjr/binjr/releases/tag/v1.5.3">binjr v1.5.3</a><a class="headerlink" href="#binjr-v153" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 11 Oct 2018</p>
+<ul>
+<li><em>[Fixed]</em> Resources from a DataAdapter are not disposed when a source tab is closed.</li>
+<li><em>[Fixed]</em> Console output window doesn&rsquo;t always acknowledge appearance changes.</li>
+</ul>
+<h2 id="binjr-v152"><a href="https://github.com/binjr/binjr/releases/tag/v1.5.2">binjr v1.5.2</a><a class="headerlink" href="#binjr-v152" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 5 Oct 2018</p>
+<ul>
+<li><em>[New]</em> Report the use of an unsupported version of Java </li>
+<li><em>[Fixed]</em> Detection of missing JavaFX is broken</li>
+<li><em>[Fixed]</em> Spurious warning messages because of unset variables.</li>
+</ul>
+<h2 id="binjr-v151"><a href="https://github.com/binjr/binjr/releases/tag/v1.5.1">binjr v1.5.1</a><a class="headerlink" href="#binjr-v151" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 3 Oct 2018</p>
+<ul>
+<li><em>[New]</em> User can invoke a console that display log output an d change logging verbosity at runtime.</li>
+<li><em>[Fixed]</em> File picker dialog box doesn&rsquo;t show if last saved folder is invalid.</li>
+</ul>
+<h2 id="binjr-v150"><a href="https://github.com/binjr/binjr/releases/tag/v1.5.0">binjr v1.5.0</a><a class="headerlink" href="#binjr-v150" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 19 Sep 2018</p>
+<ul>
+<li><em>[New]</em> Added a &ldquo;Dark&rdquo; UI theme. &ldquo;Modern&rdquo; UI theme has been renamed &ldquo;Light&rdquo;, while &ldquo;Classic&rdquo; is unchanged.</li>
+<li><em>[New]</em> Added the possibility to display debug menu and increase log verbosity at runtime.</li>
+<li><em>[Fixed]</em> JRDS adapter fails to connect to source if a url contains a trailing slash.</li>
+<li><em>[Fixed]</em> NPE when initiating a drag &amp; drop motion on an empty tab pane.</li>
+<li><em>[Fixed]</em> Application cannot start if the UI theme name stored in user preference is not valid.</li>
+<li><em>[Fixed]</em> The labesl on command bar items sometimes remains visible when the command bar is reduced.</li>
+</ul>
+<h2 id="binjr-v143"><a href="https://github.com/binjr/binjr/releases/tag/v1.4.3">binjr v1.4.3</a><a class="headerlink" href="#binjr-v143" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 10 Sep 2018</p>
+<ul>
+<li><em>[Fixed]</em> Built-in DataAdapter are not loaded if an error occurs while scanning the plugin location at startup.</li>
+<li><em>[Fixed]</em> binjr takes a long time to start because scanning for DataAdapter at visits all sub-folders with maximum depth in plugin location.</li>
+<li><em>[Fixed]</em> DirectoryChooser dialog doesn&rsquo;t show up if current plugin location if invalid/not a folder</li>
+</ul>
+<h2 id="binjr-v141"><a href="https://github.com/binjr/binjr/releases/tag/v1.4.1">binjr v1.4.1</a><a class="headerlink" href="#binjr-v141" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 4 Sep 2018</p>
+<ul>
+<li><em>[New]</em>  The duration after which popups automatically fade away can now be configured.</li>
+<li><em>[New]</em>  Relaxed the parsing of URLs when adding a new source (infers a default protocol and port if omitted)</li>
+<li><em>[Fixed]</em> Failing when a malformed URL is entered for a new JRDS source does not offer a useful error notification.</li>
+<li><em>[Fixed]</em> Chart background is gray when multiple chart are displayed in stacked view mode but white when overlaid.</li>
+</ul>
+<h2 id="binjr-v140"><a href="https://github.com/binjr/binjr/releases/tag/v1.4.0">binjr v1.4.0</a><a class="headerlink" href="#binjr-v140" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 2 Aug 2018</p>
+<ul>
+<li><em>[New]</em> binjr&rsquo;s functionalities can now be extended through the use of plugins. 
+For the time being, plugins can be used to implement new data source adapters, in order to make binjr capable to communicate with other source systems without the need to change anything to the core module itself.</li>
+<li><em>[New]</em> The artifact for the core binjr module, which is the sole dependency for building external plugins, is now available via <a href="https://search.maven.org/%23artifactdetails%7Ceu.fthevenet%7Cbinjr%7C1.4.0%7Cjar">Maven Central</a>.</li>
+</ul>
+<h2 id="binjr-v134"><a href="https://github.com/binjr/binjr/releases/tag/v1.3.4">binjr v1.3.4</a><a class="headerlink" href="#binjr-v134" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 27 Jun 2018</p>
+<ul>
+<li><em>[New]</em> Performs a sanity check when loading workspaces from files to verify format version number and alert user with a clear error message if it is incompatible.</li>
+<li><em>[New]</em> Added the option to choose the layout of multiple charts on a single worksheet, either stacked on top of each other, or as an overlay, sharing the same X axis.</li>
+<li><em>[Fixed]</em> Charts rendering performances greatly improved when visualizing many charts on a single worksheet.</li>
+<li><em>[Fixed]</em> Deselecting all time series in the main chart in an overlay view would make times series in other chart disappear.</li>
+</ul>
+<h2 id="binjr-v130"><a href="https://github.com/binjr/binjr/releases/tag/v1.3.0">binjr v1.3.0</a><a class="headerlink" href="#binjr-v130" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 18 Jun 2018</p>
+<ul>
+<li><em>[New]</em>  It is now possible to more than one chart representation to a single worksheet. All charts have independent Y axis, with their own scale and unit, but share the same X axis (which represent time).
+Charts on a single worksheet can be of different types (line, area, scatter points, etc&hellip;)
+The User Interface has been extended to cater for that new core functionality:</li>
+<li>Y axis boundaries are new settable on a per-chart basis (rather than a per- worksheet).</li>
+<li>Time series bindings can now be dragged and dropped onto any existing charts, a new chart or a new worksheet.</li>
+<li>Chart titles, unit names and unit prefixes can now be changed after a worksheet/chart has been created.</li>
+<li>
+<p>Time series in a chart can be selected/deselected all at once.</p>
+</li>
+<li>
+<p><em>[Breaking Change]</em>  The file format used to persist workspaces had to be changed significantly in order to accommodate features introduced in this release and is no longer compatible with the format used in versions prior to 1.3.0.
+Note that neither ascending nor descending compatibility is provided; files created in binjr v1.3.0+ cannot be loaded in older versions and files created in older versions cannot be loaded by binjr v1.3.0+.</p>
+</li>
+</ul>
+<h2 id="binjr-v123"><a href="https://github.com/binjr/binjr/releases/tag/v1.2.3">binjr v1.2.3</a><a class="headerlink" href="#binjr-v123" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 19 Feb 2018</p>
+<ul>
+<li><em>[New]</em> Added support for CSV formatted files to be used as data sources.</li>
+<li><em>[New]</em> Added support for scatter plot charts.</li>
+<li><em>[New]</em> Added an option to reset all user settings their to default value.</li>
+<li><em>[New]</em> It is now possible to modify the timezone for a worksheet after is has been created (option in chart settings panel)</li>
+<li><em>[Fixed]</em>  application closing even if &ldquo;cancel&rdquo; is selected on save confirmation dialog</li>
+<li><em>[Fixed]</em>  Minor cosmetic fixes and enhancements (Cross-hair no longer appear in front of chart settings panel, message dialogs use vector graphic icons, spelling in messages and logs, etc&hellip;)</li>
+<li><em>[Fixed]</em>  Unhandled exceptions when validating inputs in JRDS source dialog box could make the dialog box not acknowledge user clicking the OK button.</li>
+<li><em>[Fixed]</em>  Missing security policies from embedded JRE in Windows native bundle</li>
+<li><em>[Fixed]</em>  Application fail to start with &ldquo;Could not create jvm&rdquo; when using  Windows native bundle on a machine without a copy of MSVS C++ runtime redistributable installed.</li>
+<li><em>[Fixed]</em> Underscores in recently open file names menu are sometime removed.</li>
+<li><em>[Fixed]</em> Many long standing issues with timezone management.</li>
+</ul>
+<h2 id="binjr-v110"><a href="https://github.com/binjr/binjr/releases/tag/v1.1.0">binjr v1.1.0</a><a class="headerlink" href="#binjr-v110" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 29 Sep 2017</p>
+<ul>
+<li><em>[New]</em>  Worksheet tabs can now be detached from the main window via a simple drag and drop (similar to a web browser).</li>
+<li><em>[New]</em> Native platform bundles available for Windows (.msi), MacOS (.dmg) and Linux (.rpm and .deb) 
+These are platform specific install packages that contain a minimal and independent Java Runtime Environment and executable bootstrap, allowing binjr to run as a stand-alone application.</li>
+<li><em>[New]</em> binjr workspace files can be associated with the application so that binjr is launched on double clicking a  .bjr file. This association is automatically performed by the aforementioned native bundles.</li>
+<li><em>[New]</em>  On Windows and MacOS,  root CA certificates stored in the OS keystore are used for SSL validation.</li>
+<li><em>[Fixed]</em>  The modal dialog used for user authentication could appear behind the main stage, hence causing the application to appear frozen.</li>
+<li><em>[Fixed]</em>  A possible Null Pointer Exception when using the source/search feature.</li>
+<li><em>[Fixed]</em>  Aligned button background color in Modern theme with Windows 10 standard controls</li>
+</ul>
+<h2 id="binjr-v1015"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.15">binjr v1.0.15</a><a class="headerlink" href="#binjr-v1015" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 24 Jul 2017</p>
+<ul>
+<li><em>[New]</em> Dialog boxes now support UI Theme</li>
+<li><em>[Fixed]</em> Wrong style applied to button in date picker control</li>
+<li><em>[Fixed]</em> Changing series visibility doesn&rsquo;t work if chart type is changed.</li>
+<li><em>[Fixed]</em>  Better exception handling in JRDS dataAdapter: error message displayed to end users should be more relevant and helpful in common error scenario.</li>
+</ul>
+<h2 id="binjr-v1013"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.13">binjr v1.0.13</a><a class="headerlink" href="#binjr-v1013" title="Permanent link">&para;</a></h2>
+<p>Released on Mon, 26 Jun 2017</p>
+<ul>
+<li><em>[New]</em> It is now possible to change the type of chart used on worksheet after it&rsquo;s been created.</li>
+<li><em>[New]</em> User can now set the stroke width on line chart and area charts with an outline.</li>
+<li><em>[Fixed]</em> Line charts ignore colors set in source.</li>
+<li><em>[Fixed]</em> A slowdown on plotting large series was introduced in release 1.0.12.</li>
+</ul>
+<h2 id="binjr-v1012"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.12">binjr v1.0.12</a><a class="headerlink" href="#binjr-v1012" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 22 Jun 2017</p>
+<ul>
+<li><em>[New]</em> Displays the value of each series for the instant marked by the current position of the vertical marker.</li>
+<li><em>[Fixed]</em> Series info in table view aren&rsquo;t refreshed properly when time interval changes.</li>
+<li><em>[Fixed]</em> Removed obsolete parameters from settings panel.</li>
+</ul>
+<h2 id="binjr-v1011"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.11">binjr v1.0.11</a><a class="headerlink" href="#binjr-v1011" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 13 Jun 2017</p>
+<ul>
+<li><em>[New]</em> Using the &ldquo;Refresh&rdquo; button now ignores any previously cached data.</li>
+<li><em>[Fixed]</em> Sorting JRDS treeview by &ldquo;All filters&rdquo; or &ldquo;All tags&rdquo; is broken</li>
+<li><em>[Fixed]</em> Application appears to hang when attempting to close it while it is minimized</li>
+</ul>
+<h2 id="binjr-v1010"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.10">binjr v1.0.10</a><a class="headerlink" href="#binjr-v1010" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 9 Jun 2017</p>
+<ul>
+<li><em>[Fixed]</em>  Application doesn&rsquo;t provide a clear reason for not starting when JavaFX runtime is not present.</li>
+</ul>
+<h2 id="binjr-v109"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.9">binjr v1.0.9</a><a class="headerlink" href="#binjr-v109" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 7 Jun 2017</p>
+<ul>
+<li><em>[New]</em> Search bar to quickly find items in source tree view.</li>
+<li><em>[New]</em> Better support for JRDS tree view filters.</li>
+<li><em>[Fixed]</em> The text in &ldquo;license&rdquo; and &ldquo;acknowledgement&rdquo; panes in about box is blurry.</li>
+</ul>
+<h2 id="binjr-v108"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.8">binjr v1.0.8</a><a class="headerlink" href="#binjr-v108" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 1 Jun 2017</p>
+<ul>
+<li><em>[Fixed]</em> Changes to chart appearance settings (outline, area opacity, etc&hellip;) are ignored on area charts.</li>
+</ul>
+<h2 id="binjr-v107"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.7">binjr v1.0.7</a><a class="headerlink" href="#binjr-v107" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 31 May 2017</p>
+<ul>
+<li><em>[New]</em> JRDS SourceAdapter now supports authenticating through Kerberos</li>
+<li><em>[Fixed]</em> Dragged tree node would keep following the mouse pointer after being drop onto a worksheet on Linux</li>
+<li><em>[Fixed]</em> The landing zone for dropping sources onto empty worksheet pane is now much larger</li>
+<li><em>[Fixed]</em> An invalid cast exception occurs when rendering line charts.</li>
+</ul>
+<h2 id="binjr-v106"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.6">binjr v1.0.6</a><a class="headerlink" href="#binjr-v106" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 23 May 2017</p>
+<ul>
+<li><em>[Fixed]</em> JVM does not terminates on its own after the main window is closed.</li>
+</ul>
+<h2 id="binjr-v105"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.5">binjr v1.0.5</a><a class="headerlink" href="#binjr-v105" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 23 May 2017</p>
+<ul>
+<li><em>[New]</em> Long running tasks, such as loading a workpace or fetching time-series data from sources, are now executed asynchronously to the UI refresh. This increases the global responsiveness of the application and prevents most occurrences of the applications &ldquo;freezing&rdquo; for a few seconds during those tasks.</li>
+<li><em>[New]</em> Errors when connecting to a source or parsing a workspace file are now reported as modeless notification popups rather than modal dialog boxes.</li>
+<li><em>[New]</em> The behaviour of the auto-ranging feature for the Y axis has changed; it is now a toggle button, rather than a push button that would reset the range.</li>
+<li><em>[Fixed]</em> An bug in DecimationTransform, causes a &ldquo;java.lang.IllegalArgumentException: Duplicate data added&rdquo; exceptions.</li>
+</ul>
+<h2 id="binjr-v104"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.4">binjr v1.0.4</a><a class="headerlink" href="#binjr-v104" title="Permanent link">&para;</a></h2>
+<p>Released on Thu, 18 May 2017</p>
+<ul>
+<li><em>[New]</em> Use drag and drop to add series sources to the current or a new worksheet.</li>
+</ul>
+<h2 id="binjr-v103"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.3">binjr v1.0.3</a><a class="headerlink" href="#binjr-v103" title="Permanent link">&para;</a></h2>
+<p>Released on Wed, 17 May 2017</p>
+<ul>
+<li><em>[Fixed]</em> Pressing &lsquo;del&rsquo; to remove a series from a worksheet also removed all subsequent series in table view.</li>
+</ul>
+<h2 id="binjr-v102"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.2">binjr v1.0.2</a><a class="headerlink" href="#binjr-v102" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 16 May 2017</p>
+<ul>
+<li><em>[New]</em> Greatly enhanced responsiveness when working with series with large number of samples.</li>
+<li><em>[New]</em> Reworked the UI to display settings and preferences via sliding panes rather than dialog boxes.</li>
+<li><em>[New]</em> The crosshair visibility behaviour has been modified: the vertical marker is now on by default and switching both markers on or off is now remembered across sessions.</li>
+<li><em>[Fixed]</em> Automatic check for updates now limited to once per hour.</li>
+<li><em>[Fixed]</em> NPE in workspace source list listener.</li>
+</ul>
+<h2 id="binjr-v101"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.1">binjr v1.0.1</a><a class="headerlink" href="#binjr-v101" title="Permanent link">&para;</a></h2>
+<p>Released on Tue, 25 Apr 2017</p>
+<ul>
+<li><em>[New]</em> Added a feature to automatically check for new releases.</li>
+<li><em>[Fixed]</em> An empty tree view is displayed when after attempt to add a source failed.</li>
+<li><em>[Fixed]</em> Connecting an to invalid source fails silently.</li>
+<li><em>[Fixed]</em> The application hangs while manipulating the tree view when running under Windows 10.</li>
+</ul>
+<h2 id="binjr-v100"><a href="https://github.com/binjr/binjr/releases/tag/v1.0.0">binjr v1.0.0</a><a class="headerlink" href="#binjr-v100" title="Permanent link">&para;</a></h2>
+<p>Released on Fri, 14 Apr 2017</p>
+<p>Initial release</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../plugins/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Plugins">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Plugins
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../blog/" class="md-footer__link md-footer__link--next" aria-label="Next: Index">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Index
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+    Content on this site is licensed under a
+    <a href="http://creativecommons.org/licenses/by/4.0/">
+        Creative Commons Attribution 4.0 International License.
+    </a>
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/binjr/binjr" target="_blank" rel="noopener" title="binjr on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://codeberg.org/binjr/binjr" target="_blank" rel="noopener" title="binjr on Codeberg" class="md-social__link">
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg1468"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1462">
+    <linearGradient
+       xlink:href="#linearGradient6924"
+       id="linearGradient6918"
+       x1="42519.285"
+       y1="-7078.7891"
+       x2="42575.336"
+       y2="-6966.9307"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient6924">
+      <stop
+         style="stop-color:#2185d0;stop-opacity:0"
+         offset="0"
+         id="stop6920" />
+      <stop
+         id="stop6926"
+         offset="0.49517274"
+         style="stop-color:#2185d0;stop-opacity:0.48923996" />
+      <stop
+         style="stop-color:#2185d0;stop-opacity:0.63279623"
+         offset="1"
+         id="stop6922" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient6924-6"
+       id="linearGradient6918-3"
+       x1="42519.285"
+       y1="-7078.7891"
+       x2="42575.336"
+       y2="-6966.9307"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient6924-6">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0"
+         id="stop6920-7" />
+      <stop
+         id="stop6926-5"
+         offset="0.49517274"
+         style="stop-color:#ffffff;stop-opacity:0.30000001;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.30000001;"
+         offset="1"
+         id="stop6922-3" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g370484"
+     transform="matrix(0.06551432,0,0,0.06551432,-2.232417,-1.431776)">
+    <path
+       id="path6733-5"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#linearGradient6918-3);fill-opacity:1;stroke:none;stroke-width:3.67846;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill;stop-color:#000000;stop-opacity:1"
+       d="m 42519.285,-7078.7891 a 0.76086879,0.56791688 0 0 0 -0.738,0.6739 l 33.586,125.8886 a 87.182358,87.182358 0 0 0 39.381,-33.7636 l -71.565,-92.5196 a 0.76086879,0.56791688 0 0 0 -0.664,-0.2793 z"
+       transform="matrix(0.37058478,0,0,0.37058478,-15690.065,2662.0533)" />
+    <path
+       id="path360787"
+       style="opacity:1;fill-opacity:1;stroke-width:17.0055;paint-order:markers fill stroke;stop-color:#000000"
+       d="m 11249.461,-1883.6961 c -12.74,0 -23.067,10.3275 -23.067,23.0671 0,4.3335 1.22,8.5795 3.522,12.2514 l 19.232,-24.8636 c 0.138,-0.1796 0.486,-0.1796 0.624,0 l 19.233,24.8646 c 2.302,-3.6721 3.523,-7.9185 3.523,-12.2524 0,-12.7396 -10.327,-23.0671 -23.067,-23.0671 z"
+       transform="matrix(1.4006354,0,0,1.4006354,-15690.065,2662.0533)" />
+  </g>
+</svg>
+    </a>
+  
+    
+    
+      
+    
+    
+    
+    <a href="https://social.binjr.eu/@binjr" target="_blank" rel="noopener me" title="binjr on the Fediverse" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M433 179.1c0-97.2-63.7-125.7-63.7-125.7-62.5-28.7-228.6-28.4-290.5 0 0 0-63.7 28.5-63.7 125.7 0 115.7-6.6 259.4 105.6 289.1 40.5 10.7 75.3 13 103.3 11.4 50.8-2.8 79.3-18.1 79.3-18.1l-1.7-36.9s-36.3 11.4-77.1 10.1c-40.4-1.4-83-4.4-89.6-54-.6-4.6-.9-9.3-.9-13.9 85.6 20.9 158.7 9.1 178.7 6.7 56.1-6.7 105-41.3 111.2-72.9 9.8-49.8 9-121.5 9-121.5zm-75.1 125.2h-46.6V190.1c0-49.7-64-51.6-64 6.9v62.5H201V197c0-58.5-64-56.6-64-6.9v114.2H90.3c0-122.1-5.2-147.9 18.4-175 25.9-28.9 79.8-30.8 103.8 6.1l11.6 19.5 11.6-19.5c24.1-37.1 78.1-34.8 103.8-6.1 23.7 27.3 18.4 53 18.4 175"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://binjr.eu/feed_rss_updated.xml" target="_blank" rel="noopener" title="RSS feed" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m2.5 12A1.5 1.5 0 0 0 6 16.5 1.5 1.5 0 0 0 7.5 18 1.5 1.5 0 0 0 9 16.5 1.5 1.5 0 0 0 7.5 15M6 10v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8m0-4v2a10 10 0 0 1 10 10h2A12 12 0 0 0 6 6"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "content.code.select"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
